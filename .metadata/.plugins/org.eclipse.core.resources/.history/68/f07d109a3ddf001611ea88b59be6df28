@@ -14,7 +14,6 @@ public class FileSystem {
 	private Query query;
 	private FormatDecimal formatDecimal;
 
-
 	public FileSystem(){
 		this.query = new Query();
 		this.filesystemRsync = "/home/inpe/Imagens/";
@@ -43,7 +42,7 @@ public class FileSystem {
 		for (String file: files){
 			try{
 				
-				//new Image(file,getLength(),getFileSystemDB()); // this.length,this.filesystemDB,this.formatDecimal -- Melhor?
+				//new Image(file,getLength(),getFileSystemDB());
 				this.query.insertDocument(new Image(file,getLength(),getFileSystemDB(),this.formatDecimal));	
 
 			}

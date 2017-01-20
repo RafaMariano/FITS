@@ -42,8 +42,8 @@ public class FileSystem {
 	public void sendToBD(ArrayList<String> files) throws ParseException {
 		for (String file: files){
 			try{
-				
-				//new Image(file,getLength(),getFileSystemDB()); // this.length,this.filesystemDB,this.formatDecimal -- Melhor?
+				System.out.println(file);
+				//new Image(file,getLength(),getFileSystemDB());
 				this.query.insertDocument(new Image(file,getLength(),getFileSystemDB(),this.formatDecimal));	
 
 			}

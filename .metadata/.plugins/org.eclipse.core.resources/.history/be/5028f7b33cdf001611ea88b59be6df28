@@ -1,12 +1,21 @@
 package br.inpe.filesystem;
 
 import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
 import java.io.IOException;
+import java.nio.channels.FileChannel;
 import java.nio.file.Files;
 import java.nio.file.Paths;
+import java.text.DecimalFormat;
+import java.text.DecimalFormatSymbols;
 import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.Calendar;
+import java.util.Date;
+
 import org.bson.Document;
+
 import nom.tam.fits.Fits;
 import nom.tam.fits.FitsException;
 import nom.tam.fits.Header;
@@ -152,7 +161,7 @@ public class Image {
 
 
 		}
-			else if (document.containsKey("DATE") ){
+				else if (document.containsKey("DATE") ){
 					setTime(document.get("DATE").toString());  
 					document.append("DAY",getTime(Calendar.DAY_OF_MONTH));
 					document.append("MONTH",getTime( Calendar.MONTH) + 1);
@@ -161,8 +170,10 @@ public class Image {
 					document.append("MINUTE", getTime(Calendar.MINUTE));
 					
 					document.append("SECOND",  getSecondMilliToFloat(getTime(Calendar.SECOND), getTime(Calendar.MILLISECOND)));
-			
+					//document.append("MILLISECOND", calendar.get(Calendar.MILLISECOND));
 				}
+
+
 	}
 
 	public Document getDocument(){
