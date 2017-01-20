@@ -1,0 +1,18 @@
+package br.inpe.filesystem;
+
+import java.text.DecimalFormat;
+import java.text.DecimalFormatSymbols;
+
+public class FormatDecimal {
+	private DecimalFormatSymbols otherSymbols; 
+	private DecimalFormat df; 
+	
+	public FormatDecimal(){
+		this.otherSymbols = ;
+		this.otherSymbols;
+		
+		this.df = new DecimalFormat("#,#", new DecimalFormatSymbols().setDecimalSeparator('.'));
+		this.df.setMaximumFractionDigits(2);
+	
+	}
+}

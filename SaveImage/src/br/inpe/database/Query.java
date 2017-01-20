@@ -23,10 +23,10 @@ public class Query {
 			
 		}
 		catch(MongoWriteException mw){
-			System.err.println("Está imagem já existe cadastrado no banco " + mw);
+		//	System.err.println("Está imagem já existe cadastrado no banco " + mw);
 		}
 		catch(MongoSocketOpenException ms){
-			System.err.println("  " + ms);
+			//System.err.println("  " + ms);
 		}
 		}
 	
