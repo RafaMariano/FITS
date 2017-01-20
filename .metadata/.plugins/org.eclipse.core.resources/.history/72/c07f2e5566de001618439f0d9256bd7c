@@ -1,0 +1,28 @@
+package br.inpe.filesystem;
+
+import java.io.FileWriter;
+import java.io.IOException;
+
+
+
+public class Main {
+
+	public static void main(String[] args) throws IOException {
+
+
+//		try{
+//			FileSystem f = new FileSystem();
+//			f.sendToBD(f.getImages());
+//		}
+//		catch(IOException io){
+//
+//		}
+//		
+		
+//	FileWriter a = new FileWriter("/home/inpe/texto.txt",true);
+//	a.write("ss");
+//	a.close();
+	
+	}
+
+}

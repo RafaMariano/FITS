@@ -7,6 +7,10 @@ import java.io.IOException;
 import java.nio.channels.FileChannel;
 import java.nio.file.Files;
 import java.nio.file.Paths;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
 
 import org.bson.Document;
 
@@ -21,8 +25,11 @@ public class Image {
 	private Fits fits;
 	private Document collection;
 	private StringBuilder sb;
+	private SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.SSSSSS");
+	private SimpleDateFormat dateFormat2 = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.SS");
+	private Calendar calendar = Calendar.getInstance();
 
-	public Image(String image, int length, String newPath) throws IOException{
+	public Image(String image, int length, String newPath) throws ParseException {
 
 		try{
 			this.sb = new StringBuilder(image);
@@ -39,19 +46,23 @@ public class Image {
 			//adicionar no log
 			
 		}catch (FitsException fits){
-			System.out.println("Imagem fits com problema. Corrompido?   " + image);
+			System.out.println("Imagem fits com problema. Corrompido? É uma imagem Fits?   " + image);
 			System.out.println(fits);
 		}
+		catch(IOException io){
+			System.out.println("Error: "+ io);
+			//adicionar no log
+		}
+	
 	}
 
 	private String createDir(StringBuilder path, int length, StringBuilder newPath) throws IOException{
-
 		//Colocando o caminho da imagem sem o nome no /home/inpe/Database/
 		newPath.append(path.substring(length, path.lastIndexOf("/")));
-		//Criando os diretorios
 		
+		//Criando os diretorios
 		Files.createDirectories(Paths.get(newPath.toString()));
-		//new File(newPath.toString()).mkdirs();
+		
 		//Adicionando o nome da imagem ao caminho
 		newPath.append(path.substring(path.lastIndexOf("/")));
 
@@ -61,37 +72,14 @@ public class Image {
 	private String copyFile(String source, String destination) throws IOException {
 
 		Files.move(Paths.get(source), Paths.get(destination));
-//		FileChannel sourceChannel = null;
-//		FileChannel destinationChannel = null;
-//
-//		try {
-//			FileInputStream fileInputStream = new FileInputStream(source);
-//			sourceChannel = fileInputStream.getChannel();
-//			FileOutputStream fileOutputStream = new FileOutputStream(destination);
-//			destinationChannel = fileOutputStream.getChannel();
-//			sourceChannel.transferTo(0, sourceChannel.size(),
-//					destinationChannel);
-//			fileInputStream.close();
-//			fileOutputStream.close();
-//		} finally {
-//
-//			
-//			if (sourceChannel != null && sourceChannel.isOpen())
-//				sourceChannel.close();
-//			if (destinationChannel != null && destinationChannel.isOpen())
-//				destinationChannel.close();
-//		}
-
 		return destination;
 	}
 	
 private String deletePath(String source, final String path) throws IOException{
-		 System.out.println(path);
-		 System.out.println(source);
+
 		if(source.equals(path) == false){
 			
 			File file = new File(source);
-			//System.out.println(source.toString());
 			if (file.list().length <= 0){
 				if (file.delete()){
 					//log
@@ -102,7 +90,7 @@ private String deletePath(String source, final String path) throws IOException{
 		return source;
 	}
 
-	private Document setDocument(Document document) throws FitsException, IOException{
+	private Document setDocument(Document document) throws FitsException, IOException, ParseException{
 		Header header = this.fits.getHDU(0).getHeader();
 
 		Cursor<String, HeaderCard> c = header.iterator();
@@ -131,7 +119,36 @@ private String deletePath(String source, final String path) throws IOException{
 			}
 
 		}
-
+		
+		
+		//essa parte será retirado em uma atualização futura, pois estou testando com imagens fits de duas keys diferentes
+		if (document.containsKey("DATE-OBS")){
+			
+			calendar.setTime(dateFormat.parse(document.get("DATE-OBS").toString()));  
+			document.append("DAY",calendar.get(Calendar.DAY_OF_MONTH));
+			document.append("MONTH",calendar.get( Calendar.MONTH));
+			document.append("YEAR", calendar.get(Calendar.YEAR));
+			document.append("HOUR", calendar.get(Calendar.HOUR));
+			document.append("MINUTE", calendar.get(Calendar.MINUTE));
+			document.append("SECOND", calendar.get(Calendar.SECOND));
+			document.append("MILLISECOND", calendar.get(Calendar.MILLISECOND));
+			
+		 
+		
+		}
+		else if (document.containsKey("DATE") ){
+			calendar.setTime(dateFormat2.parse(document.get("DATE").toString()));  
+			document.append("DAY",calendar.get(Calendar.DAY_OF_MONTH));
+			document.append("MONTH",calendar.get( Calendar.MONTH));
+			document.append("YEAR", calendar.get(Calendar.YEAR));
+			document.append("HOUR", calendar.get(Calendar.HOUR));
+			document.append("MINUTE", calendar.get(Calendar.MINUTE));
+			document.append("SECOND", calendar.get(Calendar.SECOND));
+			document.append("MILLISECOND", calendar.get(Calendar.MILLISECOND));
+		}
+			
+		
+	
 		return document;
 	}
 
