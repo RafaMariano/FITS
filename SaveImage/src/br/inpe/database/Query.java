@@ -1,12 +1,15 @@
 package br.inpe.database;
 
 import org.bson.Document;
+import org.json.JSONArray;
+
 import com.mongodb.MongoSocketOpenException;
 import com.mongodb.MongoWriteException;
-import com.mongodb.client.FindIterable;
+
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoCursor;
 import com.mongodb.client.model.Filters;
+
 
 import br.inpe.filesystem.Image;
 
@@ -36,21 +39,22 @@ public class Query {
 	
 	public static void findOne(String key, int value){
 		
-		//FindIterable<Document> a = Mongo.getInstance().getDataBase().getCollection("inpe").find().limit(10).skip(0);
 
+		//FindIterable<Document> a = Mongo.getInstance().getDataBase().getCollection("inpe").find().limit(10).skip(0);
+		JSONArray a = new JSONArray();
+		
 		try (MongoCursor<Document> collection = Mongo.getInstance().getDataBase().getCollection("inpe").find().projection(new Document("_id",1)).limit(10).skip(0).iterator()) {
 		 //http://stackoverflow.com/questions/25589113/how-to-select-a-single-field-in-mongodb
 		
-			
 			while (collection.hasNext()) {
 				//ss.append(collection.next());
-		        System.out.println(collection.next());
-
+		      
+				a.put(collection.next().toJson());
 		      
 		    }
 		}
 		
-		//System.out.println(ss);
+		System.out.println(a.toList());
 	}
 	
 }

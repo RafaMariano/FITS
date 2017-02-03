@@ -18,6 +18,7 @@ import org.codehaus.jackson.map.JsonMappingException;
 import br.inpe.database.Query;
 import br.inpe.model.Country;
 
+
 @Path("/images")
 public class CountryRestService {
 	
@@ -48,7 +49,7 @@ public class CountryRestService {
 	@GET
 	@Path("{id: \\d+}")
 	@Produces(MediaType.APPLICATION_JSON)
-	public String getCountryById(@PathParam("id") int id) throws JsonGenerationException, JsonMappingException, IOException {
+	public List<Object> getCountryById(@PathParam("id") int id) throws JsonGenerationException, JsonMappingException, IOException {
 		
 		return Query.findOne(id);
 		//se for null erro 404?

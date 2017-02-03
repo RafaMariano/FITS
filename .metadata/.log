@@ -8499,3 +8499,783 @@ Command-line arguments:  -data file:/home/inpe/workspace/ -os linux -ws gtk -arc
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 14:05:08.496
 !MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 14:35:24.393
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 14:35:24.409
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 14:35:24.418
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 14:35:38.602
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 14:35:38.603
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 14:35:38.606
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 14:35:42.290
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 14:35:42.291
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 14:35:42.295
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 14:35:49.995
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 14:35:49.997
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 14:35:50.001
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 14:36:15.520
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 14:36:15.522
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 14:36:15.525
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 14:36:51.632
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 14:36:51.634
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 14:36:51.638
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 14:37:00.098
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 14:37:00.099
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 14:37:31.972
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 14:37:31.973
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 14:38:18.110
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 14:38:18.111
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 14:38:25.621
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 14:38:25.622
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 14:38:37.283
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 14:38:37.284
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 14:38:41.875
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 14:38:41.876
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 14:40:38.060
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 14:40:38.061
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 14:46:49.957
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 14:46:49.958
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 14:49:55.377
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 14:49:55.378
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 14:50:13.054
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 14:50:13.056
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 14:50:25.713
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 14:50:25.714
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 14:50:33.951
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 14:50:33.952
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 14:51:28.953
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 14:51:28.955
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 14:51:28.959
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 14:51:45.290
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 14:51:45.292
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 14:51:45.295
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 14:53:35.756
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 14:53:35.758
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 14:53:35.762
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 14:54:21.023
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 14:54:21.025
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 14:54:21.028
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 14:54:33.726
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 14:54:33.728
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 14:54:33.732
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 14:54:43.524
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 14:54:43.526
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 14:54:43.529
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 14:55:07.305
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 14:55:07.333
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 14:55:07.336
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jdt.core 4 4 2017-02-03 14:56:41.930
+!MESSAGE JavaBuilder handling CoreException
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: /home/inpe/workspace/API/target/classes/br/inpe/database/Query.class.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:840)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsByteArray(Util.java:1135)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileCheck(IncrementalImageBuilder.java:889)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileContents(IncrementalImageBuilder.java:831)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.writeClassFile(AbstractImageBuilder.java:860)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.acceptResult(AbstractImageBuilder.java:191)
+	at org.eclipse.jdt.internal.compiler.Compiler.processCompiledUnits(Compiler.java:593)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:462)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:417)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:368)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.compile(IncrementalImageBuilder.java:330)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:305)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.build(IncrementalImageBuilder.java:135)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:267)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:195)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-02-03 14:56:41.931
+!MESSAGE File not found: /home/inpe/workspace/API/target/classes/br/inpe/database/Query.class.
+
+!ENTRY org.eclipse.jdt.core 4 4 2017-02-03 14:56:41.987
+!MESSAGE JavaBuilder handling CoreException
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: /home/inpe/workspace/API/target/classes/br/inpe/controller/CountryRestService.class.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:840)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsByteArray(Util.java:1135)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileCheck(IncrementalImageBuilder.java:889)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileContents(IncrementalImageBuilder.java:831)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.writeClassFile(AbstractImageBuilder.java:860)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.acceptResult(AbstractImageBuilder.java:191)
+	at org.eclipse.jdt.internal.compiler.Compiler.processCompiledUnits(Compiler.java:593)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:462)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:417)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:368)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.compile(IncrementalImageBuilder.java:330)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:305)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.build(IncrementalImageBuilder.java:135)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:267)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:195)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-02-03 14:56:41.987
+!MESSAGE File not found: /home/inpe/workspace/API/target/classes/br/inpe/controller/CountryRestService.class.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 14:56:42.009
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 14:56:42.010
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 14:56:42.013
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 14:56:43.074
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 14:56:43.076
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 14:56:43.079
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+!SESSION 2017-02-03 14:57:27.236 -----------------------------------------------
+eclipse.buildId=4.6.2.M20161124-1400
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 14:57:44.860
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 14:57:44.879
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 14:57:44.905
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:02:59.831
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:02:59.841
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:02:59.848
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:03:24.135
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:03:24.139
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:03:24.147
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:03:41.103
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:03:41.106
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:03:41.113
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:04:33.807
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:04:33.810
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:04:33.816
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:05:14.444
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:05:14.447
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:05:14.455
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:07:30.170
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:07:30.173
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:07:30.182
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:07:30.309
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:07:30.311
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:07:30.715
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:07:30.716
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:07:30.721
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:08:25.161
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:08:25.164
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:08:25.171
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:13:14.132
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:13:14.133
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:13:14.137
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:13:14.287
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:13:14.289
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:13:25.202
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:13:25.204
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:13:25.209
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jface.text 2 0 2017-02-03 15:14:15.024
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-02-03 15:14:15.025
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:15:53.944
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:15:53.946
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:15:53.957
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:16:41.216
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:16:41.219
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:16:41.222
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:17:37.688
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:17:37.690
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:17:37.696
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:17:38.946
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:17:38.949
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:17:38.954
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:18:06.143
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:18:06.145
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:18:06.151
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:18:35.473
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:18:35.475
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:18:35.479
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:18:43.249
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:18:43.251
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:18:43.256
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:18:47.001
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:18:47.003
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:18:47.007
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:19:02.467
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:19:02.470
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:19:02.474
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:19:13.855
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:19:13.857
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:19:13.861
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jface.text 2 0 2017-02-03 15:20:27.631
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-02-03 15:20:27.631
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:20:37.444
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:20:37.446
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:20:37.452
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:20:55.399
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:20:55.400
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:20:55.404
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:21:01.515
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:21:01.516
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:21:01.520
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:21:09.491
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:21:09.493
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:21:09.497
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:21:44.728
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:21:44.743
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:21:44.755
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jdt.core 4 4 2017-02-03 15:34:21.043
+!MESSAGE JavaBuilder handling CoreException
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: /home/inpe/workspace/API/target/classes/br/inpe/database/Query.class.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:840)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsByteArray(Util.java:1135)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileCheck(IncrementalImageBuilder.java:889)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileContents(IncrementalImageBuilder.java:831)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.writeClassFile(AbstractImageBuilder.java:860)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.acceptResult(AbstractImageBuilder.java:191)
+	at org.eclipse.jdt.internal.compiler.Compiler.processCompiledUnits(Compiler.java:593)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:462)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:417)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:368)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.compile(IncrementalImageBuilder.java:330)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:305)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.build(IncrementalImageBuilder.java:135)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:267)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:195)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-02-03 15:34:21.045
+!MESSAGE File not found: /home/inpe/workspace/API/target/classes/br/inpe/database/Query.class.
+
+!ENTRY org.eclipse.jdt.core 4 4 2017-02-03 15:34:21.073
+!MESSAGE JavaBuilder handling CoreException
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: /home/inpe/workspace/API/target/classes/br/inpe/controller/CountryRestService.class.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:840)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsByteArray(Util.java:1135)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileCheck(IncrementalImageBuilder.java:889)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileContents(IncrementalImageBuilder.java:831)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.writeClassFile(AbstractImageBuilder.java:860)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.acceptResult(AbstractImageBuilder.java:191)
+	at org.eclipse.jdt.internal.compiler.Compiler.processCompiledUnits(Compiler.java:593)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:462)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:417)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:368)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.compile(IncrementalImageBuilder.java:330)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:305)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.build(IncrementalImageBuilder.java:135)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:267)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:195)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-02-03 15:34:21.073
+!MESSAGE File not found: /home/inpe/workspace/API/target/classes/br/inpe/controller/CountryRestService.class.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:34:21.102
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:34:21.104
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:34:21.113
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:34:22.189
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:34:22.191
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:34:22.195
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:34:53.078
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:34:53.080
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:34:53.083
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:35:21.114
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:35:21.115
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:35:21.118
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:35:27.738
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:35:27.739
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:35:27.743
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:35:34.305
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:35:34.307
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:35:34.311
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:35:35.393
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:35:35.394
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:35:35.397
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:38:08.961
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:38:08.962
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:38:08.964
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:44:20.737
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:44:20.738
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:44:20.742
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:44:32.408
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:44:32.411
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:44:32.416
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:44:32.499
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:44:32.501
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:45:50.345
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:45:50.347
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:45:50.352
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:45:51.508
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:45:51.509
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:45:51.512
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:49:11.189
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:49:11.190
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:49:11.193
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:49:16.022
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:49:16.024
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:49:16.028
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:49:16.080
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:49:16.081
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2017-02-03 15:50:29.318
+!MESSAGE Could not publish server configuration for Tomcat v9.0 Server at localhost.
+!SUBENTRY 1 org.eclipse.jst.server.tomcat.core 4 0 2017-02-03 15:50:29.318
+!MESSAGE Multiple Contexts have a path of "/API".
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2017-02-03 15:50:40.774
+!MESSAGE Could not publish server configuration for Tomcat v9.0 Server at localhost.
+!SUBENTRY 1 org.eclipse.jst.server.tomcat.core 4 0 2017-02-03 15:50:40.774
+!MESSAGE Multiple Contexts have a path of "/API".
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2017-02-03 15:51:26.886
+!MESSAGE Publishing failed with multiple errors
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-02-03 15:51:26.886
+!MESSAGE File not found: /home/inpe/workspace/API/target/classes/br/inpe/controller/CountryRestService.class.
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-02-03 15:51:26.886
+!MESSAGE File not found: /home/inpe/workspace/API/target/classes/br/inpe/database/Mongo.class.
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-02-03 15:51:26.886
+!MESSAGE File not found: /home/inpe/workspace/API/target/classes/br/inpe/database/Query.class.
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-02-03 15:51:26.886
+!MESSAGE File not found: /home/inpe/workspace/API/target/classes/br/inpe/model/Country.class.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:51:28.063
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:51:28.065
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-02-03 15:51:28.069
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!

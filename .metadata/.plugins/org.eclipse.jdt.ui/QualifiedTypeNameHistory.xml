@@ -14,7 +14,6 @@
 <fullyQualifiedTypeName name="com.mongodb.DBCollection"/>
 <fullyQualifiedTypeName name="com.mongodb.DBObject"/>
 <fullyQualifiedTypeName name="com.mongodb.DB"/>
-<fullyQualifiedTypeName name="com.mongodb.client.model.Filters"/>
 <fullyQualifiedTypeName name="java.lang.Float"/>
 <fullyQualifiedTypeName name="java.util.Locale"/>
 <fullyQualifiedTypeName name="java.text.NumberFormat"/>
@@ -50,5 +49,10 @@
 <fullyQualifiedTypeName name="com.mongodb.client.FindIterable"/>
 <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
 <fullyQualifiedTypeName name="org.bson.Document"/>
+<fullyQualifiedTypeName name="com.mongodb.client.model.Filters"/>
 <fullyQualifiedTypeName name="com.mongodb.BasicDBObject"/>
+<fullyQualifiedTypeName name="com.mongodb.DBCursor"/>
+<fullyQualifiedTypeName name="com.mongodb.util.JSON"/>
+<fullyQualifiedTypeName name="org.json.JSONArray"/>
+<fullyQualifiedTypeName name="br.inpe.database.Mongo"/>
 </qualifiedTypeNameHistroy>

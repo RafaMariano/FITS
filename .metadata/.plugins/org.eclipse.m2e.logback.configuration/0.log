@@ -5812,3 +5812,488 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: expected ST
 2017-02-03 14:05:08,496 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/SaveImage/src/main/resources
 2017-02-03 14:05:08,496 [Worker-65] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 2017-02-03 14:05:08,497 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/SaveImage/src/test/resources
+2017-02-03 14:35:24,393 [Worker-82] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 14:35:24,407 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-03 14:35:24,409 [Worker-82] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 14:35:24,409 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/API/src/test/resources
+2017-02-03 14:35:24,410 [Worker-82] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of API
+2017-02-03 14:35:24,410 [Worker-82] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for API
+2017-02-03 14:35:24,418 [Worker-82] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 14:35:38,602 [Worker-82] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 14:35:38,602 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-03 14:35:38,603 [Worker-82] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 14:35:38,603 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/API/src/test/resources
+2017-02-03 14:35:38,603 [Worker-82] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of API
+2017-02-03 14:35:38,603 [Worker-82] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for API
+2017-02-03 14:35:38,606 [Worker-82] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 14:35:42,289 [Worker-81] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 14:35:42,290 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-03 14:35:42,291 [Worker-81] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 14:35:42,291 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/API/src/test/resources
+2017-02-03 14:35:42,292 [Worker-81] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of API
+2017-02-03 14:35:42,292 [Worker-81] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for API
+2017-02-03 14:35:42,294 [Worker-81] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 14:35:49,995 [Worker-82] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 14:35:49,996 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-03 14:35:49,997 [Worker-82] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 14:35:49,997 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/API/src/test/resources
+2017-02-03 14:35:49,997 [Worker-82] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of API
+2017-02-03 14:35:49,997 [Worker-82] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for API
+2017-02-03 14:35:50,000 [Worker-82] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 14:36:15,520 [Worker-77] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 14:36:15,521 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-03 14:36:15,522 [Worker-77] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 14:36:15,522 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/API/src/test/resources
+2017-02-03 14:36:15,523 [Worker-77] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of API
+2017-02-03 14:36:15,523 [Worker-77] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for API
+2017-02-03 14:36:15,525 [Worker-77] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 14:36:51,632 [Worker-77] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 14:36:51,633 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-03 14:36:51,634 [Worker-77] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 14:36:51,634 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/API/src/test/resources
+2017-02-03 14:36:51,634 [Worker-77] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of API
+2017-02-03 14:36:51,635 [Worker-77] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for API
+2017-02-03 14:36:51,637 [Worker-77] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 14:37:00,097 [Worker-80] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 14:37:00,098 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/SaveImage/src/main/resources
+2017-02-03 14:37:00,099 [Worker-80] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 14:37:00,099 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/SaveImage/src/test/resources
+2017-02-03 14:37:31,972 [Worker-77] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 14:37:31,972 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/SaveImage/src/main/resources
+2017-02-03 14:37:31,973 [Worker-77] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 14:37:31,973 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/SaveImage/src/test/resources
+2017-02-03 14:38:18,110 [Worker-81] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 14:38:18,110 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/SaveImage/src/main/resources
+2017-02-03 14:38:18,111 [Worker-81] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 14:38:18,112 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/SaveImage/src/test/resources
+2017-02-03 14:38:25,621 [Worker-77] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 14:38:25,621 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/SaveImage/src/main/resources
+2017-02-03 14:38:25,622 [Worker-77] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 14:38:25,622 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/SaveImage/src/test/resources
+2017-02-03 14:38:37,283 [Worker-81] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 14:38:37,283 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/SaveImage/src/main/resources
+2017-02-03 14:38:37,284 [Worker-81] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 14:38:37,285 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/SaveImage/src/test/resources
+2017-02-03 14:38:41,875 [Worker-80] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 14:38:41,875 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/SaveImage/src/main/resources
+2017-02-03 14:38:41,876 [Worker-80] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 14:38:41,876 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/SaveImage/src/test/resources
+2017-02-03 14:40:38,060 [Worker-77] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 14:40:38,060 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/SaveImage/src/main/resources
+2017-02-03 14:40:38,061 [Worker-77] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 14:40:38,061 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/SaveImage/src/test/resources
+2017-02-03 14:46:49,957 [Worker-82] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 14:46:49,957 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/SaveImage/src/main/resources
+2017-02-03 14:46:49,958 [Worker-82] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 14:46:49,958 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/SaveImage/src/test/resources
+2017-02-03 14:49:55,377 [Worker-83] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 14:49:55,377 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/SaveImage/src/main/resources
+2017-02-03 14:49:55,378 [Worker-83] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 14:49:55,378 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/SaveImage/src/test/resources
+2017-02-03 14:50:13,054 [Worker-84] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 14:50:13,054 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/SaveImage/src/main/resources
+2017-02-03 14:50:13,056 [Worker-84] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 14:50:13,056 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/SaveImage/src/test/resources
+2017-02-03 14:50:25,713 [Worker-83] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 14:50:25,713 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/SaveImage/src/main/resources
+2017-02-03 14:50:25,714 [Worker-83] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 14:50:25,714 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/SaveImage/src/test/resources
+2017-02-03 14:50:33,951 [Worker-87] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 14:50:33,951 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/SaveImage/src/main/resources
+2017-02-03 14:50:33,952 [Worker-87] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 14:50:33,952 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/SaveImage/src/test/resources
+2017-02-03 14:51:28,952 [Worker-84] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 14:51:28,953 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-03 14:51:28,955 [Worker-84] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 14:51:28,955 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/API/src/test/resources
+2017-02-03 14:51:28,955 [Worker-84] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of API
+2017-02-03 14:51:28,955 [Worker-84] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for API
+2017-02-03 14:51:28,959 [Worker-84] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 14:51:45,290 [Worker-87] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 14:51:45,291 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-03 14:51:45,292 [Worker-87] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 14:51:45,292 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/API/src/test/resources
+2017-02-03 14:51:45,292 [Worker-87] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of API
+2017-02-03 14:51:45,292 [Worker-87] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for API
+2017-02-03 14:51:45,295 [Worker-87] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 14:53:35,756 [Worker-87] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 14:53:35,756 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-03 14:53:35,757 [Worker-87] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 14:53:35,758 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/API/src/test/resources
+2017-02-03 14:53:35,758 [Worker-87] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of API
+2017-02-03 14:53:35,758 [Worker-87] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for API
+2017-02-03 14:53:35,761 [Worker-87] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 14:54:21,023 [Worker-88] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 14:54:21,024 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-03 14:54:21,025 [Worker-88] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 14:54:21,025 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/API/src/test/resources
+2017-02-03 14:54:21,025 [Worker-88] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of API
+2017-02-03 14:54:21,025 [Worker-88] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for API
+2017-02-03 14:54:21,028 [Worker-88] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 14:54:33,726 [Worker-85] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 14:54:33,727 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-03 14:54:33,728 [Worker-85] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 14:54:33,729 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/API/src/test/resources
+2017-02-03 14:54:33,729 [Worker-85] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of API
+2017-02-03 14:54:33,729 [Worker-85] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for API
+2017-02-03 14:54:33,732 [Worker-85] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 14:54:43,523 [Worker-83] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 14:54:43,524 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-03 14:54:43,526 [Worker-83] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 14:54:43,526 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/API/src/test/resources
+2017-02-03 14:54:43,526 [Worker-83] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of API
+2017-02-03 14:54:43,526 [Worker-83] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for API
+2017-02-03 14:54:43,529 [Worker-83] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 14:55:07,305 [Worker-87] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 14:55:07,306 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-03 14:55:07,333 [Worker-87] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 14:55:07,333 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/API/src/test/resources
+2017-02-03 14:55:07,333 [Worker-87] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of API
+2017-02-03 14:55:07,333 [Worker-87] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for API
+2017-02-03 14:55:07,336 [Worker-87] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 14:56:17,461 [Worker-82] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/inpe/workspace/API
+2017-02-03 14:56:17,462 [Worker-82] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean install
+2017-02-03 14:56:42,008 [Worker-86] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 14:56:42,009 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-03 14:56:42,010 [Worker-86] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 14:56:42,010 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/API/src/test/resources
+2017-02-03 14:56:42,010 [Worker-86] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of API
+2017-02-03 14:56:42,010 [Worker-86] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for API
+2017-02-03 14:56:42,013 [Worker-86] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 14:56:43,074 [Worker-87] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 14:56:43,075 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-03 14:56:43,076 [Worker-87] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 14:56:43,076 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/API/src/test/resources
+2017-02-03 14:56:43,076 [Worker-87] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of API
+2017-02-03 14:56:43,076 [Worker-87] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for API
+2017-02-03 14:56:43,079 [Worker-87] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 14:57:44,855 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 14:57:44,871 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-03 14:57:44,879 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 14:57:44,879 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/API/src/test/resources
+2017-02-03 14:57:44,887 [Worker-7] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of API
+2017-02-03 14:57:44,887 [Worker-7] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for API
+2017-02-03 14:57:44,904 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:02:59,830 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:02:59,839 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-03 15:02:59,841 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:02:59,841 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/API/src/test/resources
+2017-02-03 15:02:59,842 [Worker-16] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of API
+2017-02-03 15:02:59,842 [Worker-16] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for API
+2017-02-03 15:02:59,848 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:03:24,134 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:03:24,136 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-03 15:03:24,139 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:03:24,140 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/API/src/test/resources
+2017-02-03 15:03:24,140 [Worker-17] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of API
+2017-02-03 15:03:24,140 [Worker-17] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for API
+2017-02-03 15:03:24,146 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:03:41,102 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:03:41,103 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-03 15:03:41,105 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:03:41,106 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/API/src/test/resources
+2017-02-03 15:03:41,106 [Worker-18] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of API
+2017-02-03 15:03:41,106 [Worker-18] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for API
+2017-02-03 15:03:41,113 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:04:33,807 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:04:33,808 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-03 15:04:33,810 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:04:33,811 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/API/src/test/resources
+2017-02-03 15:04:33,811 [Worker-18] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of API
+2017-02-03 15:04:33,811 [Worker-18] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for API
+2017-02-03 15:04:33,816 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:04:58,714 [Worker-2] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/inpe/workspace/API
+2017-02-03 15:04:58,716 [Worker-2] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean install
+2017-02-03 15:05:14,443 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:05:14,445 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-03 15:05:14,447 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:05:14,447 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/API/src/test/resources
+2017-02-03 15:05:14,448 [Worker-9] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of API
+2017-02-03 15:05:14,448 [Worker-9] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for API
+2017-02-03 15:05:14,454 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:07:30,169 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:07:30,171 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-03 15:07:30,173 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:07:30,173 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/API/src/test/resources
+2017-02-03 15:07:30,173 [Worker-2] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of API
+2017-02-03 15:07:30,173 [Worker-2] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for API
+2017-02-03 15:07:30,181 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:07:30,309 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:07:30,309 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/SaveImage/src/main/resources
+2017-02-03 15:07:30,311 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:07:30,313 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/SaveImage/src/test/resources
+2017-02-03 15:07:30,715 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:07:30,715 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-03 15:07:30,716 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:07:30,717 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/API/src/test/resources
+2017-02-03 15:07:30,717 [Worker-19] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of API
+2017-02-03 15:07:30,717 [Worker-19] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for API
+2017-02-03 15:07:30,720 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:07:30,844 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-03 15:07:30,844 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/api/src/main/resources
+2017-02-03 15:07:30,845 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-03 15:07:30,845 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/api/src/test/resources
+2017-02-03 15:08:25,152 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:08:25,162 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-03 15:08:25,164 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:08:25,165 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/API/src/test/resources
+2017-02-03 15:08:25,165 [Worker-18] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of API
+2017-02-03 15:08:25,165 [Worker-18] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for API
+2017-02-03 15:08:25,171 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:13:14,132 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:13:14,132 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-03 15:13:14,133 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:13:14,133 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/API/src/test/resources
+2017-02-03 15:13:14,134 [Worker-17] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of API
+2017-02-03 15:13:14,134 [Worker-17] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for API
+2017-02-03 15:13:14,137 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:13:14,287 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:13:14,287 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/SaveImage/src/main/resources
+2017-02-03 15:13:14,289 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:13:14,289 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/SaveImage/src/test/resources
+2017-02-03 15:13:25,201 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:13:25,202 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-03 15:13:25,204 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:13:25,204 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/API/src/test/resources
+2017-02-03 15:13:25,205 [Worker-22] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of API
+2017-02-03 15:13:25,205 [Worker-22] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for API
+2017-02-03 15:13:25,209 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:15:53,944 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:15:53,945 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-03 15:15:53,946 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:15:53,947 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/API/src/test/resources
+2017-02-03 15:15:53,947 [Worker-21] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of API
+2017-02-03 15:15:53,947 [Worker-21] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for API
+2017-02-03 15:15:53,956 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:16:41,215 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:16:41,216 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-03 15:16:41,218 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:16:41,219 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/API/src/test/resources
+2017-02-03 15:16:41,219 [Worker-25] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of API
+2017-02-03 15:16:41,219 [Worker-25] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for API
+2017-02-03 15:16:41,222 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:17:37,103 [Worker-25] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: br.inpe:API:0.0.1-SNAPSHOT @ /home/inpe/workspace/API/pom.xml.
+2017-02-03 15:17:37,688 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:17:37,689 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-03 15:17:37,690 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:17:37,690 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/API/src/test/resources
+2017-02-03 15:17:37,691 [Worker-25] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of API
+2017-02-03 15:17:37,691 [Worker-25] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for API
+2017-02-03 15:17:37,696 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:17:38,946 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:17:38,947 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-03 15:17:38,949 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:17:38,950 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/API/src/test/resources
+2017-02-03 15:17:38,950 [Worker-23] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of API
+2017-02-03 15:17:38,950 [Worker-23] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for API
+2017-02-03 15:17:38,954 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:18:06,143 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:18:06,144 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-03 15:18:06,145 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:18:06,145 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/API/src/test/resources
+2017-02-03 15:18:06,146 [Worker-24] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of API
+2017-02-03 15:18:06,146 [Worker-24] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for API
+2017-02-03 15:18:06,151 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:18:35,472 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:18:35,473 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-03 15:18:35,475 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:18:35,475 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/API/src/test/resources
+2017-02-03 15:18:35,475 [Worker-21] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of API
+2017-02-03 15:18:35,475 [Worker-21] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for API
+2017-02-03 15:18:35,479 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:18:43,249 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:18:43,249 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-03 15:18:43,251 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:18:43,251 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/API/src/test/resources
+2017-02-03 15:18:43,252 [Worker-24] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of API
+2017-02-03 15:18:43,252 [Worker-24] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for API
+2017-02-03 15:18:43,256 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:18:47,001 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:18:47,001 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-03 15:18:47,003 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:18:47,003 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/API/src/test/resources
+2017-02-03 15:18:47,003 [Worker-25] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of API
+2017-02-03 15:18:47,003 [Worker-25] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for API
+2017-02-03 15:18:47,007 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:19:02,467 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:19:02,468 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-03 15:19:02,469 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:19:02,470 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/API/src/test/resources
+2017-02-03 15:19:02,470 [Worker-24] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of API
+2017-02-03 15:19:02,470 [Worker-24] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for API
+2017-02-03 15:19:02,474 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:19:13,855 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:19:13,856 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-03 15:19:13,857 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:19:13,857 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/API/src/test/resources
+2017-02-03 15:19:13,857 [Worker-24] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of API
+2017-02-03 15:19:13,857 [Worker-24] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for API
+2017-02-03 15:19:13,860 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:20:37,443 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:20:37,444 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-03 15:20:37,446 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:20:37,446 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/API/src/test/resources
+2017-02-03 15:20:37,446 [Worker-23] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of API
+2017-02-03 15:20:37,447 [Worker-23] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for API
+2017-02-03 15:20:37,452 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:20:55,398 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:20:55,399 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-03 15:20:55,400 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:20:55,400 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/API/src/test/resources
+2017-02-03 15:20:55,401 [Worker-25] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of API
+2017-02-03 15:20:55,401 [Worker-25] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for API
+2017-02-03 15:20:55,403 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:21:01,515 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:21:01,515 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-03 15:21:01,516 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:21:01,517 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/API/src/test/resources
+2017-02-03 15:21:01,517 [Worker-27] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of API
+2017-02-03 15:21:01,517 [Worker-27] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for API
+2017-02-03 15:21:01,520 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:21:09,491 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:21:09,491 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-03 15:21:09,492 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:21:09,493 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/API/src/test/resources
+2017-02-03 15:21:09,493 [Worker-21] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of API
+2017-02-03 15:21:09,493 [Worker-21] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for API
+2017-02-03 15:21:09,497 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:21:44,727 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:21:44,741 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-03 15:21:44,743 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:21:44,743 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/API/src/test/resources
+2017-02-03 15:21:44,743 [Worker-26] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of API
+2017-02-03 15:21:44,744 [Worker-26] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for API
+2017-02-03 15:21:44,754 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:21:53,185 [Worker-23] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/inpe/workspace/API
+2017-02-03 15:21:53,185 [Worker-23] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean install
+2017-02-03 15:34:21,101 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:34:21,102 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-03 15:34:21,103 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:34:21,104 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/API/src/test/resources
+2017-02-03 15:34:21,104 [Worker-31] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of API
+2017-02-03 15:34:21,104 [Worker-31] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for API
+2017-02-03 15:34:21,112 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:34:22,189 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:34:22,190 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-03 15:34:22,191 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:34:22,191 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/API/src/test/resources
+2017-02-03 15:34:22,191 [Worker-32] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of API
+2017-02-03 15:34:22,191 [Worker-32] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for API
+2017-02-03 15:34:22,195 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:34:53,078 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:34:53,079 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-03 15:34:53,080 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:34:53,080 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/API/src/test/resources
+2017-02-03 15:34:53,080 [Worker-33] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of API
+2017-02-03 15:34:53,080 [Worker-33] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for API
+2017-02-03 15:34:53,083 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:35:21,113 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:35:21,114 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-03 15:35:21,115 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:35:21,115 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/API/src/test/resources
+2017-02-03 15:35:21,115 [Worker-34] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of API
+2017-02-03 15:35:21,115 [Worker-34] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for API
+2017-02-03 15:35:21,118 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:35:27,738 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:35:27,738 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-03 15:35:27,739 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:35:27,739 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/API/src/test/resources
+2017-02-03 15:35:27,739 [Worker-26] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of API
+2017-02-03 15:35:27,740 [Worker-26] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for API
+2017-02-03 15:35:27,742 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:35:34,305 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:35:34,306 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-03 15:35:34,307 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:35:34,307 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/API/src/test/resources
+2017-02-03 15:35:34,307 [Worker-34] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of API
+2017-02-03 15:35:34,307 [Worker-34] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for API
+2017-02-03 15:35:34,311 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:35:35,392 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:35:35,393 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-03 15:35:35,394 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:35:35,394 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/API/src/test/resources
+2017-02-03 15:35:35,394 [Worker-26] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of API
+2017-02-03 15:35:35,394 [Worker-26] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for API
+2017-02-03 15:35:35,397 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:35:47,798 [Worker-35] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/inpe/workspace/API
+2017-02-03 15:35:47,798 [Worker-35] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean install
+2017-02-03 15:38:08,960 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:38:08,961 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-03 15:38:08,961 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:38:08,962 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/API/src/test/resources
+2017-02-03 15:38:08,962 [Worker-34] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of API
+2017-02-03 15:38:08,962 [Worker-34] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for API
+2017-02-03 15:38:08,964 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:44:20,737 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:44:20,737 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-03 15:44:20,738 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:44:20,739 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/API/src/test/resources
+2017-02-03 15:44:20,739 [Worker-37] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of API
+2017-02-03 15:44:20,739 [Worker-37] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for API
+2017-02-03 15:44:20,742 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:44:32,389 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:44:32,409 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-03 15:44:32,411 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:44:32,411 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/API/src/test/resources
+2017-02-03 15:44:32,412 [Worker-40] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of API
+2017-02-03 15:44:32,412 [Worker-40] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for API
+2017-02-03 15:44:32,416 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:44:32,499 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:44:32,499 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/SaveImage/src/main/resources
+2017-02-03 15:44:32,501 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:44:32,501 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/SaveImage/src/test/resources
+2017-02-03 15:44:32,562 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-03 15:44:32,562 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/api/src/main/resources
+2017-02-03 15:44:32,563 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-03 15:44:32,563 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/api/src/test/resources
+2017-02-03 15:45:15,910 [Worker-37] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/inpe/workspace/API
+2017-02-03 15:45:15,910 [Worker-37] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean install
+2017-02-03 15:45:50,344 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:45:50,345 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-03 15:45:50,347 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:45:50,348 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/API/src/test/resources
+2017-02-03 15:45:50,348 [Worker-40] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of API
+2017-02-03 15:45:50,348 [Worker-40] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for API
+2017-02-03 15:45:50,351 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:45:51,508 [Worker-39] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:45:51,508 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-03 15:45:51,509 [Worker-39] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:45:51,509 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/API/src/test/resources
+2017-02-03 15:45:51,510 [Worker-39] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of API
+2017-02-03 15:45:51,510 [Worker-39] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for API
+2017-02-03 15:45:51,512 [Worker-39] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:45:55,852 [Worker-37] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/inpe/workspace/API
+2017-02-03 15:45:55,852 [Worker-37] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean install
+2017-02-03 15:49:11,188 [Worker-42] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:49:11,189 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-03 15:49:11,190 [Worker-42] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:49:11,190 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/API/src/test/resources
+2017-02-03 15:49:11,190 [Worker-42] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of API
+2017-02-03 15:49:11,190 [Worker-42] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for API
+2017-02-03 15:49:11,193 [Worker-42] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:49:16,022 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:49:16,023 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-03 15:49:16,024 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:49:16,024 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/API/src/test/resources
+2017-02-03 15:49:16,025 [Worker-40] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of API
+2017-02-03 15:49:16,025 [Worker-40] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for API
+2017-02-03 15:49:16,028 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:49:16,080 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:49:16,080 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/SaveImage/src/main/resources
+2017-02-03 15:49:16,081 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:49:16,081 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/SaveImage/src/test/resources
+2017-02-03 15:49:16,114 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-03 15:49:16,114 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/api/src/main/resources
+2017-02-03 15:49:16,115 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-03 15:49:16,115 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/api/src/test/resources
+2017-02-03 15:49:21,445 [Worker-43] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/inpe/workspace/API
+2017-02-03 15:49:21,445 [Worker-43] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean install
+2017-02-03 15:50:07,928 [Worker-37] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/inpe/workspace/API
+2017-02-03 15:50:07,929 [Worker-37] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean install
+2017-02-03 15:51:28,063 [Worker-41] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:51:28,064 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-03 15:51:28,065 [Worker-41] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-03 15:51:28,065 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/API/src/test/resources
+2017-02-03 15:51:28,066 [Worker-41] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of API
+2017-02-03 15:51:28,066 [Worker-41] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for API
+2017-02-03 15:51:28,069 [Worker-41] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
