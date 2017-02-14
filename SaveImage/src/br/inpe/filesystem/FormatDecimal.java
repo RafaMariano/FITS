@@ -9,14 +9,11 @@ import java.util.Calendar;
 public class FormatDecimal {
 	private DecimalFormatSymbols otherSymbols; 
 	private DecimalFormat df; 
-	private SimpleDateFormat dateFormat; 
-	private Calendar calendar; 
+	private SimpleDateFormat dateFormat;
 	
 	public FormatDecimal(){
 		
 		this.dateFormat = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.SS");		
-		this.calendar = Calendar.getInstance();
-		
 		this.otherSymbols = new DecimalFormatSymbols();
 		this.otherSymbols.setDecimalSeparator('.');
 		
@@ -26,12 +23,12 @@ public class FormatDecimal {
 	}
 	
 	public void setTime(String time) throws ParseException{
-		this.calendar.setTime(this.dateFormat.parse(time));
+		Calendar.getInstance().setTime(this.dateFormat.parse(time));
 		
 	}
 	
 	public int getTime(int field){
-		return calendar.get(field);
+		return Calendar.getInstance().get(field);
 	}
 	
 	public String setFloat(int number1, int number2){

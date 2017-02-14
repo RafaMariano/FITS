@@ -1,0 +1,16 @@
+package br.inpe.filesystem;
+
+public class Calendar {
+	private static Calendar uniqueInstance;
+	private java.util.Calendar calendar;
+
+	private Calendar() {
+	}
+
+	public static synchronized Singleton getInstance() {
+		if (uniqueInstance == null)
+			uniqueInstance = new Singleton();
+
+		return uniqueInstance;
+	}
+}
