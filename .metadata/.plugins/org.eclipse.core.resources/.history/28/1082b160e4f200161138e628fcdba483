@@ -10,7 +10,6 @@ public class FormatDecimal {
 	private DecimalFormatSymbols otherSymbols; 
 	private DecimalFormat df; 
 	private SimpleDateFormat dateFormat;
-	//transformar o formatDecimal em singleton
 	
 	public FormatDecimal(){
 		
