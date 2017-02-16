@@ -13,33 +13,21 @@ public class Main {
 
 	public static void main(String[] args) throws IOException {
 		
-				URL urlObj = new URL("http://0.0.0.0:4567/hello");   
+		for (int contt = 0; contt < 999; ++contt){
+				for (int cont = 0; cont < 210; ++cont){
+				URL urlObj = new URL("http://localhost:8080/API/rest/images/2");   
 				
 				HttpURLConnection  httpConnection = (HttpURLConnection) urlObj.openConnection();
 				httpConnection.setRequestMethod("GET");
 				InputStream inputStream = httpConnection.getInputStream();
-				OutputStream outputStream = null;
-				try {
-				    int read = 0;
-				    byte[] bytes = new byte[1024];
-				    outputStream = new FileOutputStream(new File("/home/inpe/Database/asas.fits"));
-				    while ((read = inputStream.read(bytes)) != -1) {
-				        outputStream.write(bytes, 0, read);
-				    }
-				} catch (FileNotFoundException ex) {
-				    ex.getMessage();
-				} catch (IOException ex) {
-				    ex.getMessage();
-				} finally {
-				    try {
-				        if (outputStream != null) {
-				            outputStream.close();
-				        }
-				    } catch (IOException ex) {
-				        ex.getMessage();
-				    }
+				 byte[] bytes = new byte[9999];
+				inputStream.read(bytes);
+				String a = new String(bytes);
+				System.out.println(a);
 				}
+				}
+	}
 
 	}
 
-}
+

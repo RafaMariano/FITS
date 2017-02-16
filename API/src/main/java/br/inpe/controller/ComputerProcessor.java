@@ -1,6 +1,8 @@
 package br.inpe.controller;
 
 import java.io.IOException;
+import java.time.DateTimeException;
+import java.time.LocalDate;
 import java.util.List;
 import java.util.Map;
 
@@ -18,6 +20,7 @@ import org.codehaus.jackson.JsonParseException;
 import org.codehaus.jackson.map.JsonMappingException;
 
 import br.inpe.database.Query;
+import br.inpe.model.Date;
 
 @Path("/images")
 public class ComputerProcessor {
@@ -42,12 +45,16 @@ public class ComputerProcessor {
 	
 	@GET
 	@Produces(MediaType.APPLICATION_JSON)
-	//@DefaultValue("0")
-	 public Response echoInputList(@QueryParam("day") final int day, @QueryParam("month") final int month, @QueryParam("year") final int year) {
-		System.out.println(day);
-		System.out.println(month);
-		System.out.println(year);
-	        return Response.ok(day+month+year).build();
-	    }
+
+	 public Response echoInputList(@QueryParam("day") final int day, @QueryParam("month") final int month, @QueryParam("year") final int year) throws JsonGenerationException, JsonMappingException, JsonParseException, IOException {
+		
+		String bool = Date.getInstance().dateIsCorrect(day, month, year);
+		
+		if(bool.equals("true"))
+			return Response.ok(Query.findOne(day, month, year)).build();
+			
+		return Response.ok(bool).build();
+	   
+	}
 
 }
