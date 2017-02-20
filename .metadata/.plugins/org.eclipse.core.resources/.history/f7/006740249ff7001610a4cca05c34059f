@@ -70,8 +70,6 @@ public class ComputerProcessor {
 	@Produces(MediaType.APPLICATION_JSON)
 	 public Response echoInputList(@QueryParam("day") final int day, @QueryParam("month") final int month, @QueryParam("year") final int year) {
 		
-		
-		
 	return null;
 
 	   
