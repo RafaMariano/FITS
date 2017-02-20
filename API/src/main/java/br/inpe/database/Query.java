@@ -43,9 +43,7 @@ public class Query {
 	public static String findOne(int day, int month, int year) throws JsonGenerationException, JsonMappingException, JsonParseException, IOException{
 		JSONObject b = new JSONObject();
 		
-		FindIterable<Document> findI = Mongo.getInstance().getDataBase().getCollection("inpe").find(Filters.eq(new Document("DAY",day)))
-	;
-		
+		FindIterable<Document> findI = Mongo.getInstance().getDataBase().getCollection("inpe").find().filter(new Document("DAY",day).append("MONTH", month).append("YEAR", year));
 		for (Document doc: findI)
 			b.append("_id", doc.get("_id"));
 		
@@ -55,6 +53,21 @@ public class Query {
 //				writeValueAsString(getMapper().readValue(collection.find().filter(Filters.eq(new Document("DAY",day).append("MONTH", month).append("YEAR", year))).first().toJson(), Object.class));
 //		
 	}
+	
+	public static String findOne(int day, int month, int year, int cycle) throws JsonGenerationException, JsonMappingException, JsonParseException, IOException{
+		JSONObject b = new JSONObject();
+		
+		FindIterable<Document> findI = Mongo.getInstance().getDataBase().getCollection("inpe").find().filter(new Document("DAY",day).append("MONTH", month).append("YEAR", year).append("CYCLE", cycle));
+		for (Document doc: findI)
+			b.append("_id", doc.get("_id"));
+		
+		return getMapper().writerWithDefaultPrettyPrinter().
+				writeValueAsString(getMapper().readValue(b.toString(),Object.class));
+//		return getMapper().writerWithDefaultPrettyPrinter().
+//				writeValueAsString(getMapper().readValue(collection.find().filter(Filters.eq(new Document("DAY",day).append("MONTH", month).append("YEAR", year))).first().toJson(), Object.class));
+//		
+	}
+	
 	public static ObjectMapper getMapper() {
 		return mapper;
 	}

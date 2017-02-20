@@ -1,1 +1,1 @@
-[[{"location":"/home/inpe/workspace/SaveImage","type":"PROJECT","hints":{"PROJECT_NAME":"SaveImage"}},"SaveImage:SaveImage:0.0.1"],[{"location":"/usr/lib/jvm/java-8-oracle","type":"JRE","hints":{}},"jre:jre:1.8.0"],[{"location":"/home/inpe/.m2/repository/org/mongodb/bson/3.4.1/bson-3.4.1.jar","type":"JAR","hints":{}},"org.mongodb.bson:org.mongodb.bson:3.4.1"]]
+[[{"location":"/usr/lib/jvm/java-8-oracle","type":"JRE","hints":{}},"jre:jre:1.8.0"]]

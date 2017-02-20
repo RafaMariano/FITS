@@ -22,10 +22,10 @@ import org.codehaus.jackson.map.JsonMappingException;
 import br.inpe.database.Query;
 import br.inpe.model.Date;
 
-@Path("/images")
+@Path("GET/images")
 public class ComputerProcessor {
 	
-	
+	//retorna os id de todas as imagens paginado
 	@GET
 	@Path("{page: \\d+}")
 	@Produces(MediaType.APPLICATION_JSON)
@@ -34,6 +34,7 @@ public class ComputerProcessor {
 		//return Query.findOne(id).toString();
 	}
 	
+	//retorna os dados da imagem, passando o ID dela
 	@GET
 	@Path("/id/{id}")
 	@Produces(MediaType.APPLICATION_JSON)
@@ -42,18 +43,35 @@ public class ComputerProcessor {
 	return Response.ok(Query.findOne(id)).build();
 	}
 
+	//retorna uma colecao de dados perante o dia, mes e ano
+//	@GET		 //list
+//	@Path("/cycle/{cycle}/stoke_parameter/{st: \\d+}/date")
+//	@Produces(MediaType.APPLICATION_JSON)
+//	 public Response echoInputList(@PathParam("st") List<String> stoke_Parameter ,@PathParam("cycle") int cycle, @QueryParam("day") final int day, @QueryParam("month") final int month, @QueryParam("year") final int year) throws JsonGenerationException, JsonMappingException, JsonParseException, IOException {
+//		
+//		//System.out.println(stoke_Parameter.size());
+//		if(cycle < 0)
+//			return Response.ok("cycle needs be > 0").build();
+//		
+//		String bool = Date.getInstance().dateIsCorrect(day, month, year);
+//		
+//		if(bool.equals("true"))
+//			if(cycle == 0)
+//				return Response.ok(Query.findOne(day, month, year)).build();
+//			else
+//				return Response.ok(Query.findOne(day, month, year,cycle)).build();
+//		return Response.ok(bool).build();
+//
+//	   
+//	}
 	
-	@GET
+	@GET		 //list
+	@Path("/date/{month}/{day}/{year}")
 	@Produces(MediaType.APPLICATION_JSON)
+	 public Response echoInputList(@QueryParam("day") final int day, @QueryParam("month") final int month, @QueryParam("year") final int year) {
+		
+	return null;
 
-	 public Response echoInputList(@QueryParam("day") final int day, @QueryParam("month") final int month, @QueryParam("year") final int year) throws JsonGenerationException, JsonMappingException, JsonParseException, IOException {
-		
-		String bool = Date.getInstance().dateIsCorrect(day, month, year);
-		
-		if(bool.equals("true"))
-			return Response.ok(Query.findOne(day, month, year)).build();
-			
-		return Response.ok(bool).build();
 	   
 	}
 
