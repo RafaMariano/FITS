@@ -10813,3 +10813,10 @@ Caused by: java.io.FileNotFoundException: /home/inpe/workspace/.metadata/.plugin
 2017-02-22 12:01:16,446 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 2017-02-22 12:01:39,654 [Worker-27] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/inpe/workspace/API
 2017-02-22 12:01:39,654 [Worker-27] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean install
+2017-02-22 12:09:27,973 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-22 12:09:27,973 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-22 12:09:27,974 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-22 12:09:27,974 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/API/src/test/resources
+2017-02-22 12:09:27,975 [Worker-29] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of API
+2017-02-22 12:09:27,975 [Worker-29] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for API
+2017-02-22 12:09:27,978 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
