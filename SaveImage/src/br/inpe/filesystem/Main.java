@@ -28,7 +28,9 @@ public class Main {
 //			System.out.println(ex);
 //		}
 		//System.out.println(new Document("DAY",1).append("MONTH", 2).toJson());
-		Query.findOne1(1);
+	//	System.out.println(Query.findAll(1));
+
+
 	}
 
 }

@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="com.mongodb.MongoSocketOpenException"/>
-<fullyQualifiedTypeName name="java.lang.ProcessBuilder"/>
-<fullyQualifiedTypeName name="java.lang.Runtime"/>
 <fullyQualifiedTypeName name="org.omg.SendingContext.RunTime"/>
 <fullyQualifiedTypeName name="br.inpe.log.Log"/>
 <fullyQualifiedTypeName name="java.io.FileWriter"/>
@@ -59,4 +56,8 @@
 <fullyQualifiedTypeName name="com.mongodb.client.model.Filters"/>
 <fullyQualifiedTypeName name="br.inpe.controller.ComputerProcessor"/>
 <fullyQualifiedTypeName name="java.util.Calendar"/>
+<fullyQualifiedTypeName name="javax.ws.rs.core.PathSegment"/>
+<fullyQualifiedTypeName name="java.lang.Object"/>
+<fullyQualifiedTypeName name="java.util.Set"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>

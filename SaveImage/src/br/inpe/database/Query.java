@@ -1,24 +1,17 @@
 package br.inpe.database;
 
-import java.io.IOException;
-import java.util.List;
-
 import org.bson.Document;
-
-import org.json.JSONArray;
 import org.json.JSONObject;
-
 import com.mongodb.MongoSocketOpenException;
 import com.mongodb.MongoWriteException;
 import com.mongodb.client.FindIterable;
 import com.mongodb.client.MongoCollection;
-import com.mongodb.client.MongoCursor;
 import com.mongodb.client.model.Filters;
 
 import br.inpe.filesystem.Image;
 
 public class Query {
-	
+	private static Document doc = new Document("_id", 1);
 	public void insertDocument(Image image) {
 		try{
 			
@@ -46,19 +39,20 @@ public class Query {
 		System.out.println(findI);
 	}
 	
-	public static void findOne1(int value) {
+	public static String findAll(int page) {
 
 		JSONObject b = new JSONObject();
 	
-		FindIterable<Document> findI = Mongo.getInstance().getDataBase().getCollection("inpe").find(Filters.eq(new Document("DAY",6))).limit(100).skip(value);
+		FindIterable<Document> findI = Mongo.getInstance().getDataBase().getCollection("inpe").find()
+				.projection(doc).limit(500).skip(page);
 		
 		for (Document doc: findI)
 			b.append("_id", doc.get("_id"));
 		
-		//	return b.toString();
-		System.out.println(b.toString());
+		return b.toString();
 
 	}
+	
 	
 	public static void findOne(int value) {
 
