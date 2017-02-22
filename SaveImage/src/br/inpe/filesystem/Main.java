@@ -2,6 +2,12 @@ package br.inpe.filesystem;
 
 import java.io.IOException;
 import java.text.ParseException;
+import java.time.DateTimeException;
+import java.time.LocalDate;
+
+import org.bson.Document;
+
+import br.inpe.database.Query;
 
 import br.inpe.database.Query;
 
@@ -16,9 +22,23 @@ public class Main {
 //		catch(IOException io){
 //
 //		}
+<<<<<<< HEAD
 	//while (true){
 		Query.findOne("", 0);
 	//}
+=======
+//		
+//		try{
+//		LocalDate.of(2017, 2, 31);
+//		}
+//		catch(DateTimeException ex){
+//			System.out.println(ex);
+//		}
+		//System.out.println(new Document("DAY",1).append("MONTH", 2).toJson());
+	//	System.out.println(Query.findAll(1));
+
+
+>>>>>>> temp
 	}
 
 }

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+<<<<<<< HEAD
 	<section name="org.eclipse.equinox.internal.p2.ui.dialogs.InstallWizard.SelectableIUsPage">
 		<item value="200" key="DetailsSashWeight"/>
 		<item value="420" key="NameColumnWidth"/>
@@ -18,6 +19,8 @@
 		<item value="525" key="AvailableNameColumnWidth"/>
 		<item value="false" key="FilterOnEnv"/>
 	</section>
+=======
+>>>>>>> temp
 	<section name="org.eclipse.equinox.internal.p2.ui.dialogs.UpdateWizard.WizardSettings">
 		<item value="854" key="DIALOG_WIDTH"/>
 		<item value="1|Ubuntu|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
@@ -25,6 +28,7 @@
 		<item value="500" key="DIALOG_X_ORIGIN"/>
 		<item value="145" key="DIALOG_Y_ORIGIN"/>
 	</section>
+<<<<<<< HEAD
 	<section name="org.eclipse.equinox.internal.p2.ui.dialogs.InstallWizard.ResolutionResultsPage">
 		<item value="200" key="DetailsSashWeight"/>
 		<item value="400" key="NameColumnWidth"/>
@@ -39,4 +43,6 @@
 		<item value="500" key="DIALOG_X_ORIGIN"/>
 		<item value="33" key="DIALOG_Y_ORIGIN"/>
 	</section>
+=======
+>>>>>>> temp
 </section>

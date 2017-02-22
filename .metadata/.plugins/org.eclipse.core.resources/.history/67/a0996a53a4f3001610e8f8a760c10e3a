@@ -1,0 +1,11 @@
+package br.inpe.model;
+
+public class Date {
+		private static Date date;
+		
+		public synchronized static Date getInstance(){
+			if(date == null)
+				return date = new Date();
+			return date;
+		}
+}

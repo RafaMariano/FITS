@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move package &apos;br.inpe.database&apos; to &apos;SaveImage/src&apos;&#x0A;- Original project: &apos;API&apos;&#x0A;- Destination element: &apos;SaveImage/src&apos;&#x0A;- Original element: &apos;API/src/main/java/br.inpe.database&apos;&#x0A;- Update references to refactored element" description="Move package" destination="=SaveImage/src" element1="/src\/main\/java&lt;br.inpe.database" flags="589830" fragments="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1486145791987" version="1.0"/>
+</session>

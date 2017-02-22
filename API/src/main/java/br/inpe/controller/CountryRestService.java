@@ -11,6 +11,7 @@ import javax.ws.rs.Path;
 import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
+<<<<<<< HEAD
 
 import org.codehaus.jackson.JsonGenerationException;
 import org.codehaus.jackson.map.JsonMappingException;
@@ -90,4 +91,19 @@ public class CountryRestService {
 		mes.put((long) 4, bhutanCountry);
 		return mes;
 	}
+=======
+
+import org.codehaus.jackson.JsonGenerationException;
+import org.codehaus.jackson.JsonParseException;
+import org.codehaus.jackson.map.JsonMappingException;
+
+import br.inpe.database.Query;
+
+
+public class CountryRestService {
+
+
+
+
+>>>>>>> temp
 }
