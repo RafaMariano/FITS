@@ -2,6 +2,7 @@ package br.inpe.trash;
 
 public class Calendar {
 	private static java.util.Calendar calendar;
+
 	private Calendar() {
 	}
 
