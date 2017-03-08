@@ -1,7 +1,0 @@
-#Tomcat publish data
-<<<<<<< HEAD
-#Fri Feb 03 15:51:26 BRST 2017
-=======
-#Wed Feb 22 12:48:59 BRT 2017
-org.eclipse.jst.jee.server\:API=/home/inpe/\u00C1rea de Trabalho/apache-tomcat-9.0.0.M17/wtpwebapps/API
->>>>>>> temp

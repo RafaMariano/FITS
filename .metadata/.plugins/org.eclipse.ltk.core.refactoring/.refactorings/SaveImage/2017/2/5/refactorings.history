@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<<<<<<< HEAD
-<session version="1.0">
-<refactoring comment="Copy package &apos;br.inpe.database&apos; to &apos;API/src/main/java&apos;&#x0A;- Original project: &apos;SaveImage&apos;&#x0A;- Destination element: &apos;API/src/main/java&apos;&#x0A;- Original element: &apos;SaveImage/src/br.inpe.database&apos;" description="Copy package" destination="=API/src\/main\/java" element1="/src&lt;br.inpe.database" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1485974528721" version="1.0"/>
-=======
-<session version="1.0">&#x0A;<refactoring comment="Move package &apos;br.inpe.database&apos; to &apos;API/src/main/java&apos;&#x0A;- Original project: &apos;SaveImage&apos;&#x0A;- Destination element: &apos;API/src/main/java&apos;&#x0A;- Original element: &apos;SaveImage/src/br.inpe.database&apos;&#x0A;- Update references to refactored element" description="Move package" destination="=API/src\/main\/java" element1="/src&lt;br.inpe.database" flags="589830" fragments="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1486145693871" version="1.0"/>&#x0A;<refactoring comment="Copy package &apos;br.inpe.database&apos; to &apos;API/src/main/java&apos;&#x0A;- Original project: &apos;SaveImage&apos;&#x0A;- Destination element: &apos;API/src/main/java&apos;&#x0A;- Original element: &apos;SaveImage/src/br.inpe.database&apos;" description="Copy package" destination="=API/src\/main\/java" element1="/src&lt;br.inpe.database" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1486145797113" version="1.0"/>
->>>>>>> temp
-</session>
