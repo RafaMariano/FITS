@@ -1,58 +1,58 @@
 package br.inpe.filesystem;
 
+import java.io.File;
 import java.io.IOException;
-import java.text.ParseException;
-import java.util.ArrayList;
-import br.inpe.database.Query;
-
+import java.nio.file.Files;
+import java.nio.file.Paths;
 
 public class FileSystem {
-	private final String filesystemDB;
-	private final String filesystemRsync;
-	private final int length;
-	private Find find;
-	private Query query;
-	private FormatDecimal formatDecimal;
 
+	private static FileSystem fileSystem;
 
-	public FileSystem(){
-		this.query = new Query();
-		this.filesystemRsync = "/home/inpe/Imagens/";
-		this.filesystemDB = "/home/inpe/Database/";
-		this.length = this.filesystemRsync.length();
-		this.formatDecimal = new FormatDecimal();
+	private FileSystem() {
 
 	}
 
-	private int getLength(){
-		return this.length;
+	public static synchronized FileSystem getInstance() {
+		if (fileSystem == null)
+			fileSystem = new FileSystem();
+
+		return fileSystem;
 	}
 
-	private String getFileSystemDB(){
+	public String createDir(String pathImage, String pathDB, String pathPrincipal) throws IOException {
 
-		return this.filesystemDB;
+		StringBuilder newPathImage = new StringBuilder(pathImage);
+
+		if (pathImage.substring(0, pathPrincipal.length()).equals(pathPrincipal)){
+			newPathImage.replace(0, pathPrincipal.length(), pathDB);
+			String destination = newPathImage.toString();
+			Files.createDirectories(Paths.get(destination));
+			return destination;
+		}
+		else{
+			return null;
+		}
 	}
 
-	public ArrayList<String> getImages() throws IOException{
-		this.find = new Find(this.filesystemRsync);
-		return find.searchImage();	
+	public void copyFile(String pathImage, String pathDestination)  throws IOException{
+		
+			Files.move(Paths.get(pathImage), Paths.get(pathDestination));
 	}
 
+	public String deletePath(String source, final String pathPrincipal) throws IOException {
 
-	public void sendToBD(ArrayList<String> files) throws ParseException {
-		for (String file: files){
-			try{
-				
-				//new Image(file,getLength(),getFileSystemDB()); // this.length,this.filesystemDB,this.formatDecimal -- Melhor?
-				this.query.insertDocument(new Image(file,getLength(),getFileSystemDB(),this.formatDecimal));	
+		if (source.equals(pathPrincipal) == false) {
 
-			}
-			catch (Error e) {
-				e.printStackTrace();
-
+			File file = new File(source);
+			if (file.list().length <= 0) {
+				if (file.delete()) {
+					// log
+					return deletePath(file.getParent(), pathPrincipal);
+				}
 			}
 		}
-
+		return source;
 	}
 
 }

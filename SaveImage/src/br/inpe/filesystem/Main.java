@@ -4,41 +4,33 @@ import java.io.IOException;
 import java.text.ParseException;
 import java.time.DateTimeException;
 import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 import org.bson.Document;
 
-import br.inpe.database.Query;
+import com.mongodb.BasicDBObject;
 
 import br.inpe.database.Query;
 
 public class Main {
-
+	
+	private static final String pathPrincipal = "/home/inpe/Images/";
+	private static final String pathDB = "/home/inpe/Database/";
+	
 	public static void main(String[] args) throws IOException, ParseException {
 		
-//		try{
-//			FileSystem f = new FileSystem();
-//			f.sendToBD(f.getImages());
-//		}
-//		catch(IOException io){
-//
-//		}
-<<<<<<< HEAD
-	//while (true){
-		Query.findOne("", 0);
-	//}
-=======
-//		
-//		try{
-//		LocalDate.of(2017, 2, 31);
-//		}
-//		catch(DateTimeException ex){
-//			System.out.println(ex);
-//		}
-		//System.out.println(new Document("DAY",1).append("MONTH", 2).toJson());
-	//	System.out.println(Query.findAll(1));
-
-
->>>>>>> temp
+		try{
+			Controller controller = new Controller(pathPrincipal, pathDB);
+			ArrayList<String> imagesList = controller.getImages();
+			controller.sendToBD(imagesList);
+		}
+		catch(IOException io){
+			//log
+		}
+		
+		
 	}
 
 }

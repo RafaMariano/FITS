@@ -12,13 +12,18 @@ import java.util.ArrayList;
 
 public class Find {
 	private Finder finder;
-	private final String path;
-
-	public Find(String path){
-		this.path = path;
+	private static Find find;
+	
+	private Find(){
 		this.finder = new Finder();
 	}
+	
+	public static synchronized Find getInstance() {
+		if (find == null)
+			find = new Find();
 
+		return find;
+	}
 	private class Finder extends SimpleFileVisitor<Path>  {
 		private ArrayList<String> files;
 
@@ -41,12 +46,8 @@ public class Find {
 
 	}
 
-	private String getPath(){
-		return this.path;
-	}
-
-	public ArrayList<String> searchImage() throws IOException{
-		Files.walkFileTree(Paths.get(getPath()), this.finder);
+	public ArrayList<String> searchImage(String pathImages) throws IOException{
+		Files.walkFileTree(Paths.get(pathImages), this.finder);
 		return this.finder.getFiles();
 	}
 
