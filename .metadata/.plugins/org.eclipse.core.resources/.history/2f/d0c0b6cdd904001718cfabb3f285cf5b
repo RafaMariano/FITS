@@ -1,0 +1,41 @@
+package br.inpe.filesystem;
+
+import java.text.ParseException;
+import java.util.Calendar;
+
+import org.bson.Document;
+
+public class ConvertTime {
+	
+	
+	
+	private void setTimeAndDay(Document document) throws ParseException{
+
+		if (document.containsKey("DATE-OBS")){
+
+			setTime(document.get("DATE-OBS").toString());  
+
+			document.append("DAY",getTime(Calendar.DAY_OF_MONTH));
+			document.append("MONTH",getTime( Calendar.MONTH) + 1);
+			document.append("YEAR", getTime(Calendar.YEAR));
+			document.append("HOUR", getTime(Calendar.HOUR));
+			document.append("MINUTE", getTime(Calendar.MINUTE));
+			
+			document.append("SECOND",  getSecondMilliToFloat(getTime(Calendar.SECOND), getTime(Calendar.MILLISECOND)));
+
+
+		}
+			else if (document.containsKey("DATE") ){
+					setTime(document.get("DATE").toString());  
+					document.append("DAY",getTime(Calendar.DAY_OF_MONTH));
+					document.append("MONTH",getTime( Calendar.MONTH) + 1);
+					document.append("YEAR", getTime(Calendar.YEAR));
+					document.append("HOUR", getTime(Calendar.HOUR));
+					document.append("MINUTE", getTime(Calendar.MINUTE));
+					
+					document.append("SECOND",  getSecondMilliToFloat(getTime(Calendar.SECOND), getTime(Calendar.MILLISECOND)));
+			
+				}
+	}
+
+}

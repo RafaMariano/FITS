@@ -1,0 +1,47 @@
+package br.inpe.filesystem;
+
+import java.text.ParseException;
+import java.util.Calendar;
+import java.util.Date;
+
+import org.bson.Document;
+
+import br.inpe.trash.FormatDecimal;
+
+public class ConvertTime {
+	
+	private FormatDecimal formatDecimal;
+	private java.util.Calendar calendar;
+	
+	public ConvertTime() throws ParseException{
+		this.formatDecimal = new FormatDecimal();
+		this.calendar = java.util.Calendar.getInstance();
+	}
+	
+	private void setTimeAndDay(Document document) throws ParseException{
+		
+		Date format;
+		
+		if (document.containsKey("DATE-OBS"))
+			format = this.formatDecimal.getTimeJulianoFormat(document.get("DATE-OBS").toString());
+		else if (document.containsKey("DATE") )
+			format = this.formatDecimal.getTimeJulianoFormat(document.get("DATE").toString());
+		
+		this.calendar.setTime(format);
+			
+			document.append("DAY",this.calendar.get(Calendar.DAY_OF_MONTH));
+			document.append("MONTH",this.calendar.get(Calendar.MONTH) + 1);
+			document.append("YEAR", this.calendar.get(Calendar.YEAR));
+			document.append("HOUR", this.calendar.get(Calendar.HOUR));
+			document.append("MINUTE", this.calendar.get(Calendar.MINUTE));
+			
+			document.append("SECOND",   this.formatDecimal.setFloat(
+					this.calendar.get(Calendar.SECOND), this.calendar.get(Calendar.MILLISECOND)
+					));
+
+
+		
+			
+	}
+
+}

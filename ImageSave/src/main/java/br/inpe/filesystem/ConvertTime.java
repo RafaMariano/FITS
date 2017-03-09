@@ -1,0 +1,36 @@
+package br.inpe.filesystem;
+
+import java.text.ParseException;
+import java.util.Calendar;
+import java.util.Date;
+
+import org.bson.Document;
+
+public class ConvertTime {
+	private java.util.Calendar calendar;
+	
+	public ConvertTime() throws ParseException{
+		this.calendar = java.util.Calendar.getInstance();
+	}
+	
+	public Document setTimeAndDay(String timeJuliano) throws ParseException{
+		
+		Date format = FormatDecimal.getInstance().getTimeJulianoFormat(timeJuliano);
+		this.calendar.setTime(format);
+		
+		Document document = new Document();
+		
+		document.append("DAY",this.calendar.get(Calendar.DAY_OF_MONTH));
+		document.append("MONTH",this.calendar.get(Calendar.MONTH) + 1);
+		document.append("YEAR", this.calendar.get(Calendar.YEAR));
+		document.append("HOUR", this.calendar.get(Calendar.HOUR));
+		document.append("MINUTE", this.calendar.get(Calendar.MINUTE));
+			
+		document.append("SECOND",  FormatDecimal.getInstance().setFloat(
+				this.calendar.get(Calendar.SECOND), this.calendar.get(Calendar.MILLISECOND)
+				));
+			
+		return document;
+	}
+
+}

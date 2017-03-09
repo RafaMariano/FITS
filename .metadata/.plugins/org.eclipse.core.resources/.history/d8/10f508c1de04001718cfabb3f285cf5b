@@ -1,0 +1,51 @@
+package br.inpe.filesystem;
+
+import java.text.ParseException;
+import java.util.Calendar;
+import java.util.Date;
+
+import org.bson.Document;
+
+import br.inpe.trash.FormatDecimal;
+
+public class ConvertTime {
+	
+	private FormatDecimal formatDecimal;
+	private java.util.Calendar calendar;
+	
+	public ConvertTime() throws ParseException{
+		this.formatDecimal = new FormatDecimal();
+		this.calendar = java.util.Calendar.getInstance();
+	}
+	
+	private void setTimeAndDay(Document document) throws ParseException{
+
+		if (document.containsKey("DATE-OBS")){
+			
+			Date format = this.formatDecimal.getTimeJulianoFormat(document.get("DATE-OBS").toString());  
+			this.calendar.setTime(format);
+			
+			document.append("DAY",getTime(Calendar.DAY_OF_MONTH));
+			document.append("MONTH",getTime( Calendar.MONTH) + 1);
+			document.append("YEAR", getTime(Calendar.YEAR));
+			document.append("HOUR", getTime(Calendar.HOUR));
+			document.append("MINUTE", getTime(Calendar.MINUTE));
+			
+			document.append("SECOND",  getSecondMilliToFloat(getTime(Calendar.SECOND), getTime(Calendar.MILLISECOND)));
+
+
+		}
+			else if (document.containsKey("DATE") ){
+					setTime(document.get("DATE").toString());  
+					document.append("DAY",getTime(Calendar.DAY_OF_MONTH));
+					document.append("MONTH",getTime( Calendar.MONTH) + 1);
+					document.append("YEAR", getTime(Calendar.YEAR));
+					document.append("HOUR", getTime(Calendar.HOUR));
+					document.append("MINUTE", getTime(Calendar.MINUTE));
+					
+					document.append("SECOND",  getSecondMilliToFloat(getTime(Calendar.SECOND), getTime(Calendar.MILLISECOND)));
+			
+				}
+	}
+
+}
