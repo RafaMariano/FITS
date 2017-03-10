@@ -1,0 +1,11 @@
+package br.inpe.filesystem;
+
+import java.util.List;
+
+import br.inpe.repository.ImageRepository;
+
+public class ImagesImpl implements ImageRepository{
+
+
+
+}

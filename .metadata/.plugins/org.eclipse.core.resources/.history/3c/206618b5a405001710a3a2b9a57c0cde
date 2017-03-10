@@ -1,0 +1,7 @@
+package br.inpe.service;
+
+import br.inpe.repository.ImageRepository;
+
+public class ImageServiceImpl implements ImageRepository{
+
+}

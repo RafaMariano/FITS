@@ -1,0 +1,11 @@
+package br.inpe.database;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import br.inpe.repository.ImageRepository;
+
+public class ImageDAO {
+
+	@Autowired
+	private ImageRepository re;
+}

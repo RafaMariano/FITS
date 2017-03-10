@@ -64,11 +64,13 @@ public class Image {
 
 		}	
 		
+		Document doc = null;
 		if (document.containsKey("DATE-OBS"))
-			this.convertTime.setTimeAndDay(document.get("DATE-OBS").toString());
+			 doc = this.convertTime.setTimeAndDay(document.get("DATE-OBS").toString());
 		else if (document.containsKey("DATE") )
-			this.convertTime.setTimeAndDay(document.get("DATE").toString());
+			doc = this.convertTime.setTimeAndDay(document.get("DATE").toString());
 		
+		this.document.put("TIMEANDDAY",doc);
 		this.document.put("_id", this.path.substring(this.path.lastIndexOf("/")+1));
 	}
 	

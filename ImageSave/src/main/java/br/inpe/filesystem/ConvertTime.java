@@ -18,19 +18,21 @@ public class ConvertTime {
 		Date format = FormatDecimal.getInstance().getTimeJulianoFormat(timeJuliano);
 		this.calendar.setTime(format);
 		
-		Document document = new Document();
+		Document date = new Document();
 		
-		document.append("DAY",this.calendar.get(Calendar.DAY_OF_MONTH));
-		document.append("MONTH",this.calendar.get(Calendar.MONTH) + 1);
-		document.append("YEAR", this.calendar.get(Calendar.YEAR));
-		document.append("HOUR", this.calendar.get(Calendar.HOUR));
-		document.append("MINUTE", this.calendar.get(Calendar.MINUTE));
+		date.append("DAY",this.calendar.get(Calendar.DAY_OF_MONTH));
+		date.append("MONTH",this.calendar.get(Calendar.MONTH) + 1);
+		date.append("YEAR", this.calendar.get(Calendar.YEAR));
+		
+		Document time = new Document();
+		time.append("HOUR", this.calendar.get(Calendar.HOUR));
+		time.append("MINUTE", this.calendar.get(Calendar.MINUTE));
 			
-		document.append("SECOND",  FormatDecimal.getInstance().setFloat(
+		time.append("SECOND",  FormatDecimal.getInstance().setFloat(
 				this.calendar.get(Calendar.SECOND), this.calendar.get(Calendar.MILLISECOND)
 				));
 			
-		return document;
+		return new Document().append("DATE", date).append("TIME", time);
 	}
 
 }

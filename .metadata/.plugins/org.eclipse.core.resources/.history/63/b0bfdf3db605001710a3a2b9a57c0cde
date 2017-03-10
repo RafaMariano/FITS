@@ -1,0 +1,12 @@
+package br.inpe.repository;
+
+import org.springframework.data.mongodb.repository.MongoRepository;
+import org.springframework.stereotype.Repository;
+
+import br.inpe.filesystem.ImagesCollection;
+
+@Repository
+public interface ImageRepository extends Repository<ImagesCollection, Long>{
+	
+	public ImagesCollection insert(ImagesCollection entity);
+}

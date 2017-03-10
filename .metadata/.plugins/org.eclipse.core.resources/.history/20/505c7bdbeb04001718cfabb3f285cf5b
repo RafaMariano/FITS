@@ -1,0 +1,7 @@
+package br.inpe.database;
+
+import br.inpe.repository.ImageRepository;
+
+public class ImageDAO implements ImageRepository{
+
+}

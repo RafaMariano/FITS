@@ -1,0 +1,13 @@
+package br.inpe.repository;
+
+import java.util.List;
+
+import org.springframework.data.mongodb.repository.MongoRepository;
+import org.springframework.data.repository.Repository;
+
+import br.inpe.filesystem.ImagesCollection;
+
+public interface ImageRepository extends MongoRepository<ImagesCollection, Long>{
+	
+	public List<ImagesCollection> findAll();
+}

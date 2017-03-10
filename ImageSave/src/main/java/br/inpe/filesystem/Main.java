@@ -2,48 +2,40 @@ package br.inpe.filesystem;
 
 import java.io.IOException;
 import java.text.ParseException;
-import java.time.DateTimeException;
-import java.time.LocalDate;
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
 
-import org.bson.Document;
 import org.springframework.context.ApplicationContext;
-import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import org.springframework.data.mongodb.core.MongoOperations;
-
-import com.mongodb.BasicDBObject;
-
-import br.inpe.database.Query;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+import nom.tam.fits.FitsException;
 
 public class Main {
 	
-	private static final String pathPrincipal = "/home/inpe/Images/";
-	private static final String pathDB = "/home/inpe/Database/";
-	
-	public static void main(String[] args) throws IOException, ParseException {
+	public static void main(String[] args) throws IOException, ParseException, FitsException {
 		
-//		try{
-//			Controller controller = new Controller(pathPrincipal, pathDB);
-//			ArrayList<String> imagesList = controller.getImages();
-//			controller.sendToBD(imagesList);
-//		}
-//		catch(IOException io){
-//			//log
-//		}
+		try{
+			ApplicationContext ctx = new ClassPathXmlApplicationContext("applicationContext.xml");
+			Controller controller = (Controller) ctx.getBean("controller");
+			
+			ArrayList<String> imagesList = controller.getImages();
+			controller.sendToBD(imagesList);
+		}
+		catch(IOException io){
+			
+		}
+		//FileSystem.getInstance().createDir("/home/inpe/", pathDB, pathPrincipal)		//		
 		
-		ApplicationContext ctx =
-	             new AnnotationConfigApplicationContext(SpringMongoConfig1.class);
-		MongoOperations mongoOperation = (MongoOperations) ctx.getBean("mongoTemplate");
-		ImagesFits image = new ImagesFits();
-		Document doc = new Document();
-		
-		doc.append("DAY", 1).append("MONTH", 3).append("SECOND", 3);
-		
-		image.setDocument(doc);
-		
-		mongoOperation.save(image);
+//		ApplicationContext ctx =
+//	             new AnnotationConfigApplicationContext(SpringMongoConfig1.class);
+//		MongoOperations mongoOperation = (MongoOperations) ctx.getBean("mongoTemplate");
+//		ImagesFits image = new ImagesFits("a");
+//		Document doc = new Document();
+//		
+//		doc.append("DAY", 1).append("MONTH", 3).append("SECOND", 3);
+//		
+//		image.setDocument(doc);
+//		
+//		mongoOperation.save(image);
+
 
 	}
 

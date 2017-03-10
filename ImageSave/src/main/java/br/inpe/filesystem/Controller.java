@@ -1,30 +1,30 @@
 package br.inpe.filesystem;
 
 import java.io.IOException;
-import java.nio.file.DirectoryNotEmptyException;
 import java.text.ParseException;
 import java.util.ArrayList;
 
-import br.inpe.database.Query;
+import org.springframework.beans.factory.annotation.Autowired;
+import br.inpe.repository.ImageRepository;
 import nom.tam.fits.FitsException;
 
 public class Controller {
 	private final String pathDB;
 	private final String pathPrincipal;
-	private Query query;
-
-
+	
+	@Autowired
+	private ImageRepository imageRepository;
+	
 	public Controller(String pathPrincipal, String pathDB){
 		this.pathPrincipal = pathPrincipal;
 		this.pathDB = pathDB;
-		this.query = new Query();
-
+	
 	}
 
 	public ArrayList<String> getImages() throws IOException{
 		return Find.getInstance().searchImage(this.pathPrincipal);	
 	}
-
+	
 	public void sendToBD(ArrayList<String> pathImages) throws ParseException {
 		
 		for (String pathImage: pathImages){
@@ -35,13 +35,14 @@ public class Controller {
 				String pathDestination = FileSystem.getInstance().createDir(pathImage, pathDB, pathPrincipal);
 				FileSystem.getInstance().moveFile(pathImage, pathDestination);
 				image.setKeyValue("FILESYSTEM", pathDestination);
-				FileSystem.getInstance().deletePath(pathImage, pathDestination);
 				
+				FileSystem.getInstance().deletePath(pathImage.substring(0, pathImage.lastIndexOf("/"))
+						, this.pathPrincipal);
 				
-//				ApplicationContext ctx = new AnnotationConfigApplicationContext(SpringMongoConfig.class);
-//				MongoOperations mongoOperation = (MongoOperations)ctx.getBean("mongoTemplate");
-
-				this.query.insertDocument(image.getDocument());
+				ImagesCollection ima = new ImagesCollection();
+				ima.setDocument(image.getDocument());
+				
+				this.imageRepository.insert(ima);
 				
 			}
 			catch (Error e) {

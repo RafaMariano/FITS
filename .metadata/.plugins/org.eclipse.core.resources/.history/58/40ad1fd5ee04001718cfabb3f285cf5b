@@ -1,0 +1,6 @@
+package br.inpe.filesystem;
+
+@Document(collection="inpe")
+public class ImageCollection {
+
+}

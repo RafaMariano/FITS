@@ -22,14 +22,15 @@ public class FileSystem {
 	}
 
 	public String createDir(String pathImage, String pathDB, String pathPrincipal) throws IOException {
-
-		StringBuilder newPathImage = new StringBuilder(pathImage);
-
+		
+		//newPath.append(path.substring(length, path.lastIndexOf("/")));
 		if (pathImage.substring(0, pathPrincipal.length()).equals(pathPrincipal)){
+			StringBuilder newPathImage = new StringBuilder(pathImage);
 			newPathImage.replace(0, pathPrincipal.length(), pathDB);
-			String destination = newPathImage.toString();
-			Files.createDirectories(Paths.get(destination));
-			return destination;
+			
+			//arrumar bug
+			Files.createDirectories(Paths.get(newPathImage.substring(0,newPathImage.lastIndexOf("/"))));
+			return newPathImage.toString();
 		}
 		else{
 			return null;
@@ -40,12 +41,13 @@ public class FileSystem {
 		//fazer um teste forcando um erro. O erro que dispara no IOExcpetion é o mesmo do DirectoryNotEmpty?
 		//É a mesma mensagem?
 			Files.move(Paths.get(pathImage), Paths.get(pathDestination));
+		
 	}
 
 	public String deletePath(String source, final String pathPrincipal) throws IOException {
-
+			
 		if (source.equals(pathPrincipal) == false) {
-
+			
 			File file = new File(source);
 			if (file.list().length <= 0) {
 				if (file.delete()) {
