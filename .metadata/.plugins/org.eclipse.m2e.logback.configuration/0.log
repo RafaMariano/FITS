@@ -2749,3 +2749,31 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: Duplicated 
 2017-03-10 14:25:29,982 [Worker-590] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
 2017-03-10 14:25:29,983 [Worker-590] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2017-03-10 14:25:29,983 [Worker-590] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-03-10 14:27:13,232 [Worker-588] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-10 14:27:13,232 [Worker-588] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-03-10 14:27:13,232 [Worker-588] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-10 14:27:13,232 [Worker-588] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-03-10 14:27:27,154 [Worker-588] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-10 14:27:27,154 [Worker-588] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-03-10 14:27:27,154 [Worker-588] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-10 14:27:27,155 [Worker-588] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-03-10 14:27:35,654 [Worker-590] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-10 14:27:35,655 [Worker-590] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-03-10 14:27:35,655 [Worker-590] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-10 14:27:35,655 [Worker-590] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-03-10 14:27:41,645 [Worker-585] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-10 14:27:41,645 [Worker-585] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-03-10 14:27:41,646 [Worker-585] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-10 14:27:41,646 [Worker-585] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-03-10 14:27:53,130 [Worker-575] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-10 14:27:53,131 [Worker-575] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-03-10 14:27:53,131 [Worker-575] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-10 14:27:53,131 [Worker-575] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-03-10 14:28:04,018 [Worker-592] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-10 14:28:04,018 [Worker-592] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-03-10 14:28:04,019 [Worker-592] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-10 14:28:04,019 [Worker-592] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-03-10 14:28:09,837 [Worker-575] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-10 14:28:09,837 [Worker-575] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-03-10 14:28:09,838 [Worker-575] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-03-10 14:28:09,838 [Worker-575] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources

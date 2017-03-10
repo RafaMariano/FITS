@@ -6,8 +6,6 @@ import java.util.ArrayList;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
-import br.inpe.model.FileSystem;
-import br.inpe.model.Find;
 import br.inpe.model.Image;
 import br.inpe.model.ImagesCollection;
 import br.inpe.repository.ImageRepository;
