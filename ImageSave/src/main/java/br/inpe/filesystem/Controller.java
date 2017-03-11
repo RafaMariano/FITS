@@ -17,9 +17,6 @@ public class Controller {
 	private final String pathDB;
 	private final String pathPrincipal;
 	
-	@Autowired
-	private ImageRepository imageRepository;
-	
 	public Controller(String pathPrincipal, String pathDB){
 		this.pathPrincipal = pathPrincipal;
 		this.pathDB = pathDB;
@@ -30,39 +27,30 @@ public class Controller {
 		return Find.getInstance().searchImage(this.pathPrincipal);	
 	}
 	
-	public void sendToBD(ArrayList<String> pathImages) throws ParseException {
+	//tirar?
+	public ImagesCollection getImageCollection(Image image){			
 		
-		for (String pathImage: pathImages){
-			try{
-				
-				Image image = new Image(pathImage);
-				
-				String pathDestination = FileSystem.getInstance().createDir(pathImage, pathDB, pathPrincipal);
-				FileSystem.getInstance().moveFile(pathImage, pathDestination);
-				image.setKeyValue("FILESYSTEM", pathDestination);
-				
-				FileSystem.getInstance().deletePath(pathImage.substring(0, pathImage.lastIndexOf("/"))
-						, this.pathPrincipal);
-				
-				ImagesCollection ima = new ImagesCollection();
-				ima.setDocument(image.getDocument());
-				
-				this.imageRepository.insert(ima);
-				
-			}
-			catch (Error e) {
-				e.printStackTrace();
+		ImagesCollection ima = new ImagesCollection();
+		ima.setDocument(image.getDocument());
 
-			} catch (FitsException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			} catch (IOException e) {
-				// TODO Auto-generated catch block
-				//erro de puxar informacoes do fits
-				e.printStackTrace();
-			}
+		return ima;
+	}
+	
+	public String getNewPath(String pathImage){
+		
+		//setLogFile(pathImage);
+		String pathDestination =
+			FileSystem.getInstance().createDir(pathImage, pathDB, pathPrincipal);
+		//setLogFile(pathDestination);
+		FileSystem.getInstance().moveFile(pathImage, pathDestination);
+		FileSystem.getInstance().deletePath(pathImage.substring(0, 
+						pathImage.lastIndexOf("/"))
+						, this.pathPrincipal);
+		//deleteFileLog();
+		return pathDestination;
 		}
 
 	}
+	
 
 }
