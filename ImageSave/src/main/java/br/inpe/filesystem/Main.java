@@ -17,7 +17,20 @@ public class Main {
 			Controller controller = (Controller) ctx.getBean("controller");
 			
 			ArrayList<String> imagesList = controller.getImages();
-			controller.sendToBD(imagesList);
+			
+			ImagesServiceImpl imagesService = (ImageServiceImpl) ctx.getBean("imagesService");
+			//falta a anotacao @service na classe ImagesServiceImpl
+			//corrigir nome dos metodos se tiver errado
+
+			for (String pathImage: imagesList){
+				
+				String newPath = controller.getNewPath(pathImage);
+				Image image = new Image(newPath);
+				ImageCollection ima = new ImageCollection();
+				ima.setDocument(image.getDocument());
+				imagesService.save(ima);
+				
+			}	
 		}
 		catch(IOException io){
 			
