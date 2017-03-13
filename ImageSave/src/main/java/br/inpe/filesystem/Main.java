@@ -22,20 +22,6 @@ public class Main {
 		catch(IOException io){
 			
 		}
-		//FileSystem.getInstance().createDir("/home/inpe/", pathDB, pathPrincipal)		//		
-		
-//		ApplicationContext ctx =
-//	             new AnnotationConfigApplicationContext(SpringMongoConfig1.class);
-//		MongoOperations mongoOperation = (MongoOperations) ctx.getBean("mongoTemplate");
-//		ImagesFits image = new ImagesFits("a");
-//		Document doc = new Document();
-//		
-//		doc.append("DAY", 1).append("MONTH", 3).append("SECOND", 3);
-//		
-//		image.setDocument(doc);
-//		
-//		mongoOperation.save(image);
-
 
 	}
 

@@ -1,0 +1,9 @@
+package br.inpe.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import br.inpe.repository.ImageRepository;
+
+public class ImageServiceImpl {
+	@Autowired
+	private ImageRepository imageRepository;
+}

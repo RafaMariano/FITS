@@ -16,7 +16,7 @@ public class Image {
 	private String path;
 	private ConvertTime convertTime;
 	
-	public Image(String fits) throws FitsException, IOException, ParseException{
+	public Image(String fits) throws FitsException, ParseException, IOException{
 		this.fits = new Fits(fits);
 		this.document = new Document();
 		this.path = fits;
@@ -36,7 +36,7 @@ public class Image {
 		this.document.put(key,value);
 	}
 	
-	private void setDocument() throws FitsException, IOException, ParseException{
+	private void setDocument() throws FitsException, ParseException, IOException{
 		Header header = this.fits.getHDU(0).getHeader();
 
 		Cursor<String, HeaderCard> c = header.iterator();

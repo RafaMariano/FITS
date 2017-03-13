@@ -5,7 +5,6 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.text.ParseException;
-import java.util.Calendar;
 import org.bson.Document;
 
 import br.inpe.model.FormatDecimal;
@@ -20,7 +19,7 @@ public class FitsImage {
 	private Fits fits;
 	private Document collection;
 	private StringBuilder sb;
-	private FormatDecimal formatDecimal;
+	//private FormatDecimal formatDecimal;
 
 	public FitsImage(String image, int length, String newPath, FormatDecimal formatDecimal) throws ParseException {		
 
@@ -28,7 +27,7 @@ public class FitsImage {
 	
 			this.sb = new StringBuilder(image);
 			this.fits = new Fits(image);
-			this.formatDecimal = formatDecimal;
+		//	this.formatDecimal = formatDecimal;
 
 			this.collection = setDocument(new Document());
 			//alterar
