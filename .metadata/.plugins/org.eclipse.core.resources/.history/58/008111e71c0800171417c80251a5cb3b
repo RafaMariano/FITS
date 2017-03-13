@@ -1,0 +1,58 @@
+package br.inpe.log;
+
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+public class Log {
+	
+	private String path;
+	
+	public Log(String path){
+		this.path = path;
+	}
+	
+	public void setLog(String pathOriginal, String pathDestination){
+		List<String> lines;
+		try {
+			lines = Files.readAllLines(Paths.get("/home/inpe/a.txt"));
+			Files.write(Paths.get("/home/inpe/a.txt"), lines);
+			for(String a: lines){
+				
+
+				if (a.contains("="))
+					a2.put(a.substring(0, a.indexOf("=")-1), a.substring(a.indexOf("=")+2));
+				else
+					a2.put(a, "");
+			}
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		Map<String,String> a2 = new HashMap<>();
+	
+	//	lines.add("print('foobar');");
+		
+		
+		
+		
+		
+	}
+	
+	public void setLog(FileSystemResult type){
+		
+		switch(type){
+		case MOVE_SUCCESSFUL:
+		case SAVE:
+		case DELETE:
+		}
+		
+	}
+	
+	private void setLog(){}
+	
+}

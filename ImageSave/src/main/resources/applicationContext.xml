@@ -32,5 +32,9 @@
      <constructor-arg name="pathPrincipal" value="/home/inpe/Imagens" />
      <constructor-arg name="pathDB" value="/home/inpe/Database" />
 </bean>
+
+<bean id="log" class="br.inpe.log.Log">
+<constructor-arg name="path" value="/home/inpe/a.txt" />
+</bean>
   
 </beans>

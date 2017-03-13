@@ -2,6 +2,11 @@ package br.inpe.filesystem;
 
 import java.io.IOException;
 import java.util.ArrayList;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import br.inpe.log.FileSystemResult;
+import br.inpe.log.Log;
 import br.inpe.model.FileSystem;
 import br.inpe.model.Find;
 import br.inpe.model.Image;
@@ -11,11 +16,18 @@ public class Controller {
 	private final String pathDB;
 	private final String pathPrincipal;
 	
+	@Autowired
+	private Log log;
+	
 	public Controller(String pathPrincipal, String pathDB){
 		this.pathPrincipal = pathPrincipal;
 		this.pathDB = pathDB;
 	}
-
+	
+	public void setLog(Log log){
+		this.log = log;
+	}
+	
 	public ArrayList<String> getImages() throws IOException{
 		return Find.getInstance().searchImage(this.pathPrincipal);	
 	}	
@@ -31,14 +43,16 @@ public class Controller {
 	
 	public String getNewPath(String pathImage) throws IOException{
 		
-		//setLogFile(pathImage);
+		
 		String pathDestination =
 			FileSystem.getInstance().createDir(pathImage, pathDB, pathPrincipal);
-		//setLogFile(pathDestination);
+		this.log.setLog(pathImage,pathDestination);
 		FileSystem.getInstance().moveFile(pathImage, pathDestination);
+		this.log.setLog(FileSystemResult.MOVE_SUCCESSFUL);
 		FileSystem.getInstance().deletePath(pathImage.substring(0, 
 						pathImage.lastIndexOf("/"))
 						, this.pathPrincipal);
+		this.log.setLog(FileSystemResult.DELETE);
 		//deleteFileLog();
 		return pathDestination;
 		}

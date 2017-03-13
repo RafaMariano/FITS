@@ -1,0 +1,10 @@
+package br.inpe.log;
+
+public class Log {
+	
+	private String path;
+	
+	public Log(String path){
+		this.path = path;
+	}
+}

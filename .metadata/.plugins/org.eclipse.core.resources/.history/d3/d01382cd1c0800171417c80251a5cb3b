@@ -1,0 +1,28 @@
+package br.inpe.log;
+
+public class Log {
+	
+	private String path;
+	
+	public Log(String path){
+		this.path = path;
+	}
+	
+	public void setLog(String pathOriginal, String pathDestination){
+		
+		
+	}
+	
+	public void setLog(FileSystemResult type){
+		
+		switch(type){
+		case MOVE_SUCCESSFUL:
+		case SAVE:
+		case DELETE:
+		}
+		
+	}
+	
+	private void setLog(){}
+	
+}
