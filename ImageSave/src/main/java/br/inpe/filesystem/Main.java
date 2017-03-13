@@ -6,6 +6,10 @@ import java.util.ArrayList;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import br.inpe.model.Image;
+import br.inpe.model.ImagesCollection;
+import br.inpe.service.ImageServiceImpl;
 import nom.tam.fits.FitsException;
 
 public class Main {
@@ -18,17 +22,15 @@ public class Main {
 			
 			ArrayList<String> imagesList = controller.getImages();
 			
-			ImagesServiceImpl imagesService = (ImageServiceImpl) ctx.getBean("imagesService");
-			//falta a anotacao @service na classe ImagesServiceImpl
-			//corrigir nome dos metodos se tiver errado
+			ImageServiceImpl imagesService = (ImageServiceImpl) ctx.getBean("imageService");
 
 			for (String pathImage: imagesList){
 				
 				String newPath = controller.getNewPath(pathImage);
 				Image image = new Image(newPath);
-				ImageCollection ima = new ImageCollection();
+				ImagesCollection ima = new ImagesCollection();
 				ima.setDocument(image.getDocument());
-				imagesService.save(ima);
+				imagesService.saveImage(ima);
 				
 			}	
 		}
