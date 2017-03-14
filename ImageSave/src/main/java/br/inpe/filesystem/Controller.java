@@ -46,14 +46,17 @@ public class Controller {
 		
 		String pathDestination =
 			FileSystem.getInstance().createDir(pathImage, pathDB, pathPrincipal);
-		this.log.setLog(pathImage,pathDestination);
+		this.log.setLogPathOriginalAndDestination(pathImage,pathDestination);
+		this.log.setLogSucessuful(FileSystemResult.CREATE_SUCCESSFUL);
+		
 		FileSystem.getInstance().moveFile(pathImage, pathDestination);
-		this.log.setLog(FileSystemResult.MOVE_SUCCESSFUL);
+		this.log.setLogSucessuful(FileSystemResult.MOVE_SUCCESSFUL);
+		
 		FileSystem.getInstance().deletePath(pathImage.substring(0, 
 						pathImage.lastIndexOf("/"))
 						, this.pathPrincipal);
-		this.log.setLog(FileSystemResult.DELETE);
-		//deleteFileLog();
+		this.log.setLogSucessuful(FileSystemResult.DELETE_SUCCESSFUL);
+		
 		return pathDestination;
 		}
 

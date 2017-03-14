@@ -1,0 +1,81 @@
+package br.inpe.log;
+
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.LinkOption;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.nio.file.attribute.FileAttribute;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+public class Log {
+	
+	private Path path;
+	
+	public Log(String path) throws IOException{
+		
+		this.path = Paths.get(path);
+		if(Files.notExists(this.path, LinkOption.NOFOLLOW_LINKS));
+			Files.createFile(this.path);
+	}
+	
+	public void verificacao() throws IOException{
+		List<String> lines;
+		lines = Files.readAllLines(path);	
+		int size = lines.size()-1;
+		if ()
+		switch(FileSystemResult.valueOf(lines.get()){
+		case CREATE_SUCCESSFUL:
+			break;
+		case MOVE_SUCCESSFUL:
+			break;
+		case DELETE_SUCCESSFUL:
+			break;
+		default:
+			//DELETA E CRIA DENOVO O ARQUIVO, PQ DE ALGUMA FORMA A O DIRETORIO FOI CRIADO, MAS NAO SETADO
+			break;
+		
+		}
+			
+	}
+	
+	public void setLog(String pathOriginal, String pathDestination){
+	
+		try {
+			
+			List<String> lines = Files.readAllLines(path);
+			lines.add(pathOriginal);
+			lines.add(pathDestination);
+			Files.write(path, lines);
+				
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+	}
+	
+	public void deleteLog() throws IOException{
+		Files.delete(path);
+	}
+	
+	public void setLog(FileSystemResult type){
+		
+		List<String> lines;
+		
+		try {
+			
+			lines = Files.readAllLines(path);
+			lines.add(type.toString());
+			Files.write(path, lines);
+				
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+	}
+	
+}
