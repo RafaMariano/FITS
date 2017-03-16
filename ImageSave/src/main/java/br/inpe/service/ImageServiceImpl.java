@@ -1,5 +1,7 @@
 package br.inpe.service;
 
+import java.io.IOException;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -28,7 +30,12 @@ public class ImageServiceImpl implements ImageService{
 	public void saveImage(ImagesCollection image) {
 		
 		this.imageRepository.insert(image);
-		this.log.deleteLog(); //nao deleto, simplesmente zero o arquivo
-		
+		try {
+			//nao deleto, simplesmente zero o arquivo
+			this.log.deleteLog();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}	
 	}
 }

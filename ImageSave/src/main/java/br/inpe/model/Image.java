@@ -1,7 +1,11 @@
 package br.inpe.model;
 
 import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.text.ParseException;
+import java.util.stream.LongStream;
+
 import org.bson.Document;
 
 import nom.tam.fits.Fits;
@@ -64,7 +68,7 @@ public class Image {
 			}
 
 		}	
-		
+
 		Document doc = null;
 		if (document.containsKey("DATE-OBS"))
 			 doc = this.convertTime.setTimeAndDay(document.get("DATE-OBS").toString());
@@ -72,7 +76,8 @@ public class Image {
 			doc = this.convertTime.setTimeAndDay(document.get("DATE").toString());
 		
 		this.document.put("TIMEANDDAY",doc);
-		this.document.put("_id", this.path.substring(this.path.lastIndexOf("/")+1));
+		this.document.put("_id", this.path.substring(this.path.lastIndexOf("/")+1));	
+		
 	}
 	
 	
