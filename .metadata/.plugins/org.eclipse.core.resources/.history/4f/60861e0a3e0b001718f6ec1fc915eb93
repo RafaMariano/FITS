@@ -13,16 +13,15 @@
      
       <context:component-scan base-package="br.inpe" />
      <mongo:repositories base-package="br.inpe.repository" />
-  <mongo:db-factory host="localhost" port="27017" dbname="novo" />
- 	<mongo:mapping-converter id="converter" db-factory-ref="mongoDbFactory" />
-	
-	
+ 
 	<bean id="mongo" class="org.springframework.data.mongodb.core.MongoFactoryBean">
    		 <property name="host" value="localhost" />
 	</bean>
 	
-	<bean id="fileStorageDao" class="br.inpe.service.FileStorageDaoImpl"></bean>
-
+	 <mongo:db-factory host="localhost" port="27017" dbname="novo" />
+ <mongo:mapping-converter id="converter" db-factory-ref="mongoDbFactory" />
+ 
+ <!-- Define MongoDB GridFS Template -->
  <bean id="gridTemplate" class="org.springframework.data.mongodb.gridfs.GridFsTemplate">
   <constructor-arg ref="mongoDbFactory" />
   <constructor-arg ref="converter" />

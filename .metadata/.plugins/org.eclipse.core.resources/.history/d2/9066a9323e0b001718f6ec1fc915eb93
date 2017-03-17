@@ -1,0 +1,14 @@
+package br.inpe.service;
+
+public interface FileStorageDAO {
+	 public String store(InputStream inputStream, String fileName,
+			   String contentType, DBObject metaData);
+			 
+			 public GridFSDBFile retrive(String fileName);
+
+			 public GridFSDBFile getById(String id);
+
+			 public GridFSDBFile getByFilename(String filename);
+
+			 public List findAll();
+}
