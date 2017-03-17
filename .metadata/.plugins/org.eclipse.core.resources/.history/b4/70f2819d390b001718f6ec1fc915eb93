@@ -1,0 +1,62 @@
+package br.inpe.filesystem;
+
+import java.io.IOException;
+import java.text.ParseException;
+import java.util.ArrayList;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.core.io.Resource;
+
+import br.inpe.log.Verify;
+import br.inpe.model.Image;
+import br.inpe.model.ImagesCollection;
+import br.inpe.service.ImageServiceImpl;
+import nom.tam.fits.FitsException;
+
+public class Main2 {
+
+	public static void main(String[] args) throws IOException, ParseException, FitsException {
+//	
+					
+			ApplicationContext ctx = new ClassPathXmlApplicationContext("applicationContext.xml");
+			ImageServiceImpl imagesService = (ImageServiceImpl) ctx.getBean("imageService");
+			
+			Verify verify = (Verify) ctx.getBean("verify");
+			ImagesCollection imageColl = verify.verify();
+			
+			if (imageColl != null){
+				imagesService.saveImage(imageColl);
+			}
+			
+			Controller controller = (Controller) ctx.getBean("controller");
+			
+			ArrayList<String> imagesPathList = controller.getImages();
+
+			for (String pathImage: imagesPathList){
+			
+				try{
+					
+					Image image = new Image(pathImage);
+					String newPath = controller.getNewPath(pathImage);
+					image.setKeyValue("FILESYSTEM", newPath);
+					ImagesCollection ima = new ImagesCollection();
+					ima.setDocument(image.getDocument());
+					
+					Resource resource = ctx.getResource(newPath);
+					
+					imagesService.store(ima);
+				}
+				catch(FitsException  | ParseException | IOException fi){
+					
+					verify.moveToCorrupted(pathImage, controller.getPathPrincipal());				
+				}
+				
+			}	
+		}
+	
+	
+	
+	
+
+}

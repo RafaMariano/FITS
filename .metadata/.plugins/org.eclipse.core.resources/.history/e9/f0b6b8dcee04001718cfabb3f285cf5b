@@ -1,8 +1,0 @@
-package br.inpe.filesystem;
-
-import org.springframework.data.mongodb.core.mapping.Document;
-
-@Document(collection="inpe")
-public class ImageCollection {
-
-}

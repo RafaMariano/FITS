@@ -13,16 +13,9 @@ import br.inpe.log.FileSystemResult;
 import br.inpe.log.Log;
 
 public class FileSystem {
-
 	private static FileSystem fileSystem;
-	@Autowired
-	private Log log;
-	
+
 	private FileSystem(){}
-	
-	public void setLog(Log log){
-		this.log = log;
-	}
 
 	public static synchronized FileSystem getInstance() throws IOException {
 		
@@ -41,8 +34,6 @@ public class FileSystem {
 			//arrumar bug
 			Files.createDirectories(Paths.get(newPathImage.substring(0,newPathImage.lastIndexOf("/"))));
 			
-			this.log.setLogPathOriginalAndDestination(imagePath,newPathImage.toString());
-			this.log.setLogSucessful(FileSystemResult.CREATE_SUCCESSFUL);
 			return newPathImage.toString();
 		}
 		else{
@@ -53,8 +44,8 @@ public class FileSystem {
 	public void moveFile(String pathImage, String pathDestination) throws IOException, DirectoryNotEmptyException{
 		//fazer um teste forcando um erro. O erro que dispara no IOExcpetion é o mesmo do DirectoryNotEmpty?
 		//É a mesma mensagem?
+
 			Files.move(Paths.get(pathImage), Paths.get(pathDestination));
-			this.log.setLogSucessful(FileSystemResult.MOVE_SUCCESSFUL);
 		
 	}
 
@@ -70,12 +61,11 @@ public class FileSystem {
 				}
 			}
 		}
-		this.log.setLogSucessful(FileSystemResult.DELETE_SUCCESSFUL);
 		return source;
 	}
-	
-	public List<String> getLog() throws IOException{
-		return this.log.getLog();
-	}
+//	
+//	public List<String> getLog() throws IOException{
+//		return this.log.getLog();
+//	}
 
 }

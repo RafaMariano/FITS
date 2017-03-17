@@ -1,5 +1,0 @@
-package br.inpe.database;
-
-public class SpringMongoConfig {
-
-}

@@ -17,6 +17,7 @@
 	<bean id="mongo" class="org.springframework.data.mongodb.core.MongoFactoryBean">
    		 <property name="host" value="localhost" />
 	</bean>
+	
 
 	<bean id="filesystem"
 		class="br.inpe.model.FileSystem" factory-method="getInstance" 

@@ -2,6 +2,11 @@ package br.inpe.filesystem;
 
 import java.io.IOException;
 import java.util.ArrayList;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import br.inpe.log.FileSystemResult;
+import br.inpe.log.Log;
 import br.inpe.model.FileSystem;
 import br.inpe.model.Find;
 import br.inpe.model.Image;
@@ -10,10 +15,24 @@ import br.inpe.model.ImagesCollection;
 public class Controller {
 	private final String pathPrincipal;
 	private final String pathDB;
+	@Autowired
+	private Log log;
 	
 	public Controller(String pathPrincipal, String pathDB){
 		this.pathPrincipal = pathPrincipal;
 		this.pathDB = pathDB;
+	}
+	
+	public void setLog(Log log){
+		this.log = log;
+	}
+	
+	public String getPathPrincipal(){
+		return this.pathPrincipal;
+	}
+	
+	public String getPathDB(){
+		return this.pathDB;
 	}
 	
 	public ArrayList<String> getImages() throws IOException{
@@ -33,13 +52,21 @@ public class Controller {
 		
 		String pathDestination =
 			FileSystem.getInstance().createDir(pathImage, pathDB, pathPrincipal);
+		this.log.setLogPathOriginalAndDestination(pathImage,pathDestination);
+		this.log.setLogSucessful(FileSystemResult.CREATE_SUCCESSFUL);
 		
 		FileSystem.getInstance().moveFile(pathImage, pathDestination);
-			
+		this.log.setLogSucessful(FileSystemResult.MOVE_SUCCESSFUL);
+		
 		FileSystem.getInstance().deletePath(pathImage.substring(0, 
 						pathImage.lastIndexOf("/"))
 						, this.pathPrincipal);
 		
+		this.log.setLogSucessful(FileSystemResult.DELETE_SUCCESSFUL);
 		return pathDestination;
 		}
+	
+	public void moveToCorrupted(String path){
+	
+	}
 	}

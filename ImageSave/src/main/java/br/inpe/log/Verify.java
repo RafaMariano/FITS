@@ -11,6 +11,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.bson.Document;
+import org.springframework.beans.factory.annotation.Autowired;
 
 import br.inpe.model.FileSystem;
 import br.inpe.model.Image;
@@ -20,18 +21,35 @@ import nom.tam.fits.FitsException;
 
 public class Verify {
 	private Path pathCorrupted;
-	private Path log;
+	private Path pathLog;
+	@Autowired
+	private Log log;
 
 	public Verify(String pathCorrupted, String log) throws IOException {
 		this.pathCorrupted = Paths.get(pathCorrupted);
-		this.log = Paths.get(log);
-		if (Files.notExists(this.log, LinkOption.NOFOLLOW_LINKS))
-			Files.createFile(this.log);
+		this.pathLog = Paths.get(log);
+		if (Files.notExists(this.pathLog, LinkOption.NOFOLLOW_LINKS))
+			Files.createFile(this.pathLog);
 	}
 
+	public void setLog(Log log){
+		this.log = log;
+	}
+	
+	public void moveToCorrupted(String pathImage, String pathPrincipal){
+		
+		try {
+			moveToCorruptedDirectory(pathImage, pathPrincipal);
+		} catch (IOException e) {
+			//setar em um log
+			e.printStackTrace();
+		}
+		
+	}
+	
 	public ImagesCollection verify() throws IOException {
 
-		List<String> lines = FileSystem.getInstance().getLog();
+		List<String> lines = this.log.getLog();
 		int size = lines.size() - 1;
 
 		if (size > -1) {
@@ -48,7 +66,7 @@ public class Verify {
 					return getVerifyMove(lines.get(0), lines.get(1));
 					
 				case DELETE_SUCCESSFUL:
-					getVerifyDelete(lines.get(1));
+						getVerifyDelete(lines.get(0), lines.get(1));
 				}
 			} else {
 				// deleteLog();
@@ -81,37 +99,48 @@ public class Verify {
 			return destinationPath;
 
 		} else {
-			moveToCorruptedDirectory(imagePath);
+			moveToCorruptedDirectory(imagePath, destinationPath);
 			return null;
 		}
-	}
-
-	private void moveToCorruptedDirectory(String imagePath) throws DirectoryNotEmptyException, IOException {
-		StringBuilder st = new StringBuilder(this.pathCorrupted.toString());
-		st.append(imagePath.substring(imagePath.lastIndexOf("/") - 1));
-		FileSystem.getInstance().moveFile(imagePath, st.toString());
 	}
 	
-	private ImagesCollection getVerifyDelete(String path) throws DirectoryNotEmptyException, IOException{
+	private void moveToCorruptedDirectory(String imagePath, String pathPrincipal) throws DirectoryNotEmptyException, IOException {
+		StringBuilder st = new StringBuilder(this.pathCorrupted.toString());
+		st.append(imagePath.substring(imagePath.lastIndexOf("/")));
+		FileSystem.getInstance().moveFile(imagePath, st.toString());
+		FileSystem.getInstance().deletePath(imagePath.substring(0, imagePath.lastIndexOf("/")), pathPrincipal);
+	
+	}
+	
+	private ImagesCollection getVerifyDelete(String path, String destinationPath) throws DirectoryNotEmptyException, IOException{
 		try {
-			return createImageCollection(path);
-		} catch (FitsException | ParseException | IOException e) {
-			moveToCorruptedDirectory(path);
+			return createImageCollection(destinationPath);
+		} catch (FitsException | ParseException | IOException e) {	
+			isError(path,destinationPath);
 			return null;
 		}
+	}
+	
+	private void isError(String path, String destinationPath) throws DirectoryNotEmptyException, IOException{
+		ArrayList<String> array = getDestinationPath(new StringBuilder(path),
+				new StringBuilder(destinationPath));
+		
+		moveToCorruptedDirectory(path, array.get(0));
+		this.log.deleteLog();
 	}
 	
 	private ImagesCollection getVerifyMove(String imagePath, String destinationPath) throws DirectoryNotEmptyException, IOException{
-		ArrayList<String> paths = getDestinationPath(new StringBuilder(destinationPath),
-				new StringBuilder(imagePath));
+		
 		try {
+			ArrayList<String> paths = getDestinationPath(new StringBuilder(destinationPath),
+					new StringBuilder(imagePath));
 			FileSystem.getInstance().deletePath(imagePath.substring(0, imagePath.lastIndexOf("/")),
 					paths.get(0));
 			
 			return createImageCollection(destinationPath);
 			
 		} catch (IOException | FitsException | ParseException e) {
-			moveToCorruptedDirectory(destinationPath);
+			isError(destinationPath, imagePath);
 			return null;
 		}
 	}
@@ -138,7 +167,7 @@ public class Verify {
 				return createImageCollection(path);
 
 			} catch (IOException | FitsException | ParseException eo) {
-				moveToCorruptedDirectory(imagePath);
+				isError(imagePath, destinationPath);
 				return null;
 			}
 		} else if (Files.exists(Paths.get(destinationPath), LinkOption.NOFOLLOW_LINKS)) {
@@ -153,11 +182,11 @@ public class Verify {
 					return createImageCollection(destinationPath);
 					
 				} else {
-					moveToCorruptedDirectory(destinationPath);
+					isError(destinationPath, imagePath);
 					return null;
 				}
 			} catch (IOException | FitsException | ParseException eo) {
-				moveToCorruptedDirectory(destinationPath);
+				isError(destinationPath, imagePath);
 				return null;
 			}
 
@@ -165,11 +194,11 @@ public class Verify {
 		return null;
 	}
 
-	public ArrayList<String> getDestinationPath(StringBuilder destinatioPath, StringBuilder principalPath) {
+	public ArrayList<String> getDestinationPath(StringBuilder principalPath, StringBuilder destinatioPath) {
 
-		int lastIndexOfDestination = destinatioPath.lastIndexOf("/");
 		int lastIndexOfPrincipal = principalPath.lastIndexOf("/");
-
+		int lastIndexOfDestination = destinatioPath.lastIndexOf("/");
+	
 		if (destinatioPath.substring(lastIndexOfDestination)
 				.equals(principalPath.substring(lastIndexOfPrincipal)) == false) {
 

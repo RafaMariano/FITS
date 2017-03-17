@@ -3,7 +3,6 @@
 <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
 <fullyQualifiedTypeName name="org.springframework.context.annotation.AnnotationConfigApplicationContext"/>
 <fullyQualifiedTypeName name="org.springframework.data.mongodb.core.MongoOperations"/>
-<fullyQualifiedTypeName name="org.bson.Document"/>
 <fullyQualifiedTypeName name="br.inpe.filesystem.SpringMongoConfig1"/>
 <fullyQualifiedTypeName name="java.nio.file.DirectoryNotEmptyException"/>
 <fullyQualifiedTypeName name="br.inpe.trash.FormatDecimal"/>
@@ -18,4 +17,26 @@
 <fullyQualifiedTypeName name="java.io.Serializable"/>
 <fullyQualifiedTypeName name="org.springframework.data.mongodb.core.mapping.Document"/>
 <fullyQualifiedTypeName name="org.springframework.data.annotation.Id"/>
+<fullyQualifiedTypeName name="java.nio.file.attribute.FileAttribute"/>
+<fullyQualifiedTypeName name="java.lang.Iterable"/>
+<fullyQualifiedTypeName name="br.inpe.log.FileSystemResult"/>
+<fullyQualifiedTypeName name="java.nio.file.Paths"/>
+<fullyQualifiedTypeName name="java.util.stream.LongStream"/>
+<fullyQualifiedTypeName name="java.nio.file.Files"/>
+<fullyQualifiedTypeName name="br.inpe.filesystem.Controller"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="nom.tam.fits.Fits"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="nom.tam.fits.FitsException"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="br.inpe.model.FileSystem"/>
+<fullyQualifiedTypeName name="br.inpe.log.Verify"/>
+<fullyQualifiedTypeName name="java.nio.file.Path"/>
+<fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+<fullyQualifiedTypeName name="br.inpe.model.Image"/>
+<fullyQualifiedTypeName name="org.bson.Document"/>
+<fullyQualifiedTypeName name="java.io.IOException"/>
+<fullyQualifiedTypeName name="br.inpe.model.ImagesCollection"/>
 </qualifiedTypeNameHistroy>
