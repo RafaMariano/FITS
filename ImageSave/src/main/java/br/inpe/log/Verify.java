@@ -22,6 +22,7 @@ import nom.tam.fits.FitsException;
 public class Verify {
 	private Path pathCorrupted;
 	private Path pathLog;
+	
 	@Autowired
 	private Log log;
 
@@ -41,7 +42,7 @@ public class Verify {
 		try {
 			moveToCorruptedDirectory(pathImage, pathPrincipal);
 		} catch (IOException e) {
-			//setar em um log
+			
 			e.printStackTrace();
 		}
 		
@@ -69,7 +70,7 @@ public class Verify {
 						getVerifyDelete(lines.get(0), lines.get(1));
 				}
 			} else {
-				// deleteLog();
+				//this.log.deleteLog();
 			}
 		}
 		return null;

@@ -1,5 +1,0 @@
-package br.inpe.service;
-
-public class ImageService {
-	public void saveImage(ImageCollection image);
-}

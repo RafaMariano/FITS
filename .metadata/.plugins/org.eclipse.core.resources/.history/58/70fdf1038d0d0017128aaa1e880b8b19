@@ -1,0 +1,46 @@
+package br.inpe.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+
+@RequestMapping(value = "/usuario")
+
+public class ImageController {
+
+	@Autowired
+	private UsuarioService usuarioService;
+
+	public void setUsuarioService(UsuarioService usuarioService) {
+		this.usuarioService = usuarioService;
+
+	}
+
+	@RequestMapping(value = "/get/{nome}")
+	@JsonView(View.All.class)
+
+	public ResponseEntity<Collection<Usuario>> pesquisar(@PathVariable("nome") String nome) {
+
+		return new ResponseEntity<Collection<Usuario>>(usuarioService.buscar(nome), HttpStatus.OK);
+
+	}
+
+	@RequestMapping(value = "/getById")
+
+	@JsonView(View.All.class)
+
+	public ResponseEntity<Usuario> get(@RequestParam(value="id", defaultValue="1") Long id) {
+
+		Usuario usuario = usuarioService.buscar(id);
+
+		if(usuario == null) {
+
+			return new ResponseEntity<Usuario>(HttpStatus.NOT_FOUND);
+
+		}
+
+		return new ResponseEntity<Usuario>(usuario, HttpStatus.OK);
+
+	}

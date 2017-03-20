@@ -38,13 +38,13 @@
      	<constructor-arg name="databaseName" value="novo" />
 	</bean>
 
-	<bean id="controller" class="br.inpe.filesystem.Controller">
+	<bean id="controller" class="br.inpe.filesystem.FileSystemController">
     	 <constructor-arg name="pathPrincipal" value="/home/inpe/Imagens" />
      	<constructor-arg name="pathDB" value="/home/inpe/Database" />
 	</bean>
 
 	<bean id="log" class="br.inpe.log.Log">
-		<constructor-arg name="path" value="/home/inpe/a.txt" />
+		<constructor-arg name="path" value="/home/inpe/log.txt" />
 	</bean>
 	
 	<bean id="verify" class="br.inpe.log.Verify">

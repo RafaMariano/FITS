@@ -1,3 +1,3 @@
 browsers=<?xml version\="1.0" encoding\="UTF-8"?>\n<web-browsers current\="0">\n<system/>\n<external location\="/usr/bin/firefox" name\="Firefox"/>\n<external location\="/usr/bin/google-chrome" name\="Chrome"/>\n</web-browsers>
 eclipse.preferences.version=1
-internalWebBrowserHistory=http\://www.springframework.org/schema/tx/spring-tx.xsd|*|
+internalWebBrowserHistory=http\://localhost\:8080/API/usuario/getAll|*|http\://localhost\:8080/API/usuario/get/a|*|http\://localhost\:8080/API/usuario/|*|http\://localhost\:8080/API/|*|http\://localhost\:8080/API/usuario/getById|*|http\://localhost\:8080/|*|http\://localhost\:8080/springRest/usuario|*|http\://localhost\:8080/springRest/usuario/getById?id\=16|*|http\://localhost\:8080/springRest/|*|http\://localhost\:8080/springRestSecurity/|*|http\://www.springframework.org/schema/tx/spring-tx.xsd|*|

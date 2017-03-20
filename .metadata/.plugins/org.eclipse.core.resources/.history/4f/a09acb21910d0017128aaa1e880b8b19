@@ -1,0 +1,46 @@
+package br.inpe.controller;
+
+import java.util.Collection;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
+import br.inpe.view.View;
+import com.fasterxml.jackson.annotation.JsonView;
+
+import br.inpe.model.ImagesCollection;
+import br.inpe.service.ImageService;
+
+@RestController
+@RequestMapping(value = "/usuario")
+public class ImageController {
+
+	@Autowired
+	private ImageService imageService;
+
+	public void setUsuarioService(ImageService imageService) {
+		this.imageService = imageService;
+	}
+
+	@RequestMapping(value = "/get/{nome}")
+	@JsonView(View.All.class)
+
+	public ResponseEntity<Collection<ImagesCollection>> pesquisar(@PathVariable("nome") String nome) {
+		return new ResponseEntity<Collection<ImagesCollection>>(imageService.buscar(nome), HttpStatus.OK);
+	}
+
+	@RequestMapping(value = "/getById")
+	@JsonView(View.All.class)
+	public ResponseEntity<ImagesCollection> get(@RequestParam(value="id", defaultValue="1") Long id) {
+
+		ImagesCollection usuario = imageService.buscar(id);
+		if(usuario == null) {
+			return new ResponseEntity<ImagesCollection>(HttpStatus.NOT_FOUND);
+		}
+		return new ResponseEntity<ImagesCollection>(usuario, HttpStatus.OK);
+
+	}
