@@ -35,7 +35,6 @@ public class Find {
 
 		@Override
 		public FileVisitResult visitFile(Path file, BasicFileAttributes attrs) {
-
 			this.files.add(file.toFile().getAbsolutePath());
 			return CONTINUE;
 		}

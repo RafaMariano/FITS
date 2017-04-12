@@ -5,12 +5,6 @@ import java.io.IOException;
 import java.nio.file.DirectoryNotEmptyException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.util.List;
-
-import org.springframework.beans.factory.annotation.Autowired;
-
-import br.inpe.log.FileSystemResult;
-import br.inpe.log.Log;
 
 public class FileSystem {
 	private static FileSystem fileSystem;

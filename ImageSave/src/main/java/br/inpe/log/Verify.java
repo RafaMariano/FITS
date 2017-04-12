@@ -15,6 +15,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 import br.inpe.model.FileSystem;
 import br.inpe.model.Image;
+import br.inpe.model.ImageFits;
 import br.inpe.model.ImagesCollection;
 import nom.tam.fits.Fits;
 import nom.tam.fits.FitsException;
@@ -48,7 +49,7 @@ public class Verify {
 		
 	}
 	
-	public ImagesCollection verify() throws IOException {
+	public Image verify() throws IOException {
 
 		List<String> lines = this.log.getLog();
 		int size = lines.size() - 1;
@@ -113,7 +114,7 @@ public class Verify {
 	
 	}
 	
-	private ImagesCollection getVerifyDelete(String path, String destinationPath) throws DirectoryNotEmptyException, IOException{
+	private Image getVerifyDelete(String path, String destinationPath) throws DirectoryNotEmptyException, IOException{
 		try {
 			return createImageCollection(destinationPath);
 		} catch (FitsException | ParseException | IOException e) {	
@@ -130,7 +131,7 @@ public class Verify {
 		this.log.deleteLog();
 	}
 	
-	private ImagesCollection getVerifyMove(String imagePath, String destinationPath) throws DirectoryNotEmptyException, IOException{
+	private Image getVerifyMove(String imagePath, String destinationPath) throws DirectoryNotEmptyException, IOException{
 		
 		try {
 			ArrayList<String> paths = getDestinationPath(new StringBuilder(destinationPath),
@@ -146,16 +147,14 @@ public class Verify {
 		}
 	}
 	
-	private ImagesCollection createImageCollection(String path) throws FitsException, ParseException, IOException{
+	private Image createImageCollection(String path) throws FitsException, ParseException, IOException{
 		
-		Image image = new Image(path);
-		ImagesCollection ima = new ImagesCollection();
+		ImageFits image = new ImageFits(path);
 		
-		ima.setDocument(image.getDocument());
-		return ima;
+		return image.getImage();
 	}
 	
-	private ImagesCollection getVerifyCreate(String imagePath, String destinationPath) throws DirectoryNotEmptyException, IOException {
+	private Image getVerifyCreate(String imagePath, String destinationPath) throws DirectoryNotEmptyException, IOException {
 
 		if (Files.exists(Paths.get(imagePath), LinkOption.NOFOLLOW_LINKS)) {
 
@@ -175,10 +174,10 @@ public class Verify {
 
 			try {
 				if (isCorrupted(destinationPath) == false) {
-					ArrayList<String> paths = getDestinationPath(new StringBuilder(destinationPath),
-							new StringBuilder(imagePath));
-					FileSystem.getInstance().deletePath(imagePath.substring(0, imagePath.lastIndexOf("/")),
-							paths.get(0));
+//					ArrayList<String> paths = getDestinationPath(new StringBuilder(destinationPath),
+//							new StringBuilder(imagePath));
+////					FileSystem.getInstance().deletePath(imagePath.substring(0, imagePath.lastIndexOf("/")),
+//							paths.get(0));
 
 					return createImageCollection(destinationPath);
 					

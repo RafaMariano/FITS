@@ -1,0 +1,14 @@
+package br.gov.sp.fatec.web.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import br.gov.sp.fatec.service.FuncionarioService;
+
+public class FuncionarioController {
+	@Autowired
+	private FuncionarioService funcionarioService;
+
+	public void setFuncionarioService(FuncionarioService funcionarioService) {
+		this.funcionarioService = funcionarioService;
+	}
+}

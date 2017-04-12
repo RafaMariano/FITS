@@ -1,22 +1,10 @@
 package br.inpe.service;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.io.InputStream;
-
-import org.bson.Document;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.core.io.Resource;
-import org.springframework.data.mongodb.gridfs.GridFsOperations;
 import org.springframework.stereotype.Service;
-
-import com.mongodb.BasicDBObject;
-import com.mongodb.DBObject;
-
 import br.inpe.log.Log;
-import br.inpe.model.ImagesCollection;
+import br.inpe.model.Image;
 import br.inpe.repository.ImageRepository;
 
 
@@ -37,7 +25,7 @@ public class ImageServiceImpl implements ImageService{
 	}
 
 	@Override
-	public void saveImage(ImagesCollection image) {
+	public void saveImage(Image image) {
 		
 		this.imageRepository.insert(image);
 		try {

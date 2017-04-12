@@ -1,6 +1,0 @@
-package br.inpe.log;
-
-public enum FileSystemResult {
-	PATH_ORIGINS,PATH_DESTINATION,SAVE,DELETE,MOVE_SUCCESSFUL
-	
-}

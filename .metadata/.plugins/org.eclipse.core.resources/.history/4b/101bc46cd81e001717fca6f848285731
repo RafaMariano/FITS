@@ -1,0 +1,33 @@
+package br.gov.sp.fatec.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import br.gov.sp.fatec.repository.ProdutoRepository;
+
+@Service("produtoServiceImpl")
+public class ProdutoServiceImpl implements ProdutoService {
+
+	@Autowired
+	private ProdutoRepository produtoRepository;
+
+	public void setProdutoRepository(ProdutoRepository produtoRepository) {
+		this.produtoRepository = produtoRepository;
+	}
+
+	@Override
+	public br.gov.sp.fatec.model.Produto buscar(long id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<br.gov.sp.fatec.model.Produto> buscarTodos() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

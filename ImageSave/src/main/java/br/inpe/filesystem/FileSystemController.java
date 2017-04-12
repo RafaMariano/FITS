@@ -2,6 +2,7 @@ package br.inpe.filesystem;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
@@ -9,7 +10,7 @@ import br.inpe.log.FileSystemResult;
 import br.inpe.log.Log;
 import br.inpe.model.FileSystem;
 import br.inpe.model.Find;
-import br.inpe.model.Image;
+import br.inpe.model.ImageFits;
 import br.inpe.model.ImagesCollection;
 
 public class FileSystemController {
@@ -35,18 +36,9 @@ public class FileSystemController {
 		return this.pathDB;
 	}
 	
-	public ArrayList<String> getImages() throws IOException{
+	public List<String> getImages() throws IOException{
 		return Find.getInstance().searchImage(this.pathPrincipal);	
 	}	
-	
-	//tirar?
-	public ImagesCollection getImageCollection(Image image){			
-		
-		ImagesCollection ima = new ImagesCollection();
-		ima.setDocument(image.getDocument());
-
-		return ima;
-	}
 	
 	public String getNewPath(String pathImage) throws IOException{
 		

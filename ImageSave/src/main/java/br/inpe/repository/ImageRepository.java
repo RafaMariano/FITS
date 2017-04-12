@@ -1,15 +1,10 @@
 package br.inpe.repository;
 
-import java.io.InputStream;
-
 import org.springframework.data.repository.Repository;
+import br.inpe.model.Image;
 
-import com.mongodb.DBObject;
-
-import br.inpe.model.ImagesCollection;
-
-public interface ImageRepository extends Repository<ImagesCollection, Long>{
+public interface ImageRepository extends Repository<Image, Long>{
 	
-	public ImagesCollection insert(ImagesCollection entity);
+	public void insert(Image entity);
 	
 }

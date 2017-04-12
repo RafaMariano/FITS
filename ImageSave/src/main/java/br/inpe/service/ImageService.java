@@ -7,9 +7,10 @@ import org.springframework.core.io.Resource;
 
 import com.mongodb.DBObject;
 
+import br.inpe.model.Image;
 import br.inpe.model.ImagesCollection;
 
 public interface ImageService {
-	public void saveImage(ImagesCollection image);
+	public void saveImage(Image image);
 
 }

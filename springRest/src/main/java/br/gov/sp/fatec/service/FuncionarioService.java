@@ -1,0 +1,13 @@
+package br.gov.sp.fatec.service;
+
+import java.util.List;
+
+import br.gov.sp.fatec.model.Funcionario;
+
+public interface FuncionarioService {
+	
+	public Funcionario save(Funcionario funcionario);
+	public Funcionario getFuncionario(long id);
+	public List<Funcionario> getAll();
+
+}
