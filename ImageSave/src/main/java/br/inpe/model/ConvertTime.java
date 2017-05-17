@@ -50,7 +50,6 @@ public class ConvertTime {
 		return date;
 	}
 	
-	
 	public Document getTime(String timeJuliano) throws ParseException{
 	
 		Date format = FormatDecimal.getInstance().getTimeJulianoFormat(timeJuliano);

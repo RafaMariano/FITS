@@ -1,6 +1,5 @@
 package br.inpe.model;
 
-import java.text.ParseException;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
@@ -14,34 +13,8 @@ public class ImagesCollection implements Image {
 	private org.bson.Document date;
 	private String path;
 
-	public ImagesCollection(org.bson.Document document) throws ParseException {
+	public ImagesCollection() {}
 
-		setData(ToOrganize(document));
-	}
-
-	private org.bson.Document ToOrganize(org.bson.Document document) throws ParseException {
-
-		if (document.containsKey("_id")) {
-			setId(document.get("_id").toString());
-			document.remove("_id");
-		}
-
-		if (document.containsKey("DATE-OBS"))
-			setDateAndTime(document.get("DATE-OBS").toString());
-		else if (document.containsKey("DATE"))
-			setDateAndTime(document.get("DATE").toString());
-
-		return document;
-
-	}
-
-	private void setDateAndTime(String timeJuliano) throws ParseException {
-
-		ConvertTime time = new ConvertTime();
-
-		setDate(time.getDate(timeJuliano));
-		setTime(time.getTime(timeJuliano));
-	}
 
 	public String getId() {
 		return id;

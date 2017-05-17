@@ -20,13 +20,6 @@
    		 <property name="host" value="localhost" />
 	</bean>
 	
-	<bean id="fileStorageDao" class="br.inpe.service.FileStorageDaoImpl"></bean>
-
- <bean id="gridTemplate" class="org.springframework.data.mongodb.gridfs.GridFsTemplate">
-  <constructor-arg ref="mongoDbFactory" />
-  <constructor-arg ref="converter" />
- </bean>
-	
 	<bean id="filesystem"
 		class="br.inpe.model.FileSystem" factory-method="getInstance" 
 		lazy-init="false" scope="singleton">
@@ -37,7 +30,7 @@
      	<constructor-arg name="databaseName" value="inpe" />
 	</bean>
 
-	<bean id="controller" class="br.inpe.filesystem.FileSystemController">
+	<bean id="controller" class="br.inpe.filesystem.MoveImage">
     	 <constructor-arg name="pathPrincipal" value="/home/inpe/Imagens" />
      	<constructor-arg name="pathDB" value="/home/inpe/Database" />
 	</bean>
@@ -49,6 +42,8 @@
 	<bean id="verify" class="br.inpe.log.Verify">
 	 <constructor-arg name="pathCorrupted" value="/home/inpe/Corrupted" />
 	 <constructor-arg name="log" value="/home/inpe/Corrupted/log.txt" />
+	 <constructor-arg name="pathPrincipal" value="/home/inpe/Imagens" />
+	 <constructor-arg name="pathDB" value="/home/inpe/Database" />
 	</bean>
   
 </beans>

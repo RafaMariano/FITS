@@ -1,0 +1,212 @@
+package br.inpe.log;
+
+import java.io.IOException;
+import java.nio.file.DirectoryNotEmptyException;
+import java.nio.file.Files;
+import java.nio.file.LinkOption;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.text.ParseException;
+import java.util.ArrayList;
+import java.util.List;
+
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import br.inpe.model.FileSystem;
+import br.inpe.model.Image;
+import br.inpe.model.ImageFits;
+import nom.tam.fits.Fits;
+import nom.tam.fits.FitsException;
+
+public class Verify {
+	private Path pathCorrupted;
+	private Path pathLog;
+	private String pathPrincipal;
+	private String pathDB;
+	
+	@Autowired
+	private Log log;
+
+	public Verify(String pathCorrupted, String log, String pathPrincipal, String pathDB) throws IOException {
+		this.pathCorrupted = Paths.get(pathCorrupted);
+		this.pathLog = Paths.get(log);
+		if (Files.notExists(this.pathLog, LinkOption.NOFOLLOW_LINKS))
+			Files.createFile(this.pathLog);
+		this.pathPrincipal = pathPrincipal;
+		this.pathDB = pathDB;
+		
+	}
+
+	public void setLog(Log log){
+		this.log = log;
+	}
+	
+	public void moveToCorrupted(String pathImage, String pathPrincipal){
+		
+		try {
+			moveToCorruptedDirectory(pathImage, pathPrincipal);
+		} catch (IOException e) {
+			
+			e.printStackTrace();
+		}
+		
+	}
+	
+	public Image verify() throws IOException {
+
+		List<String> lines = this.log.getLog();
+		int size = lines.size() - 1;
+
+		if (size > -1) {
+
+			FileSystemResult result = FileSystemResult.convert(lines.get(size));
+
+			if (result != null) {
+
+				switch (result) {
+				case CREATE_SUCCESSFUL:
+					return getVerifyCreate(lines.get(0), lines.get(1));
+					
+				case MOVE_SUCCESSFUL:
+					return getVerifyMove(lines.get(0), lines.get(1));
+					
+				case DELETE_SUCCESSFUL:
+						getVerifyDelete(lines.get(0), lines.get(1));
+				}
+			} else {
+				//this.log.deleteLog();
+			}
+		}
+		return null;
+	}
+
+	private boolean isCorrupted(String imagePath) throws FitsException, IOException {
+		Fits fits = new Fits(imagePath);
+		long size = fits.getHDU(0).getHeader().getLongValue("SIZE");
+		fits.close();
+		if (Files.size(Paths.get(imagePath)) == size) {
+			return false;
+
+		} else {
+			return true;
+		}
+	}
+	
+	
+	
+	private String fileExistInPathPrincipal(String imagePath, String destinationPath)
+			throws FitsException, IOException {
+
+		if (isCorrupted(imagePath) == false) {
+			
+		//	ArrayList<String> paths = getDestinationPath(new StringBuilder(destinationPath),
+		//			new StringBuilder(imagePath));
+			
+			FileSystem.getInstance().createDir(destinationPath);
+			//imagePath, paths.get(1), paths.get(0));
+			FileSystem.getInstance().moveFile(imagePath, destinationPath);
+			FileSystem.getInstance().deletePath(imagePath.substring(0, imagePath.lastIndexOf("/")),
+					this.pathPrincipal);
+		
+			return destinationPath;
+
+		} else {
+			moveToCorruptedDirectory(imagePath, destinationPath);
+			return null;
+		}
+	}
+	
+	
+	private Image getVerifyDelete(String path, String destinationPath) throws DirectoryNotEmptyException, IOException{
+		try {
+			return createImageCollection(destinationPath);
+		} catch (FitsException | ParseException | IOException e) {	
+			isError(path,destinationPath);
+			return null;
+		}
+	}
+	
+	private void isError(String path, String destinationPath) throws DirectoryNotEmptyException, IOException{
+		ArrayList<String> array = getDestinationPath(new StringBuilder(path),
+				new StringBuilder(destinationPath));
+		
+		moveToCorruptedDirectory(path, array.get(0));
+		this.log.deleteLog();
+	}
+	
+	private Image getVerifyMove(String imagePath, String destinationPath) throws DirectoryNotEmptyException, IOException{
+		
+		try {
+			
+			ArrayList<String> paths = getDestinationPath(new StringBuilder(destinationPath),
+					new StringBuilder(imagePath));
+			
+			FileSystem.getInstance().deletePath(imagePath.substring(0, imagePath.lastIndexOf("/")),
+					paths.get(0));
+			
+			return createImageCollection(destinationPath);
+			
+		} catch (IOException | FitsException | ParseException e) {
+			isError(destinationPath, imagePath);
+			return null;
+		}
+	}
+	
+	private Image createImageCollection(String path) throws FitsException, ParseException, IOException{
+		
+		ImageFits image = new ImageFits(path);
+		return image.getImage();
+	}
+	
+	private Image getVerifyCreate(String imagePath, String destinationPath) throws DirectoryNotEmptyException, IOException {
+
+		if (Files.exists(Paths.get(imagePath), LinkOption.NOFOLLOW_LINKS)) {
+
+			try {
+				String path = fileExistInPathPrincipal(imagePath, destinationPath);
+
+				if (path == null)
+					return null;
+				
+				return createImageCollection(path);
+
+			} catch (IOException | FitsException | ParseException eo) {
+				isError(imagePath, destinationPath);
+				return null;
+			}
+		} else if (Files.exists(Paths.get(destinationPath), LinkOption.NOFOLLOW_LINKS)) {
+
+			try {
+				if (isCorrupted(destinationPath) == false) {
+//					ArrayList<String> paths = getDestinationPath(new StringBuilder(destinationPath),
+//							new StringBuilder(imagePath));
+////					FileSystem.getInstance().deletePath(imagePath.substring(0, imagePath.lastIndexOf("/")),
+//							paths.get(0));
+
+					return createImageCollection(destinationPath);
+					
+				} else {
+					isError(destinationPath, imagePath);
+					return null;
+				}
+			} catch (IOException | FitsException | ParseException eo) {
+				isError(destinationPath, imagePath);
+				return null;
+			}
+
+		}
+		return null;
+	}
+
+	
+	
+	private void moveToCorruptedDirectory(String imagePath, String pathPrincipal) throws DirectoryNotEmptyException, IOException {
+		StringBuilder st = new StringBuilder(this.pathCorrupted.toString());
+		st.append(imagePath.substring(imagePath.lastIndexOf("/")));
+		FileSystem.getInstance().moveFile(imagePath, st.toString());
+		FileSystem.getInstance().deletePath(imagePath.substring(0, imagePath.lastIndexOf("/")), pathPrincipal);
+	
+	}
+
+}

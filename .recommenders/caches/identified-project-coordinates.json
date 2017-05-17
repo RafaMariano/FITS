@@ -1,1 +1,1 @@
-[[{"location":"/usr/lib/jvm/java-8-oracle","type":"JRE","hints":{"EXECUTION_ENVIRONMENT":"JavaSE-1.8"}},"jre:jre:1.8.0"],[{"location":"/home/inpe/workspace/springRest","type":"PROJECT","hints":{"PROJECT_NAME":"springRest"}},"br.gov.sp.fatec:springRest:1.0.0"],[{"location":"/home/inpe/.m2/repository/org/springframework/spring-web/4.2.6.RELEASE/spring-web-4.2.6.RELEASE.jar","type":"JAR","hints":{}},"ABSENT"]]
+{}

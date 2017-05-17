@@ -1,11 +1,10 @@
 package br.gov.sp.fatec.service;
 
-import java.util.List;
+import java.util.Iterator;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.google.common.collect.Lists;
 
 import br.gov.sp.fatec.model.Produto;
 import br.gov.sp.fatec.repository.ProdutoRepository;
@@ -26,8 +25,25 @@ public class ProdutoServiceImpl implements ProdutoService {
 	}
 
 	@Override
-	public List<Produto> buscarTodos() {
-		return Lists.newArrayList(this.produtoRepository.findAll());
+	public Iterator<Produto> buscarTodos() {
+		return this.produtoRepository.findAll().iterator();
+	}
+
+	@Override
+	public Iterator<Produto> getProdutoNome(String nome) {
+		return  this.produtoRepository.findByNome(nome).iterator();
+	}
+
+	@Override
+	public Iterator<Produto> getProdutoPreco(double preco) {
+		// TODO Auto-generated method stub
+		return this.produtoRepository.findByPreco(preco).iterator();
+	}
+
+	@Override
+	public Iterator<Produto> getProdutoNomePreco(String nome, double preco) {
+		// TODO Auto-generated method stub
+		return this.produtoRepository.findByPrecoAndNome(preco, nome).iterator();
 	}
 
 }

@@ -15,15 +15,15 @@ public class ImageFits {
 	private Fits fits;
 	private Document document;
 	private String path;
+	private ConvertTime time;
 
-	public ImageFits(String fits) throws FitsException, ParseException, IOException {
-		
+	public ImageFits(String fits) throws FitsException, ParseException, IOException {	
 		this.fits = new Fits(fits);
 		this.document = new Document();
 		this.path = fits;
 		setDocument();
+		this.time = new ConvertTime();
 	}
-
 	public String getPath() {
 		return path;
 	}
@@ -37,11 +37,12 @@ public class ImageFits {
 	}
 
 	private void setDocument() throws FitsException, ParseException, IOException, NullPointerException {
+
 		Header header = this.fits.getHDU(0).getHeader();
-
 		Cursor<String, HeaderCard> c = header.iterator();
-
+		
 		while (c.hasNext()) {
+			
 			HeaderCard bb = c.next();
 
 			if (bb.getKey().equals("END") == false) {
@@ -60,13 +61,45 @@ public class ImageFits {
 					}
 				}
 			}
-
 		}
 		this.document.put("_id", this.path.substring(this.path.lastIndexOf("/") + 1));
-
 	}
 
+	
+	
 	public Image getImage() throws ParseException {
-			return new ImagesCollection(this.document);
+		
+		//if(this.documents.containsKey("ST_PARAM");
+			return getImagesCollection();
+		//else
+			//return getImageComplete();
 	}
+	
+	private ImagesCollection getImagesCollection() throws ParseException{
+		
+		ImagesCollection image = new ImagesCollection();
+		Document docImagesCollection = this.document;
+		
+		image.setId(docImagesCollection.getString("_id"));
+		docImagesCollection.remove("_id");
+
+		String timeJuliano = null;
+		timeJuliano = docImagesCollection.get("DATE-OBS").toString();
+
+		image.setDate(this.time.getDate(timeJuliano));
+		image.setTime(this.time.getTime(timeJuliano));
+		
+		image.setData(docImagesCollection);
+		
+		return image;
+	}
+	
+	
+	//na versão final, irá sair esse if
+//	if (docImagesCollection.containsKey("DATE-OBS"))
+
+///		else if (docImagesCollection.containsKey("DATE"))
+//		timeJuliano = docImagesCollection.get("DATE").toString();
+	
+	
 }

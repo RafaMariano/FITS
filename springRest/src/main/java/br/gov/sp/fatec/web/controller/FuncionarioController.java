@@ -33,12 +33,13 @@ public class FuncionarioController {
 	
 	@RequestMapping(value = "/get")
 	public ResponseEntity<Funcionario> pesquisar(@RequestParam(value="id", defaultValue="0") Long id) {
-		return new ResponseEntity<Funcionario>(funcionarioService.getFuncionario(id), HttpStatus.OK);
+		return new ResponseEntity<Funcionario>(this.funcionarioService.getFuncionario(id), HttpStatus.OK);
 	}
 	
+	@JsonView({View.Main.class})
 	@RequestMapping(value = "/getAll")
 	public ResponseEntity<Collection<Funcionario>> getAll() {
-		return new ResponseEntity<Collection<Funcionario>>(funcionarioService.getAll(), HttpStatus.OK);
+		return new ResponseEntity<Collection<Funcionario>>(this.funcionarioService.getAll(), HttpStatus.OK);
 	}
 	
 	@RequestMapping(value = "/save", method = RequestMethod.POST, produces = MediaType.APPLICATION_JSON_VALUE)

@@ -7,31 +7,33 @@ import java.nio.file.LinkOption;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.text.ParseException;
-import java.util.ArrayList;
 import java.util.List;
 
-import org.bson.Document;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import br.inpe.model.FileSystem;
 import br.inpe.model.Image;
 import br.inpe.model.ImageFits;
-import br.inpe.model.ImagesCollection;
 import nom.tam.fits.Fits;
 import nom.tam.fits.FitsException;
 
 public class Verify {
 	private Path pathCorrupted;
 	private Path pathLog;
+	private String pathPrincipal;
+	private String pathDB;
 	
 	@Autowired
 	private Log log;
 
-	public Verify(String pathCorrupted, String log) throws IOException {
+	public Verify(String pathCorrupted, String log, String pathPrincipal, String pathDB) throws IOException {
 		this.pathCorrupted = Paths.get(pathCorrupted);
 		this.pathLog = Paths.get(log);
+		this.pathPrincipal = pathPrincipal;
+		this.pathDB = pathDB;
 		if (Files.notExists(this.pathLog, LinkOption.NOFOLLOW_LINKS))
 			Files.createFile(this.pathLog);
+		
 	}
 
 	public void setLog(Log log){
@@ -57,7 +59,6 @@ public class Verify {
 		if (size > -1) {
 
 			FileSystemResult result = FileSystemResult.convert(lines.get(size));
-
 			if (result != null) {
 
 				switch (result) {
@@ -89,19 +90,36 @@ public class Verify {
 		}
 	}
 	
+	
+	
 	private String fileExistInPathPrincipal(String imagePath, String destinationPath)
 			throws FitsException, IOException {
 
 		if (isCorrupted(imagePath) == false) {
-			ArrayList<String> paths = getDestinationPath(new StringBuilder(destinationPath),
-					new StringBuilder(imagePath));
-			FileSystem.getInstance().createDir(imagePath, paths.get(1), paths.get(0));
+			
+		//	ArrayList<String> paths = getDestinationPath(new StringBuilder(destinationPath),
+		//			new StringBuilder(imagePath));
+			
+			FileSystem.getInstance().createDir(destinationPath);
+			//imagePath, paths.get(1), paths.get(0));
 			FileSystem.getInstance().moveFile(imagePath, destinationPath);
-			FileSystem.getInstance().deletePath(imagePath.substring(0, imagePath.lastIndexOf("/")), paths.get(0));
+			FileSystem.getInstance().deletePath(imagePath.substring(0, imagePath.lastIndexOf("/")),
+					this.pathPrincipal);
+		
 			return destinationPath;
 
 		} else {
-			moveToCorruptedDirectory(imagePath, destinationPath);
+			moveToCorruptedDirectory(imagePath, this.pathPrincipal);
+			return null;
+		}
+	}
+	
+	
+	private Image getVerifyDelete(String path, String destinationPath) throws DirectoryNotEmptyException, IOException{
+		try {
+			return createImageCollection(destinationPath);
+		} catch (FitsException | ParseException | IOException e) {	
+			moveToCorruptedDirectory(destinationPath, this.pathDB);
 			return null;
 		}
 	}
@@ -111,38 +129,19 @@ public class Verify {
 		st.append(imagePath.substring(imagePath.lastIndexOf("/")));
 		FileSystem.getInstance().moveFile(imagePath, st.toString());
 		FileSystem.getInstance().deletePath(imagePath.substring(0, imagePath.lastIndexOf("/")), pathPrincipal);
-	
-	}
-	
-	private Image getVerifyDelete(String path, String destinationPath) throws DirectoryNotEmptyException, IOException{
-		try {
-			return createImageCollection(destinationPath);
-		} catch (FitsException | ParseException | IOException e) {	
-			isError(path,destinationPath);
-			return null;
-		}
-	}
-	
-	private void isError(String path, String destinationPath) throws DirectoryNotEmptyException, IOException{
-		ArrayList<String> array = getDestinationPath(new StringBuilder(path),
-				new StringBuilder(destinationPath));
-		
-		moveToCorruptedDirectory(path, array.get(0));
-		this.log.deleteLog();
 	}
 	
 	private Image getVerifyMove(String imagePath, String destinationPath) throws DirectoryNotEmptyException, IOException{
 		
 		try {
-			ArrayList<String> paths = getDestinationPath(new StringBuilder(destinationPath),
-					new StringBuilder(imagePath));
+			
 			FileSystem.getInstance().deletePath(imagePath.substring(0, imagePath.lastIndexOf("/")),
-					paths.get(0));
+					this.pathPrincipal);
 			
 			return createImageCollection(destinationPath);
 			
 		} catch (IOException | FitsException | ParseException e) {
-			isError(destinationPath, imagePath);
+			moveToCorruptedDirectory(destinationPath, this.pathDB);
 			return null;
 		}
 	}
@@ -150,7 +149,6 @@ public class Verify {
 	private Image createImageCollection(String path) throws FitsException, ParseException, IOException{
 		
 		ImageFits image = new ImageFits(path);
-		
 		return image.getImage();
 	}
 	
@@ -167,9 +165,10 @@ public class Verify {
 				return createImageCollection(path);
 
 			} catch (IOException | FitsException | ParseException eo) {
-				isError(imagePath, destinationPath);
+				moveToCorruptedDirectory(imagePath, this.pathPrincipal);
 				return null;
 			}
+			
 		} else if (Files.exists(Paths.get(destinationPath), LinkOption.NOFOLLOW_LINKS)) {
 
 			try {
@@ -178,40 +177,53 @@ public class Verify {
 //							new StringBuilder(imagePath));
 ////					FileSystem.getInstance().deletePath(imagePath.substring(0, imagePath.lastIndexOf("/")),
 //							paths.get(0));
-
 					return createImageCollection(destinationPath);
 					
 				} else {
-					isError(destinationPath, imagePath);
+					moveToCorruptedDirectory(destinationPath, this.pathDB);
 					return null;
 				}
 			} catch (IOException | FitsException | ParseException eo) {
-				isError(destinationPath, imagePath);
+				moveToCorruptedDirectory(destinationPath, this.pathDB);
 				return null;
 			}
 
 		}
 		return null;
 	}
-
-	public ArrayList<String> getDestinationPath(StringBuilder principalPath, StringBuilder destinatioPath) {
-
-		int lastIndexOfPrincipal = principalPath.lastIndexOf("/");
-		int lastIndexOfDestination = destinatioPath.lastIndexOf("/");
 	
-		if (destinatioPath.substring(lastIndexOfDestination)
-				.equals(principalPath.substring(lastIndexOfPrincipal)) == false) {
-
-			ArrayList<String> paths = new ArrayList<>();
-			paths.add(principalPath.toString());
-			paths.add(destinatioPath.toString());
-			return paths;
-		}
-
-		destinatioPath.setLength(lastIndexOfDestination);
-		principalPath.setLength(lastIndexOfPrincipal);
-
-		return getDestinationPath(destinatioPath, principalPath);
-	}
-
+	//Verificar cada metodo quando exclui o isErro
+		//Tomar cuidado!!! O metodo isError está indicando o pathDB somente, porém tem metodos que estava
+		//passando o pathPrincipal antes da nova versão, ou seja, na hora de deletar as pastas irá ter um bug
+		// irá deletar o arquivo /home/inpe/Imagens/A/B/C/D.fits comparando o /home/inpe/Database
+		//verifica cada çpasso e criar um ambiente de testes manual
+		
+		
+		//private void isError(String path) throws DirectoryNotEmptyException, IOException{		
+			
+			//moveToCorruptedDirectory(path, this.pathDB);
+			//this.log.deleteLog();
+//		}
+		
+//		private ArrayList<String> getDestinationPath(StringBuilder principalPath, StringBuilder destinatioPath) {
+	//
+//			int lastIndexOfPrincipal = principalPath.lastIndexOf("/");
+//			int lastIndexOfDestination = destinatioPath.lastIndexOf("/");
+	//	
+//			if (destinatioPath.substring(lastIndexOfDestination)
+//					.equals(principalPath.substring(lastIndexOfPrincipal)) == false) {
+	//
+//				ArrayList<String> paths = new ArrayList<>();
+//				paths.add(principalPath.toString());
+//				paths.add(destinatioPath.toString());
+//				return paths;
+//			}
+	//
+//			destinatioPath.setLength(lastIndexOfDestination);
+//			principalPath.setLength(lastIndexOfPrincipal);
+	//
+//			return getDestinationPath(destinatioPath, principalPath);
+//		}
+		
+	
 }

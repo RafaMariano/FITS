@@ -23,19 +23,19 @@ public class Funcionario {
 	private Long id;
     
     @Column(name = "FUNC_NOME", length = 20, nullable = false)
-	@JsonView({View.Main.class, View.Alternative.class})
+	@JsonView({View.All.class})
     private String nome;
     
     @Column(name = "FUNC_RG", length = 15, nullable = false)
-	@JsonView({View.Alternative.class})
+	@JsonView({View.All.class, View.Alternative.class})
     private String rg;
     
     @Column(name = "FUNC_CARGO", length = 25, nullable = false)
-	@JsonView({View.All.class, View.Alternative.class})
+	@JsonView(View.All.class)
     private String cargo;
     
     @Column(name = "FUNC_SENHA", length = 20, nullable = false)
-    @JsonView({View.Alternative.class})
+    @JsonView(View.All.class)
     private String senha;
         
 	public Long getId() {
