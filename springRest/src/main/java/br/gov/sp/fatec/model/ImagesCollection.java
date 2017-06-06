@@ -8,10 +8,10 @@ import com.fasterxml.jackson.annotation.JsonView;
 import br.gov.sp.fatec.view.View;
 
 @Document(collection = "image")
-public class ImagesCollection {
+public class ImagesCollection implements Image{
 	
 	@Id
-	@JsonView({View.Main.class, View.Alternative.class})
+	@JsonView({View.Main.class})
 	private String id;
 	@JsonView(View.All.class)
 	private org.bson.Document data;
@@ -21,7 +21,6 @@ public class ImagesCollection {
 	private org.bson.Document date;
 	@JsonView(View.Alternative.class)
 	private String path;
-
 
 	public String getId(){
 		return id;
@@ -54,5 +53,4 @@ public class ImagesCollection {
 	public void setPath(String path) {
 		this.path = path;
 	}
-	
 }

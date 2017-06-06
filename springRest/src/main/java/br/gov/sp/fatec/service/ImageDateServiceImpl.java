@@ -1,19 +1,15 @@
 package br.gov.sp.fatec.service;
 
-import java.io.IOException;
 import java.util.Iterator;
-import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
-import com.fasterxml.jackson.core.JsonParseException;
-import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.JsonMappingException;
+import com.mongodb.DBObject;
 
-import br.gov.sp.fatec.model.ImagesCollection;
+import br.gov.sp.fatec.model.Image;
 import br.gov.sp.fatec.repository.ImageDateRepository;
 
 @Service("imageDateService")
@@ -27,35 +23,74 @@ public class ImageDateServiceImpl implements ImageDateService {
 	}
 	
 	@Override
-	public Iterator<ImagesCollection> getImageByDayMonthYear(int day, int month, int year, int page) throws JsonParseException, JsonMappingException, JsonProcessingException, IOException {
-		
-		Pageable pagination = new PageRequest((page - 1) * 500, 500);
-		return this.imageDateRepository.findImagesByDayMonthYear(day, month, year, pagination).iterator();
+	public Iterator<Image> getImage(DBObject query, int page) {
+	
+		Pageable pagination = new PageRequest((page - 1), 500);
+		return this.imageDateRepository.findImages(query, pagination).iterator();
+	
 	}
+	
+//	@Override
+//	public Iterator<Image> getImageByDayMonthYear(int day, int month, int year, int page) throws JsonParseException, JsonMappingException, JsonProcessingException, IOException {
+//		
+//		Pageable pagination = new PageRequest((page - 1), 500);
+//		return this.imageDateRepository.findImagesByDayMonthYear(day, month, year, pagination).iterator();
+//	}
+//
+//	@Override
+//	public Iterator<Image> getImageByDayMonthYearWithCycle(int day, int month, int year, String cycle, int page){
+//	
+//		Pageable pagination = new PageRequest((page - 1), 500);
+//		return this.imageDateRepository.findImagesByDayMonthYearWithCycle(day, month, year, cycle, pagination).iterator();
+//	}
+//
+//	@Override
+//	public Iterator<Image> getImageByWaveAndStoke(int day, int month, int year, String cycle, List<String> waze, List<String> stoke, int page)
+//			throws JsonParseException, JsonMappingException, JsonProcessingException, IOException {
+//		
+//		Pageable pagination = new PageRequest((page - 1), 500);
+//		return this.imageDateRepository.findImagesByWaveAndStoke(day, month, year, cycle, waze, stoke, pagination).iterator();
+//	}
+//
+//	
+//	
+//	
+//	@Override
+//	public Iterator<Image> getImageByStoke_Param(int day, int month, int year, List<String> stoke_Param, int page) {
+//		Pageable pagination = new PageRequest((page - 1), 500);
+//		return this.imageDateRepository.findImagesByStoke_Param(day, month, year, stoke_Param, pagination).iterator();
+//	}
+//
+//	@Override
+//	public Iterator<Image> getImageByWave_L(int day, int month, int year, List<String> wave_L, int page) {
+//		Pageable pagination = new PageRequest((page - 1), 500);
+//		return this.imageDateRepository.findImagesByWave_L(day, month, year, wave_L, pagination).iterator();
+//	}
+//
+//	@Override
+//	public Iterator<Image> getImageByWave_LAndStoke_P(int day, int month, int year, List<String> wave_L,
+//			List<String> stoke_Param, int page) {
+//		Pageable pagination = new PageRequest((page - 1), 500);
+//		return this.imageDateRepository.findImagesByWave_LAndStoke_P(day, month, year, wave_L, stoke_Param, pagination).iterator();
+//	
+//	}
+//
+//	@Override
+//	public Iterator<Image> getImageByDayMonthYearWithCycleAndStoke_P(int day, int month, int year, String cycle,
+//			List<String> stoke_Param, int page) {
+//		// TODO Auto-generated method stub
+//		Pageable pagination = new PageRequest((page - 1), 500);
+//		return this.imageDateRepository.findImagesByCycleAndStoke_P(day, month, year, cycle, stoke_Param, pagination).iterator();
+//	
+//	}
+//	
 
-	@Override
-	public Iterator<ImagesCollection> getImageByDayMonthYearWithCycle(int day, int month, int year, String cycle, int page)
-			throws JsonParseException, JsonMappingException, JsonProcessingException, IOException {
-		
-		Pageable pagination = new PageRequest((page - 1) * 500, 500);
-		return this.imageDateRepository.findImagesByDayMonthYearWithCycle(day, month, year, cycle, pagination).iterator();
-	}
-
-	@Override
-	public Iterator<ImagesCollection> getImageByWazeAndStoke(int day, int month, int year, String cycle, List<String> waze, List<String> stoke, int page)
-			throws JsonParseException, JsonMappingException, JsonProcessingException, IOException {
-		
-		Pageable pagination = new PageRequest((page - 1) * 500, 500);
-		return this.imageDateRepository.findImagesByWazeAndStoke(day, month, year, cycle, waze, stoke, pagination).iterator();
-	}
-
-	@Override
-	public Iterator<ImagesCollection> getImageByWaze(int day, int month, int year, String cycle, List<String> waze, int page)
-			throws JsonParseException, JsonMappingException, JsonProcessingException, IOException {
-		
-		Pageable pagination = new PageRequest((page - 1) * 500, 500);
-		return this.imageDateRepository.findImagesByWaze(day, month, year, cycle, waze, pagination).iterator();
-	}
+	//@Override
+	//public Iterator<Image> getImageByQuery(Query query, int page) {
+	//	Pageable pagination = new PageRequest((page - 1), 500);
+	//	return this.imageDateRepository.findImagesByQuery(query, pagination).iterator();
+	//return null;
+	//}
 	
 	
 //	@Override
