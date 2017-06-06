@@ -13,13 +13,10 @@ public class ImagesCollection implements Image {
 	private org.bson.Document date;
 	private String path;
 
-	public ImagesCollection() {}
-
-
 	public String getId() {
 		return id;
 	}
-
+	
 	public void setId(String id) {
 		this.id = id;
 	}

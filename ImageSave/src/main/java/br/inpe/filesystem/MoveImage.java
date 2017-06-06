@@ -44,21 +44,15 @@ public class MoveImage {
 		String pathDestinationToString = pathDestination.toString();
 		
 		FileSystem.getInstance().createDir(pathDestinationToString);
-		
 		this.log.setLogPathOriginalAndDestination(pathImage,pathDestinationToString);
 		this.log.setLogSucessful(FileSystemResult.CREATE_SUCCESSFUL);
 		
 		FileSystem.getInstance().moveFile(pathImage, pathDestinationToString);
-		
 		this.log.setLogSucessful(FileSystemResult.MOVE_SUCCESSFUL);
-		
-		
+				
 		FileSystem.getInstance().deletePath(pathImage.substring(0, 
-						pathImage.lastIndexOf("/"))
-						, this.pathPrincipal);
-		
+					pathImage.lastIndexOf("/")), this.pathPrincipal);
 		this.log.setLogSucessful(FileSystemResult.DELETE_SUCCESSFUL);
 		return pathDestinationToString;
-		}
-	
 	}
+}

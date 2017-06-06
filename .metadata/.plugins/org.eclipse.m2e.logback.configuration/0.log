@@ -17600,3 +17600,1349 @@ org.eclipse.core.runtime.CoreException: Variable references non-existent resourc
 2017-05-15 16:43:03,053 [Worker-5709] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
 2017-05-15 16:43:03,054 [Worker-5709] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2017-05-15 16:43:03,054 [Worker-5709] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-17 14:50:59,189 [Worker-7256] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-17 14:50:59,209 [Worker-7256] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-17 14:50:59,210 [Worker-7256] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-17 14:50:59,210 [Worker-7256] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-17 14:52:12,834 [Worker-7259] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-17 14:52:12,834 [Worker-7259] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-17 14:52:12,835 [Worker-7259] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-17 14:52:12,836 [Worker-7259] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-17 14:54:02,967 [Worker-7258] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-17 14:54:02,968 [Worker-7258] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-17 14:54:02,969 [Worker-7258] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-17 14:54:02,969 [Worker-7258] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-17 14:54:09,639 [Worker-7256] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-17 14:54:09,639 [Worker-7256] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-17 14:54:09,640 [Worker-7256] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-17 14:54:09,640 [Worker-7256] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-17 14:54:21,458 [Worker-7259] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-17 14:54:21,458 [Worker-7259] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-17 14:54:21,459 [Worker-7259] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-17 14:54:21,459 [Worker-7259] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-17 14:56:57,599 [Worker-7260] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-17 14:56:57,599 [Worker-7260] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-17 14:56:57,600 [Worker-7260] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-17 14:56:57,600 [Worker-7260] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-17 14:57:25,377 [Worker-7257] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-17 14:57:25,377 [Worker-7257] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-17 14:57:25,378 [Worker-7257] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-17 14:57:25,378 [Worker-7257] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-17 14:57:43,148 [Worker-7261] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-17 14:57:43,148 [Worker-7261] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-17 14:57:43,150 [Worker-7261] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-17 14:57:43,151 [Worker-7261] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-17 14:57:55,396 [Worker-7257] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-17 14:57:55,396 [Worker-7257] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-17 14:57:55,397 [Worker-7257] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-17 14:57:55,397 [Worker-7257] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-17 14:58:40,783 [Worker-7257] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-17 14:58:40,783 [Worker-7257] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-17 14:58:40,784 [Worker-7257] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-17 14:58:40,784 [Worker-7257] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-17 14:58:49,337 [Worker-7262] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-17 14:58:49,337 [Worker-7262] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-17 14:58:49,338 [Worker-7262] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-17 14:58:49,338 [Worker-7262] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-17 14:58:55,607 [Worker-7262] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-17 14:58:55,607 [Worker-7262] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-17 14:58:55,608 [Worker-7262] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-17 14:58:55,608 [Worker-7262] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-17 14:59:09,570 [Worker-7262] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-17 14:59:09,570 [Worker-7262] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-17 14:59:09,571 [Worker-7262] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-17 14:59:09,571 [Worker-7262] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-17 15:00:30,564 [Worker-7257] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-17 15:00:30,564 [Worker-7257] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-17 15:00:30,565 [Worker-7257] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-17 15:00:30,565 [Worker-7257] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-17 15:01:34,203 [Worker-7257] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-17 15:01:34,204 [Worker-7257] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-17 15:01:34,205 [Worker-7257] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-17 15:01:34,205 [Worker-7257] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-17 15:01:53,490 [Worker-7262] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-17 15:01:53,491 [Worker-7262] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-17 15:01:53,492 [Worker-7262] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-17 15:01:53,493 [Worker-7262] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-17 15:03:27,350 [Worker-7262] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-17 15:03:27,350 [Worker-7262] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-17 15:03:27,351 [Worker-7262] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-17 15:03:27,351 [Worker-7262] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-17 15:03:33,396 [Worker-7260] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-17 15:03:33,396 [Worker-7260] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-17 15:03:33,397 [Worker-7260] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-17 15:03:33,397 [Worker-7260] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-17 15:03:50,128 [Worker-7257] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-17 15:03:50,128 [Worker-7257] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-17 15:03:50,129 [Worker-7257] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-17 15:03:50,129 [Worker-7257] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-17 15:03:56,733 [Worker-7261] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-17 15:03:56,733 [Worker-7261] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-17 15:03:56,734 [Worker-7261] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-17 15:03:56,734 [Worker-7261] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-17 15:04:08,209 [Worker-7262] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-17 15:04:08,209 [Worker-7262] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-17 15:04:08,210 [Worker-7262] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-17 15:04:08,210 [Worker-7262] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-17 15:04:28,113 [Worker-7260] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-17 15:04:28,113 [Worker-7260] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-17 15:04:28,114 [Worker-7260] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-17 15:04:28,114 [Worker-7260] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-17 15:05:06,480 [Worker-7262] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-17 15:05:06,480 [Worker-7262] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-17 15:05:06,481 [Worker-7262] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-17 15:05:06,481 [Worker-7262] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-17 15:05:30,224 [Worker-7259] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-17 15:05:30,224 [Worker-7259] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-17 15:05:30,225 [Worker-7259] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-17 15:05:30,225 [Worker-7259] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-17 15:06:05,584 [Worker-7259] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-17 15:06:05,585 [Worker-7259] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-17 15:06:05,585 [Worker-7259] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-17 15:06:05,585 [Worker-7259] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-17 15:33:43,835 [Worker-7269] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-17 15:33:43,835 [Worker-7269] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-17 15:33:43,836 [Worker-7269] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-17 15:33:43,836 [Worker-7269] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-22 16:21:22,255 [Worker-11315] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-22 16:21:22,309 [Worker-11315] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-22 16:21:22,360 [Worker-11315] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-22 16:21:22,360 [Worker-11315] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-23 15:33:27,853 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-23 15:33:27,911 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2017-05-23 15:33:27,953 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-23 15:33:27,953 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/API/src/test/resources
+2017-05-23 15:33:28,011 [Worker-10] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of API
+2017-05-23 15:33:28,012 [Worker-10] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for API
+2017-05-23 15:33:28,080 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-23 15:33:31,534 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+2017-05-23 15:33:31,626 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-23 15:33:31,627 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-23 15:33:31,628 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-23 15:33:31,628 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/springRest/src/test/resources
+2017-05-23 15:33:31,629 [Worker-10] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of springRest
+2017-05-23 15:33:31,629 [Worker-10] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for springRest
+2017-05-23 15:33:31,636 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-23 15:33:34,337 [Worker-17] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: br.gov.sp.fatec:springRest:1.0-SNAPSHOT @ /home/inpe/workspace/springRest/pom.xml.
+2017-05-23 15:33:34,485 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+2017-05-23 15:33:34,702 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+2017-05-23 15:33:34,737 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+2017-05-23 15:33:35,008 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-23 15:33:35,023 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-23 15:33:35,025 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-23 15:33:35,025 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/springRest/src/test/resources
+2017-05-23 15:33:35,025 [Worker-17] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of springRest
+2017-05-23 15:33:35,025 [Worker-17] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for springRest
+2017-05-23 15:33:35,031 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-23 15:33:36,268 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+2017-05-23 15:33:36,281 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-23 15:33:36,282 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-23 15:33:36,284 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-23 15:33:36,284 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/springRest/src/test/resources
+2017-05-24 12:07:25,352 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-24 12:07:25,371 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2017-05-24 12:07:25,380 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-24 12:07:25,380 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/API/src/test/resources
+2017-05-24 12:07:25,395 [Worker-7] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of API
+2017-05-24 12:07:25,396 [Worker-7] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for API
+2017-05-24 12:07:25,416 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-24 12:18:12,985 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-24 12:18:12,986 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-24 12:18:12,988 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-24 12:18:12,988 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 14:42:15,992 [Worker-666] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 14:42:16,123 [Worker-666] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 14:42:16,138 [Worker-666] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 14:42:16,139 [Worker-666] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 14:42:34,950 [Worker-669] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 14:42:34,950 [Worker-669] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 14:42:34,951 [Worker-669] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 14:42:34,952 [Worker-669] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 14:46:02,982 [Worker-664] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 14:46:02,983 [Worker-664] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 14:46:02,985 [Worker-664] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 14:46:02,985 [Worker-664] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 14:46:20,094 [Worker-668] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 14:46:20,095 [Worker-668] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 14:46:20,096 [Worker-668] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 14:46:20,096 [Worker-668] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 14:48:33,026 [Worker-664] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 14:48:33,026 [Worker-664] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 14:48:33,028 [Worker-664] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 14:48:33,028 [Worker-664] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 14:49:46,154 [Worker-671] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 14:49:46,155 [Worker-671] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 14:49:46,156 [Worker-671] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 14:49:46,156 [Worker-671] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 14:50:48,800 [Worker-668] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 14:50:48,800 [Worker-668] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 14:50:48,802 [Worker-668] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 14:50:48,802 [Worker-668] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 14:50:59,404 [Worker-672] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 14:50:59,405 [Worker-672] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 14:50:59,406 [Worker-672] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 14:50:59,406 [Worker-672] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 14:51:26,589 [Worker-671] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 14:51:26,589 [Worker-671] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 14:51:26,591 [Worker-671] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 14:51:26,591 [Worker-671] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 14:51:30,286 [Worker-674] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 14:51:30,286 [Worker-674] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 14:51:30,288 [Worker-674] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 14:51:30,288 [Worker-674] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 14:51:56,744 [Worker-672] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 14:51:56,745 [Worker-672] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 14:51:56,746 [Worker-672] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 14:51:56,746 [Worker-672] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 14:52:08,387 [Worker-671] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 14:52:08,388 [Worker-671] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 14:52:08,389 [Worker-671] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 14:52:08,389 [Worker-671] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 14:52:11,137 [Worker-664] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 14:52:11,138 [Worker-664] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 14:52:11,140 [Worker-664] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 14:52:11,140 [Worker-664] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 14:52:16,324 [Worker-674] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 14:52:16,324 [Worker-674] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 14:52:16,326 [Worker-674] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 14:52:16,326 [Worker-674] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 14:52:36,686 [Worker-673] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 14:52:36,687 [Worker-673] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 14:52:36,688 [Worker-673] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 14:52:36,689 [Worker-673] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 14:52:47,147 [Worker-668] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 14:52:47,148 [Worker-668] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 14:52:47,149 [Worker-668] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 14:52:47,149 [Worker-668] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 14:53:17,359 [Worker-673] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 14:53:17,360 [Worker-673] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 14:53:17,361 [Worker-673] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 14:53:17,362 [Worker-673] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 14:53:20,201 [Worker-675] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 14:53:20,201 [Worker-675] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 14:53:20,202 [Worker-675] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 14:53:20,203 [Worker-675] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 14:53:53,961 [Worker-664] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 14:53:53,961 [Worker-664] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 14:53:53,962 [Worker-664] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 14:53:53,962 [Worker-664] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 14:54:12,677 [Worker-674] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 14:54:12,677 [Worker-674] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 14:54:12,678 [Worker-674] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 14:54:12,678 [Worker-674] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 14:55:49,263 [Worker-671] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 14:55:49,263 [Worker-671] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 14:55:49,265 [Worker-671] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 14:55:49,265 [Worker-671] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 14:56:24,249 [Worker-664] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 14:56:24,250 [Worker-664] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 14:56:24,251 [Worker-664] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 14:56:24,251 [Worker-664] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 14:56:41,414 [Worker-671] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 14:56:41,414 [Worker-671] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 14:56:41,415 [Worker-671] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 14:56:41,415 [Worker-671] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 14:56:55,954 [Worker-672] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 14:56:55,954 [Worker-672] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 14:56:55,955 [Worker-672] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 14:56:55,955 [Worker-672] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 14:57:29,558 [Worker-671] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 14:57:29,559 [Worker-671] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 14:57:29,559 [Worker-671] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 14:57:29,560 [Worker-671] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 14:58:34,200 [Worker-674] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 14:58:34,201 [Worker-674] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 14:58:34,202 [Worker-674] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 14:58:34,202 [Worker-674] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 14:59:37,951 [Worker-671] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.inpe:ImageSave:0.0.1-SNAPSHOT @ /home/inpe/workspace/ImageSave/pom.xml.
+2017-05-25 14:59:38,507 [Worker-671] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 14:59:38,507 [Worker-671] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-25 14:59:38,508 [Worker-671] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 14:59:38,508 [Worker-671] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 14:59:40,469 [Worker-664] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 14:59:40,469 [Worker-664] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 14:59:40,470 [Worker-664] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 14:59:40,470 [Worker-664] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 15:05:36,682 [Worker-678] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:05:36,683 [Worker-678] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 15:05:36,684 [Worker-678] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:05:36,684 [Worker-678] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 15:05:42,012 [Worker-680] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/mongodb/mongodb-driver-core/3.4.0/mongodb-driver-core-3.4.0-sources.jar
+2017-05-25 15:05:42,837 [Worker-680] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/mongodb/mongodb-driver-core/3.4.0/mongodb-driver-core-3.4.0-sources.jar
+2017-05-25 15:05:43,073 [Worker-680] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.mongodb:mongodb-driver-core:3.4.0
+2017-05-25 15:05:43,253 [Worker-677] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:05:43,253 [Worker-677] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-25 15:05:43,254 [Worker-677] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:05:43,254 [Worker-677] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 15:05:48,109 [Worker-676] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:05:48,110 [Worker-676] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 15:05:48,111 [Worker-676] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:05:48,111 [Worker-676] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 15:07:48,147 [Worker-682] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.inpe:ImageSave:0.0.1-SNAPSHOT @ /home/inpe/workspace/ImageSave/pom.xml.
+2017-05-25 15:07:48,223 [Worker-682] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:07:48,224 [Worker-682] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-25 15:07:48,224 [Worker-682] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:07:48,224 [Worker-682] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 15:07:49,619 [Worker-673] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:07:49,620 [Worker-673] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 15:07:49,621 [Worker-673] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:07:49,621 [Worker-673] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 15:11:32,534 [Worker-678] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:11:32,535 [Worker-678] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 15:11:32,535 [Worker-678] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:11:32,535 [Worker-678] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 15:12:15,798 [Worker-678] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:12:15,798 [Worker-678] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 15:12:15,799 [Worker-678] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:12:15,799 [Worker-678] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 15:13:05,951 [Worker-678] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:13:05,952 [Worker-678] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 15:13:05,953 [Worker-678] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:13:05,953 [Worker-678] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 15:13:30,881 [Worker-678] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:13:30,881 [Worker-678] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 15:13:30,882 [Worker-678] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:13:30,883 [Worker-678] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 15:14:12,990 [Worker-678] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:14:12,990 [Worker-678] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 15:14:12,991 [Worker-678] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:14:12,991 [Worker-678] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 15:15:51,408 [Worker-684] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:15:51,409 [Worker-684] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 15:15:51,410 [Worker-684] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:15:51,410 [Worker-684] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 15:16:07,823 [Worker-688] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:16:07,823 [Worker-688] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 15:16:07,824 [Worker-688] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:16:07,824 [Worker-688] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 15:16:26,219 [Worker-685] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:16:26,219 [Worker-685] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 15:16:26,221 [Worker-685] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:16:26,221 [Worker-685] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 15:16:30,366 [Worker-688] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:16:30,367 [Worker-688] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 15:16:30,368 [Worker-688] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:16:30,368 [Worker-688] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 15:17:36,003 [Worker-685] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:17:36,004 [Worker-685] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 15:17:36,004 [Worker-685] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:17:36,005 [Worker-685] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 15:17:54,706 [Worker-690] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:17:54,707 [Worker-690] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 15:17:54,708 [Worker-690] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:17:54,708 [Worker-690] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 15:18:21,544 [Worker-684] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:18:21,545 [Worker-684] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 15:18:21,546 [Worker-684] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:18:21,546 [Worker-684] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 15:20:25,211 [Worker-691] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.inpe:ImageSave:0.0.1-SNAPSHOT @ /home/inpe/workspace/ImageSave/pom.xml.
+2017-05-25 15:20:25,268 [Worker-691] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:20:25,268 [Worker-691] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-25 15:20:25,269 [Worker-691] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:20:25,269 [Worker-691] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 15:20:26,611 [Worker-692] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:20:26,611 [Worker-692] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 15:20:26,612 [Worker-692] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:20:26,612 [Worker-692] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 15:20:35,418 [Worker-693] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.inpe:ImageSave:0.0.1-SNAPSHOT @ /home/inpe/workspace/ImageSave/pom.xml.
+2017-05-25 15:20:35,472 [Worker-693] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:20:35,472 [Worker-693] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-25 15:20:35,473 [Worker-693] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:20:35,473 [Worker-693] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 15:20:36,817 [Worker-691] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:20:36,817 [Worker-691] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 15:20:36,818 [Worker-691] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:20:36,818 [Worker-691] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 15:25:13,010 [Worker-697] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:25:13,011 [Worker-697] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 15:25:13,012 [Worker-697] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:25:13,012 [Worker-697] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 15:25:30,776 [Worker-697] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:25:30,777 [Worker-697] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 15:25:30,778 [Worker-697] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:25:30,778 [Worker-697] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 15:27:02,766 [Worker-699] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:27:02,767 [Worker-699] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 15:27:02,768 [Worker-699] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:27:02,768 [Worker-699] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 15:35:25,173 [Worker-705] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:35:25,173 [Worker-705] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 15:35:25,174 [Worker-705] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:35:25,174 [Worker-705] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 15:36:18,572 [Worker-703] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:36:18,573 [Worker-703] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 15:36:18,573 [Worker-703] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:36:18,574 [Worker-703] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 15:36:45,519 [Worker-707] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:36:45,519 [Worker-707] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 15:36:45,521 [Worker-707] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:36:45,521 [Worker-707] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 15:36:56,492 [Worker-707] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:36:56,492 [Worker-707] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 15:36:56,493 [Worker-707] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:36:56,493 [Worker-707] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 15:37:18,057 [Worker-705] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:37:18,057 [Worker-705] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 15:37:18,058 [Worker-705] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:37:18,058 [Worker-705] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 15:37:38,795 [Worker-705] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:37:38,795 [Worker-705] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 15:37:38,796 [Worker-705] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:37:38,796 [Worker-705] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 15:37:43,977 [Worker-706] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:37:43,977 [Worker-706] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 15:37:43,978 [Worker-706] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:37:43,978 [Worker-706] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 15:37:52,286 [Worker-703] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:37:52,287 [Worker-703] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 15:37:52,287 [Worker-703] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:37:52,287 [Worker-703] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 15:38:29,750 [Worker-708] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:38:29,750 [Worker-708] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 15:38:29,751 [Worker-708] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:38:29,751 [Worker-708] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 15:39:38,053 [Worker-706] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:39:38,054 [Worker-706] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 15:39:38,055 [Worker-706] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:39:38,055 [Worker-706] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 15:39:42,421 [Worker-709] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:39:42,421 [Worker-709] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 15:39:42,423 [Worker-709] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:39:42,423 [Worker-709] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 15:41:18,622 [Worker-706] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:41:18,623 [Worker-706] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 15:41:18,624 [Worker-706] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:41:18,624 [Worker-706] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 15:42:19,199 [Worker-707] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:42:19,199 [Worker-707] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 15:42:19,200 [Worker-707] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:42:19,200 [Worker-707] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 15:42:40,686 [Worker-707] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:42:40,686 [Worker-707] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 15:42:40,687 [Worker-707] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:42:40,687 [Worker-707] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 15:42:47,413 [Worker-705] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:42:47,413 [Worker-705] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 15:42:47,414 [Worker-705] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:42:47,414 [Worker-705] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 15:43:01,281 [Worker-705] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:43:01,281 [Worker-705] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 15:43:01,282 [Worker-705] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:43:01,283 [Worker-705] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 15:45:16,188 [Worker-711] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.inpe:ImageSave:0.0.1-SNAPSHOT @ /home/inpe/workspace/ImageSave/pom.xml.
+2017-05-25 15:45:16,242 [Worker-711] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:45:16,243 [Worker-711] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-25 15:45:16,243 [Worker-711] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:45:16,243 [Worker-711] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 15:45:27,891 [Worker-710] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.inpe:ImageSave:0.0.1-SNAPSHOT @ /home/inpe/workspace/ImageSave/pom.xml.
+2017-05-25 15:45:27,951 [Worker-710] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:45:27,951 [Worker-710] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-25 15:45:27,952 [Worker-710] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:45:27,952 [Worker-710] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 15:47:27,156 [Worker-705] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:47:27,157 [Worker-705] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 15:47:27,158 [Worker-705] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:47:27,158 [Worker-705] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 15:47:45,817 [Worker-711] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:47:45,817 [Worker-711] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 15:47:45,819 [Worker-711] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:47:45,819 [Worker-711] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 15:48:02,842 [Worker-705] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:48:02,842 [Worker-705] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 15:48:02,843 [Worker-705] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:48:02,843 [Worker-705] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 15:48:13,048 [Worker-705] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:48:13,048 [Worker-705] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 15:48:13,049 [Worker-705] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:48:13,049 [Worker-705] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 15:48:33,588 [Worker-713] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:48:33,589 [Worker-713] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 15:48:33,589 [Worker-713] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:48:33,589 [Worker-713] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 15:49:35,021 [Worker-710] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:49:35,022 [Worker-710] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 15:49:35,023 [Worker-710] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:49:35,023 [Worker-710] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 15:50:27,701 [Worker-713] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:50:27,701 [Worker-713] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 15:50:27,701 [Worker-713] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:50:27,702 [Worker-713] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 15:51:42,464 [Worker-711] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:51:42,465 [Worker-711] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 15:51:42,466 [Worker-711] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:51:42,466 [Worker-711] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 15:51:54,974 [Worker-714] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:51:54,974 [Worker-714] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 15:51:54,975 [Worker-714] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:51:54,975 [Worker-714] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 15:51:59,159 [Worker-714] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:51:59,159 [Worker-714] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 15:51:59,160 [Worker-714] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:51:59,160 [Worker-714] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 15:54:36,788 [Worker-710] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:54:36,789 [Worker-710] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 15:54:36,791 [Worker-710] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:54:36,791 [Worker-710] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 15:55:22,909 [Worker-716] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:55:22,909 [Worker-716] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 15:55:22,909 [Worker-716] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:55:22,909 [Worker-716] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 15:55:30,594 [Worker-713] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:55:30,595 [Worker-713] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 15:55:30,596 [Worker-713] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:55:30,596 [Worker-713] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 15:55:42,199 [Worker-715] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:55:42,199 [Worker-715] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 15:55:42,200 [Worker-715] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:55:42,200 [Worker-715] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 15:56:53,349 [Worker-716] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:56:53,349 [Worker-716] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 15:56:53,350 [Worker-716] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:56:53,350 [Worker-716] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 15:58:04,741 [Worker-716] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:58:04,741 [Worker-716] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 15:58:04,742 [Worker-716] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 15:58:04,742 [Worker-716] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 16:00:31,178 [Worker-720] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:00:31,178 [Worker-720] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 16:00:31,179 [Worker-720] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:00:31,179 [Worker-720] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 16:00:49,986 [Worker-721] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:00:49,986 [Worker-721] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 16:00:49,987 [Worker-721] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:00:49,987 [Worker-721] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 16:00:51,610 [Worker-715] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:00:51,610 [Worker-715] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 16:00:51,611 [Worker-715] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:00:51,611 [Worker-715] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 16:01:21,957 [Worker-720] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.inpe:ImageSave:0.0.1-SNAPSHOT @ /home/inpe/workspace/ImageSave/pom.xml.
+2017-05-25 16:01:22,027 [Worker-720] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:01:22,027 [Worker-720] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-25 16:01:22,027 [Worker-720] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:01:22,028 [Worker-720] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 16:01:23,317 [Worker-721] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:01:23,318 [Worker-721] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 16:01:23,318 [Worker-721] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:01:23,318 [Worker-721] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 16:02:04,505 [Worker-715] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.inpe:ImageSave:0.0.1-SNAPSHOT @ /home/inpe/workspace/ImageSave/pom.xml.
+2017-05-25 16:02:04,570 [Worker-715] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:02:04,570 [Worker-715] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-25 16:02:04,570 [Worker-715] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:02:04,570 [Worker-715] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 16:02:05,866 [Worker-720] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:02:05,867 [Worker-720] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 16:02:05,867 [Worker-720] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:02:05,867 [Worker-720] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 16:03:51,139 [Worker-720] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:03:51,140 [Worker-720] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 16:03:51,141 [Worker-720] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:03:51,141 [Worker-720] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 16:04:44,910 [Worker-719] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.inpe:ImageSave:0.0.1-SNAPSHOT @ /home/inpe/workspace/ImageSave/pom.xml.
+2017-05-25 16:04:44,936 [Worker-719] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework.data:spring-data-mongodb:jar:1.10.2.RELEASE is missing, no dependency information available
+2017-05-25 16:04:44,989 [Worker-719] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:04:44,989 [Worker-719] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-25 16:04:44,990 [Worker-719] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:04:44,990 [Worker-719] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 16:04:48,528 [Worker-719] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.inpe:ImageSave:0.0.1-SNAPSHOT @ /home/inpe/workspace/ImageSave/pom.xml.
+2017-05-25 16:04:48,566 [Worker-719] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:04:48,566 [Worker-719] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-25 16:04:48,566 [Worker-719] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:04:48,566 [Worker-719] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 16:04:49,867 [Worker-719] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:04:49,867 [Worker-719] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 16:04:49,868 [Worker-719] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:04:49,868 [Worker-719] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 16:04:51,462 [Worker-722] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.inpe:ImageSave:0.0.1-SNAPSHOT @ /home/inpe/workspace/ImageSave/pom.xml.
+2017-05-25 16:04:52,962 [Worker-722] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-mongodb/1.10.0.RELEASE/spring-data-mongodb-1.10.0.RELEASE.pom
+2017-05-25 16:04:53,093 [Worker-722] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-mongodb/1.10.0.RELEASE/spring-data-mongodb-1.10.0.RELEASE.pom
+2017-05-25 16:04:53,224 [Worker-722] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-mongodb-parent/1.10.0.RELEASE/spring-data-mongodb-parent-1.10.0.RELEASE.pom
+2017-05-25 16:04:53,367 [Worker-722] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-mongodb-parent/1.10.0.RELEASE/spring-data-mongodb-parent-1.10.0.RELEASE.pom
+2017-05-25 16:04:53,508 [Worker-722] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/build/spring-data-parent/1.9.0.RELEASE/spring-data-parent-1.9.0.RELEASE.pom
+2017-05-25 16:04:53,776 [Worker-722] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/build/spring-data-parent/1.9.0.RELEASE/spring-data-parent-1.9.0.RELEASE.pom
+2017-05-25 16:04:53,909 [Worker-722] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/build/spring-data-build/1.9.0.RELEASE/spring-data-build-1.9.0.RELEASE.pom
+2017-05-25 16:04:54,040 [Worker-722] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/build/spring-data-build/1.9.0.RELEASE/spring-data-build-1.9.0.RELEASE.pom
+2017-05-25 16:04:54,191 [Worker-722] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-framework-bom/4.3.6.RELEASE/spring-framework-bom-4.3.6.RELEASE.pom
+2017-05-25 16:04:54,323 [Worker-722] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-framework-bom/4.3.6.RELEASE/spring-framework-bom-4.3.6.RELEASE.pom
+2017-05-25 16:04:54,454 [Worker-722] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-tx/4.3.6.RELEASE/spring-tx-4.3.6.RELEASE.pom
+2017-05-25 16:04:54,583 [Worker-722] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-tx/4.3.6.RELEASE/spring-tx-4.3.6.RELEASE.pom
+2017-05-25 16:04:54,713 [Worker-722] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-beans/4.3.6.RELEASE/spring-beans-4.3.6.RELEASE.pom
+2017-05-25 16:04:54,841 [Worker-722] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-beans/4.3.6.RELEASE/spring-beans-4.3.6.RELEASE.pom
+2017-05-25 16:04:54,980 [Worker-722] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-core/4.3.6.RELEASE/spring-core-4.3.6.RELEASE.pom
+2017-05-25 16:04:55,108 [Worker-722] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-core/4.3.6.RELEASE/spring-core-4.3.6.RELEASE.pom
+2017-05-25 16:04:55,247 [Worker-722] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-context/4.3.6.RELEASE/spring-context-4.3.6.RELEASE.pom
+2017-05-25 16:04:55,378 [Worker-722] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-context/4.3.6.RELEASE/spring-context-4.3.6.RELEASE.pom
+2017-05-25 16:04:55,508 [Worker-722] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-aop/4.3.6.RELEASE/spring-aop-4.3.6.RELEASE.pom
+2017-05-25 16:04:55,637 [Worker-722] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-aop/4.3.6.RELEASE/spring-aop-4.3.6.RELEASE.pom
+2017-05-25 16:04:55,780 [Worker-722] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-expression/4.3.6.RELEASE/spring-expression-4.3.6.RELEASE.pom
+2017-05-25 16:04:55,910 [Worker-722] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-expression/4.3.6.RELEASE/spring-expression-4.3.6.RELEASE.pom
+2017-05-25 16:04:56,040 [Worker-722] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-commons/1.13.0.RELEASE/spring-data-commons-1.13.0.RELEASE.pom
+2017-05-25 16:04:56,173 [Worker-722] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-commons/1.13.0.RELEASE/spring-data-commons-1.13.0.RELEASE.pom
+2017-05-25 16:04:56,318 [Worker-722] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.22/slf4j-api-1.7.22.pom
+2017-05-25 16:04:56,446 [Worker-722] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.22/slf4j-api-1.7.22.pom
+2017-05-25 16:04:56,592 [Worker-722] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.7.22/slf4j-parent-1.7.22.pom
+2017-05-25 16:04:56,737 [Worker-722] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.7.22/slf4j-parent-1.7.22.pom
+2017-05-25 16:04:56,870 [Worker-722] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/slf4j/jcl-over-slf4j/1.7.22/jcl-over-slf4j-1.7.22.pom
+2017-05-25 16:04:56,999 [Worker-722] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/slf4j/jcl-over-slf4j/1.7.22/jcl-over-slf4j-1.7.22.pom
+2017-05-25 16:04:57,159 [Worker-722] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-mongodb/1.10.0.RELEASE/spring-data-mongodb-1.10.0.RELEASE.jar
+2017-05-25 16:04:57,951 [Worker-722] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-mongodb/1.10.0.RELEASE/spring-data-mongodb-1.10.0.RELEASE.jar
+2017-05-25 16:04:58,082 [Worker-722] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-tx/4.3.6.RELEASE/spring-tx-4.3.6.RELEASE.jar
+2017-05-25 16:04:58,293 [Worker-722] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-tx/4.3.6.RELEASE/spring-tx-4.3.6.RELEASE.jar
+2017-05-25 16:04:58,427 [Worker-722] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-context/4.3.6.RELEASE/spring-context-4.3.6.RELEASE.jar
+2017-05-25 16:04:58,928 [Worker-722] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-context/4.3.6.RELEASE/spring-context-4.3.6.RELEASE.jar
+2017-05-25 16:04:59,062 [Worker-722] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-aop/4.3.6.RELEASE/spring-aop-4.3.6.RELEASE.jar
+2017-05-25 16:04:59,295 [Worker-722] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-aop/4.3.6.RELEASE/spring-aop-4.3.6.RELEASE.jar
+2017-05-25 16:04:59,429 [Worker-722] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-beans/4.3.6.RELEASE/spring-beans-4.3.6.RELEASE.jar
+2017-05-25 16:04:59,813 [Worker-722] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-beans/4.3.6.RELEASE/spring-beans-4.3.6.RELEASE.jar
+2017-05-25 16:04:59,952 [Worker-722] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-core/4.3.6.RELEASE/spring-core-4.3.6.RELEASE.jar
+2017-05-25 16:05:00,445 [Worker-722] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-core/4.3.6.RELEASE/spring-core-4.3.6.RELEASE.jar
+2017-05-25 16:05:00,578 [Worker-722] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-expression/4.3.6.RELEASE/spring-expression-4.3.6.RELEASE.jar
+2017-05-25 16:05:00,773 [Worker-722] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-expression/4.3.6.RELEASE/spring-expression-4.3.6.RELEASE.jar
+2017-05-25 16:05:00,906 [Worker-722] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-commons/1.13.0.RELEASE/spring-data-commons-1.13.0.RELEASE.jar
+2017-05-25 16:05:01,249 [Worker-722] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-commons/1.13.0.RELEASE/spring-data-commons-1.13.0.RELEASE.jar
+2017-05-25 16:05:01,380 [Worker-722] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.22/slf4j-api-1.7.22.jar
+2017-05-25 16:05:01,516 [Worker-722] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.22/slf4j-api-1.7.22.jar
+2017-05-25 16:05:01,647 [Worker-722] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/slf4j/jcl-over-slf4j/1.7.22/jcl-over-slf4j-1.7.22.jar
+2017-05-25 16:05:01,776 [Worker-722] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/slf4j/jcl-over-slf4j/1.7.22/jcl-over-slf4j-1.7.22.jar
+2017-05-25 16:05:02,797 [Worker-722] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:05:02,797 [Worker-722] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-25 16:05:02,798 [Worker-722] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:05:02,798 [Worker-722] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 16:05:03,244 [Worker-720] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:05:03,244 [Worker-720] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 16:05:03,245 [Worker-720] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:05:03,245 [Worker-720] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 16:05:26,086 [Worker-722] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.inpe:ImageSave:0.0.1-SNAPSHOT @ /home/inpe/workspace/ImageSave/pom.xml.
+2017-05-25 16:05:26,129 [Worker-722] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:05:26,129 [Worker-722] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-25 16:05:26,130 [Worker-722] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:05:26,130 [Worker-722] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 16:05:27,421 [Worker-723] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:05:27,421 [Worker-723] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 16:05:27,422 [Worker-723] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:05:27,422 [Worker-723] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 16:05:36,292 [Worker-721] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/inpe/workspace/ImageSave
+2017-05-25 16:05:36,293 [Worker-721] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2017-05-25 16:05:39,782 [Worker-719] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:05:39,782 [Worker-719] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 16:05:39,794 [Worker-719] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:05:39,794 [Worker-719] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 16:15:48,593 [Worker-728] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/inpe/workspace/ImageSave
+2017-05-25 16:15:48,593 [Worker-728] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2017-05-25 16:15:52,023 [Worker-732] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:15:52,024 [Worker-732] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 16:15:52,026 [Worker-732] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:15:52,026 [Worker-732] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 16:17:14,789 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-25 16:17:14,811 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2017-05-25 16:17:14,833 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-25 16:17:14,834 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/API/src/test/resources
+2017-05-25 16:17:14,865 [Worker-2] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of API
+2017-05-25 16:17:14,866 [Worker-2] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for API
+2017-05-25 16:17:14,880 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-25 16:20:00,962 [Worker-12] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-05-25 16:20:01,658 [Worker-12] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.inpe:ImageSave:0.0.1-SNAPSHOT @ /home/inpe/workspace/ImageSave/pom.xml.
+2017-05-25 16:20:01,855 [Worker-12] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ImageSave/src/main/java
+2017-05-25 16:20:01,855 [Worker-12] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ImageSave/src/main/resources
+2017-05-25 16:20:01,869 [Worker-12] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ImageSave/src/test/java
+2017-05-25 16:20:02,074 [Worker-12] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2017-05-25 16:20:02,608 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:20:02,609 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 16:20:02,614 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:20:02,614 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 16:23:01,240 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:23:01,243 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 16:23:01,245 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:23:01,245 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 16:23:27,338 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:23:27,338 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 16:23:27,344 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:23:27,344 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 16:27:49,133 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:27:49,133 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 16:27:49,135 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:27:49,135 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 16:28:06,208 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:28:06,209 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 16:28:06,210 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:28:06,210 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 16:28:36,369 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:28:36,374 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 16:28:36,376 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:28:36,376 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 16:28:38,705 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:28:38,705 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 16:28:38,708 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:28:38,708 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 16:28:40,074 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:28:40,074 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 16:28:40,076 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:28:40,076 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 16:28:47,909 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:28:47,909 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 16:28:47,912 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:28:47,912 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 16:28:51,361 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:28:51,362 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 16:28:51,364 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:28:51,365 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 16:28:52,392 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:28:52,393 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 16:28:52,395 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:28:52,395 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 16:29:48,022 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:29:48,022 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 16:29:48,023 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:29:48,023 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 16:29:51,304 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:29:51,304 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 16:29:51,306 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:29:51,306 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 16:30:08,190 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:30:08,190 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 16:30:08,192 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:30:08,192 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 16:30:24,209 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:30:24,209 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 16:30:24,212 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:30:24,212 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 16:30:52,703 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:30:52,703 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 16:30:52,705 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:30:52,705 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 16:31:31,578 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:31:31,578 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 16:31:31,579 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:31:31,579 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 16:31:38,861 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:31:38,862 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 16:31:38,864 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:31:38,864 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 16:33:00,063 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:33:00,063 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 16:33:00,065 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:33:00,065 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 16:33:25,885 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:33:25,885 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 16:33:25,886 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:33:25,886 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 16:33:29,418 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:33:29,419 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 16:33:29,420 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:33:29,420 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 16:34:19,347 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:34:19,348 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 16:34:19,349 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:34:19,349 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 16:34:27,026 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:34:27,027 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 16:34:27,028 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:34:27,028 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 16:34:31,757 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:34:31,758 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 16:34:31,759 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:34:31,759 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 16:34:34,936 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:34:34,936 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 16:34:34,938 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:34:34,938 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 16:34:59,941 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:34:59,942 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 16:34:59,943 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:34:59,943 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 16:43:40,980 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:43:40,981 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 16:43:40,982 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:43:40,983 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 16:44:01,169 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:44:01,169 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 16:44:01,170 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:44:01,170 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 16:44:03,762 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:44:03,763 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 16:44:03,764 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:44:03,765 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 16:44:22,816 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:44:22,816 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 16:44:22,817 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:44:22,818 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 16:46:55,077 [Worker-31] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-05-25 16:46:55,379 [Worker-31] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.inpe:ImageSave:0.0.1-SNAPSHOT @ /home/inpe/workspace/ImageSave/pom.xml.
+2017-05-25 16:46:55,478 [Worker-31] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ImageSave/src/main/java
+2017-05-25 16:46:55,478 [Worker-31] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ImageSave/src/main/resources
+2017-05-25 16:46:55,479 [Worker-31] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ImageSave/src/test/java
+2017-05-25 16:46:55,583 [Worker-31] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2017-05-25 16:46:55,897 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:46:55,898 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-05-25 16:46:55,900 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:46:55,900 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 16:50:02,807 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:50:02,807 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-05-25 16:50:02,808 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:50:02,808 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 16:50:07,397 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:50:07,397 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-05-25 16:50:07,398 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:50:07,399 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 16:50:12,062 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:50:12,062 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-05-25 16:50:12,064 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:50:12,064 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 16:50:14,356 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:50:14,357 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-05-25 16:50:14,358 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:50:14,358 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 16:50:17,664 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:50:17,665 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-05-25 16:50:17,666 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:50:17,666 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 16:50:21,437 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:50:21,437 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-05-25 16:50:21,438 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:50:21,439 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 16:50:32,113 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:50:32,113 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-05-25 16:50:32,114 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:50:32,114 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 16:50:58,911 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:50:58,912 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-05-25 16:50:58,912 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:50:58,913 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 16:52:19,213 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:52:19,213 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 16:52:19,215 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:52:19,215 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 16:52:21,399 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:52:21,399 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 16:52:21,401 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:52:21,401 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 16:52:26,345 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:52:26,345 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 16:52:26,346 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:52:26,346 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 16:52:41,363 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:52:41,363 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 16:52:41,364 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:52:41,364 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 16:52:42,448 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:52:42,448 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 16:52:42,450 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:52:42,450 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 16:52:59,794 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:52:59,794 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 16:52:59,796 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:52:59,796 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 16:53:16,865 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:53:16,865 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 16:53:16,867 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:53:16,867 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 16:53:22,843 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:53:22,843 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 16:53:22,844 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:53:22,844 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 16:54:00,309 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:54:00,309 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 16:54:00,310 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 16:54:00,310 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 17:06:46,975 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 17:06:46,975 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 17:06:46,976 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 17:06:46,977 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 17:33:03,391 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 17:33:03,391 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 17:33:03,392 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 17:33:03,392 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 17:36:03,107 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 17:36:03,107 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 17:36:03,109 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 17:36:03,109 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 17:36:50,312 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 17:36:50,312 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 17:36:50,314 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 17:36:50,314 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 17:37:04,411 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 17:37:04,411 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 17:37:04,413 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 17:37:04,413 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 17:37:11,597 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 17:37:11,597 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 17:37:11,598 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 17:37:11,598 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 17:37:20,059 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 17:37:20,059 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 17:37:20,060 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 17:37:20,060 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 17:38:28,783 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 17:38:28,783 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 17:38:28,785 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 17:38:28,785 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 17:38:31,691 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 17:38:31,691 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 17:38:31,693 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 17:38:31,693 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 17:39:02,359 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 17:39:02,359 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 17:39:02,360 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 17:39:02,360 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 17:39:14,232 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 17:39:14,232 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 17:39:14,234 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 17:39:14,234 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 17:39:19,366 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 17:39:19,366 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 17:39:19,367 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 17:39:19,367 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 17:39:23,506 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 17:39:23,507 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 17:39:23,508 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 17:39:23,508 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 17:42:32,518 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 17:42:32,518 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 17:42:32,520 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 17:42:32,520 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 17:42:57,284 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 17:42:57,284 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 17:42:57,286 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 17:42:57,286 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 17:43:09,623 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 17:43:09,623 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 17:43:09,625 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 17:43:09,625 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 17:44:11,629 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 17:44:11,630 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 17:44:11,631 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 17:44:11,631 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 17:44:15,507 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 17:44:15,508 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 17:44:15,509 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 17:44:15,509 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 17:44:25,044 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 17:44:25,044 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 17:44:25,045 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 17:44:25,046 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 17:45:09,386 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 17:45:09,387 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 17:45:09,388 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 17:45:09,388 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 17:45:42,476 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 17:45:42,477 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 17:45:42,478 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 17:45:42,478 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-25 17:46:32,259 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 17:46:32,260 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-25 17:46:32,261 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 17:46:32,261 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-26 10:53:59,145 [Worker-452] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 10:53:59,146 [Worker-452] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-05-26 10:53:59,146 [Worker-452] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 10:53:59,147 [Worker-452] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-26 10:58:35,486 [Worker-454] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 10:58:35,486 [Worker-454] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-26 10:58:35,488 [Worker-454] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 10:58:35,489 [Worker-454] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-26 10:59:21,554 [Worker-451] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 10:59:21,554 [Worker-451] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-26 10:59:21,556 [Worker-451] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 10:59:21,556 [Worker-451] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-26 11:00:26,789 [Worker-450] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 11:00:26,789 [Worker-450] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-26 11:00:26,790 [Worker-450] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 11:00:26,790 [Worker-450] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-26 11:01:19,600 [Worker-454] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 11:01:19,600 [Worker-454] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-05-26 11:01:19,602 [Worker-454] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 11:01:19,602 [Worker-454] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-26 11:03:17,819 [Worker-457] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 11:03:17,820 [Worker-457] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-26 11:03:17,821 [Worker-457] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 11:03:17,821 [Worker-457] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-26 11:04:01,497 [Worker-450] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 11:04:01,498 [Worker-450] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-26 11:04:01,501 [Worker-450] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 11:04:01,501 [Worker-450] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-26 11:07:03,191 [Worker-451] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 11:07:03,191 [Worker-451] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-26 11:07:03,192 [Worker-451] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 11:07:03,202 [Worker-451] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-26 11:11:53,560 [Worker-462] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 11:11:53,561 [Worker-462] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-26 11:11:53,562 [Worker-462] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 11:11:53,562 [Worker-462] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-26 11:15:09,544 [Worker-460] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 11:15:09,544 [Worker-460] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-26 11:15:09,545 [Worker-460] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 11:15:09,545 [Worker-460] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-26 11:15:27,785 [Worker-463] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 11:15:27,785 [Worker-463] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-26 11:15:27,786 [Worker-463] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 11:15:27,786 [Worker-463] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-26 11:16:03,344 [Worker-465] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 11:16:03,345 [Worker-465] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-26 11:16:03,346 [Worker-465] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 11:16:03,347 [Worker-465] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-26 11:19:12,202 [Worker-463] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 11:19:12,202 [Worker-463] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-26 11:19:12,203 [Worker-463] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 11:19:12,203 [Worker-463] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-26 15:24:18,497 [Worker-574] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 15:24:18,498 [Worker-574] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-05-26 15:24:18,499 [Worker-574] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 15:24:18,499 [Worker-574] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-26 15:24:54,378 [Worker-570] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 15:24:54,378 [Worker-570] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-05-26 15:24:54,379 [Worker-570] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 15:24:54,379 [Worker-570] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-26 15:25:16,389 [Worker-576] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 15:25:16,390 [Worker-576] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-05-26 15:25:16,420 [Worker-576] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 15:25:16,420 [Worker-576] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-26 15:25:21,190 [Worker-570] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 15:25:21,190 [Worker-570] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-05-26 15:25:21,191 [Worker-570] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 15:25:21,191 [Worker-570] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-26 15:25:36,114 [Worker-576] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 15:25:36,114 [Worker-576] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-05-26 15:25:36,115 [Worker-576] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 15:25:36,115 [Worker-576] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-26 15:25:43,460 [Worker-575] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 15:25:43,461 [Worker-575] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-05-26 15:25:43,461 [Worker-575] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 15:25:43,461 [Worker-575] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-26 15:25:50,637 [Worker-576] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 15:25:50,637 [Worker-576] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-05-26 15:25:50,638 [Worker-576] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 15:25:50,638 [Worker-576] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-26 15:26:42,350 [Worker-572] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 15:26:42,350 [Worker-572] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-05-26 15:26:42,351 [Worker-572] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 15:26:42,351 [Worker-572] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-26 15:26:46,360 [Worker-577] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 15:26:46,361 [Worker-577] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-05-26 15:26:46,362 [Worker-577] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 15:26:46,362 [Worker-577] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-26 15:33:24,929 [Worker-574] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 15:33:24,929 [Worker-574] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-05-26 15:33:24,930 [Worker-574] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 15:33:24,930 [Worker-574] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-26 15:33:28,112 [Worker-578] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 15:33:28,112 [Worker-578] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-05-26 15:33:28,113 [Worker-578] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 15:33:28,113 [Worker-578] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-26 15:33:37,824 [Worker-577] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 15:33:37,824 [Worker-577] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-05-26 15:33:37,826 [Worker-577] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 15:33:37,826 [Worker-577] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-26 15:34:07,818 [Worker-579] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 15:34:07,819 [Worker-579] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-05-26 15:34:07,819 [Worker-579] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 15:34:07,819 [Worker-579] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-26 15:34:19,453 [Worker-580] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 15:34:19,453 [Worker-580] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-05-26 15:34:19,454 [Worker-580] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 15:34:19,454 [Worker-580] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-26 15:34:25,631 [Worker-577] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 15:34:25,632 [Worker-577] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-05-26 15:34:25,633 [Worker-577] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 15:34:25,633 [Worker-577] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-26 15:34:51,693 [Worker-575] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 15:34:51,693 [Worker-575] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-05-26 15:34:51,694 [Worker-575] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 15:34:51,694 [Worker-575] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-26 15:34:55,738 [Worker-574] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 15:34:55,738 [Worker-574] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-05-26 15:34:55,738 [Worker-574] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 15:34:55,739 [Worker-574] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-26 15:36:05,398 [Worker-570] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 15:36:05,399 [Worker-570] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-05-26 15:36:05,400 [Worker-570] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 15:36:05,400 [Worker-570] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-26 15:36:09,425 [Worker-578] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 15:36:09,425 [Worker-578] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-05-26 15:36:09,426 [Worker-578] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 15:36:09,426 [Worker-578] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-26 15:37:17,608 [Worker-580] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 15:37:17,609 [Worker-580] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-05-26 15:37:17,609 [Worker-580] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 15:37:17,610 [Worker-580] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-26 15:37:23,950 [Worker-570] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 15:37:23,950 [Worker-570] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-05-26 15:37:23,951 [Worker-570] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 15:37:23,951 [Worker-570] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-26 15:37:31,261 [Worker-575] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 15:37:31,261 [Worker-575] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-05-26 15:37:31,262 [Worker-575] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 15:37:31,262 [Worker-575] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-26 15:38:14,508 [Worker-575] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 15:38:14,508 [Worker-575] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-05-26 15:38:14,509 [Worker-575] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 15:38:14,509 [Worker-575] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-26 15:38:42,694 [Worker-579] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-05-26 15:38:43,675 [Worker-579] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.inpe:ImageSave:0.0.1-SNAPSHOT @ /home/inpe/workspace/ImageSave/pom.xml.
+2017-05-26 15:38:44,140 [Worker-579] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ImageSave/src/main/java
+2017-05-26 15:38:44,140 [Worker-579] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ImageSave/src/main/resources
+2017-05-26 15:38:44,141 [Worker-579] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ImageSave/src/test/java
+2017-05-26 15:38:44,302 [Worker-579] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2017-05-26 15:38:44,676 [Worker-580] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 15:38:44,676 [Worker-580] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-05-26 15:38:44,677 [Worker-580] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 15:38:44,677 [Worker-580] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-26 15:39:04,208 [Worker-583] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 15:39:04,208 [Worker-583] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-05-26 15:39:04,209 [Worker-583] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 15:39:04,209 [Worker-583] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-26 15:39:11,625 [Worker-582] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 15:39:11,626 [Worker-582] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-05-26 15:39:11,626 [Worker-582] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 15:39:11,626 [Worker-582] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-26 15:39:14,217 [Worker-581] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 15:39:14,218 [Worker-581] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-05-26 15:39:14,219 [Worker-581] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 15:39:14,219 [Worker-581] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-26 15:39:24,203 [Worker-582] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 15:39:24,204 [Worker-582] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-05-26 15:39:24,205 [Worker-582] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 15:39:24,205 [Worker-582] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-26 15:41:15,076 [Worker-577] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 15:41:15,077 [Worker-577] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-05-26 15:41:15,078 [Worker-577] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 15:41:15,078 [Worker-577] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-26 15:41:41,698 [Worker-581] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 15:41:41,698 [Worker-581] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-05-26 15:41:41,699 [Worker-581] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 15:41:41,699 [Worker-581] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-26 15:42:23,415 [Worker-581] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 15:42:23,415 [Worker-581] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-05-26 15:42:23,416 [Worker-581] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 15:42:23,416 [Worker-581] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-26 15:42:34,282 [Worker-579] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 15:42:34,282 [Worker-579] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-05-26 15:42:34,283 [Worker-579] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 15:42:34,283 [Worker-579] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-26 15:42:41,038 [Worker-580] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 15:42:41,039 [Worker-580] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-05-26 15:42:41,039 [Worker-580] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 15:42:41,039 [Worker-580] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-26 15:43:00,503 [Worker-579] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 15:43:00,503 [Worker-579] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-05-26 15:43:00,504 [Worker-579] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 15:43:00,504 [Worker-579] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-26 15:43:56,823 [Worker-583] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 15:43:56,823 [Worker-583] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-05-26 15:43:56,824 [Worker-583] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 15:43:56,824 [Worker-583] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-26 15:44:55,596 [Worker-577] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 15:44:55,596 [Worker-577] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-05-26 15:44:55,597 [Worker-577] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 15:44:55,597 [Worker-577] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-26 16:10:01,831 [Worker-594] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 16:10:01,831 [Worker-594] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-26 16:10:01,832 [Worker-594] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 16:10:01,832 [Worker-594] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-26 16:10:23,029 [Worker-594] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 16:10:23,030 [Worker-594] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-26 16:10:23,032 [Worker-594] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 16:10:23,032 [Worker-594] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-26 16:10:28,539 [Worker-589] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 16:10:28,539 [Worker-589] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-26 16:10:28,540 [Worker-589] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 16:10:28,540 [Worker-589] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-26 16:49:25,983 [Worker-607] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 16:49:25,984 [Worker-607] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-26 16:49:25,984 [Worker-607] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 16:49:25,984 [Worker-607] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-05-26 17:09:42,103 [Worker-616] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration App references non-existing project springDataJpa.
+org.eclipse.core.runtime.CoreException: Launch configuration App references non-existing project springDataJpa.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1408) ~[org.eclipse.jdt.launching_3.8.101.v20161111-2014.jar:na]
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1283) ~[org.eclipse.jdt.launching_3.8.101.v20161111-2014.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53) [org.eclipse.m2e.jdt_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38) [org.eclipse.m2e.jdt_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:226) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.8.0.v20160509-1230.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:207) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:552) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:425) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:309) [org.eclipse.m2e.jdt_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335) [org.eclipse.m2e.jdt_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70) [org.eclipse.m2e.jdt_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55) [org.eclipse.core.jobs_3.8.0.v20160509-0411.jar:na]
+2017-05-26 17:09:42,171 [Worker-616] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration App references non-existing project springDataJpa.
+org.eclipse.core.runtime.CoreException: Launch configuration App references non-existing project springDataJpa.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1408) ~[org.eclipse.jdt.launching_3.8.101.v20161111-2014.jar:na]
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1283) ~[org.eclipse.jdt.launching_3.8.101.v20161111-2014.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53) [org.eclipse.m2e.jdt_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38) [org.eclipse.m2e.jdt_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:226) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.8.0.v20160509-1230.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:207) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:552) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:425) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:310) [org.eclipse.m2e.jdt_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335) [org.eclipse.m2e.jdt_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70) [org.eclipse.m2e.jdt_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55) [org.eclipse.core.jobs_3.8.0.v20160509-0411.jar:na]
+2017-05-26 17:09:42,173 [Worker-616] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration App references non-existing project springDataJpa.
+org.eclipse.core.runtime.CoreException: Launch configuration App references non-existing project springDataJpa.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1408) ~[org.eclipse.jdt.launching_3.8.101.v20161111-2014.jar:na]
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1283) ~[org.eclipse.jdt.launching_3.8.101.v20161111-2014.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53) [org.eclipse.m2e.jdt_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38) [org.eclipse.m2e.jdt_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:226) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.8.0.v20160509-1230.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:207) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2161) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:384) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:250) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:220) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:173) [org.eclipse.debug.core_3.10.100.v20160419-1720.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:311) [org.eclipse.m2e.jdt_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335) [org.eclipse.m2e.jdt_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70) [org.eclipse.m2e.jdt_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55) [org.eclipse.core.jobs_3.8.0.v20160509-0411.jar:na]
+2017-05-29 13:26:26,230 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-29 13:26:26,244 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2017-05-29 13:26:26,278 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-29 13:26:26,279 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/API/src/test/resources
+2017-05-29 13:26:26,322 [Worker-4] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of API
+2017-05-29 13:26:26,322 [Worker-4] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for API
+2017-05-29 13:26:26,342 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 15:07:29,612 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 15:07:29,638 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2017-06-01 15:07:29,645 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 15:07:29,646 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/API/src/test/resources
+2017-06-01 15:07:29,655 [Worker-3] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of API
+2017-06-01 15:07:29,655 [Worker-3] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for API
+2017-06-01 15:07:29,671 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 15:21:50,926 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 15:21:50,940 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2017-06-01 15:21:50,960 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 15:21:50,961 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/API/src/test/resources
+2017-06-01 15:21:50,970 [Worker-13] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of API
+2017-06-01 15:21:50,971 [Worker-13] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for API
+2017-06-01 15:21:51,024 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-02 21:09:21,588 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-02 21:09:21,624 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2017-06-02 21:09:21,634 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-02 21:09:21,635 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/API/src/test/resources
+2017-06-02 21:09:21,657 [Worker-4] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of API
+2017-06-02 21:09:21,658 [Worker-4] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for API
+2017-06-02 21:09:21,684 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-05 13:09:05,215 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-05 13:09:05,280 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2017-06-05 13:09:05,290 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-05 13:09:05,294 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/API/src/test/resources
+2017-06-05 13:09:05,328 [Worker-5] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of API
+2017-06-05 13:09:05,328 [Worker-5] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for API
+2017-06-05 13:09:05,395 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-05 13:09:21,377 [main] ERROR o.e.m2e.editor.pom.OverviewPage - Failed to populate overview panel
+java.lang.NullPointerException: null
+	at org.eclipse.m2e.core.ui.internal.editing.PomEdits.performOnDOMDocument(PomEdits.java:510) ~[org.eclipse.m2e.core.ui_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.editor.pom.OverviewPage$17.run(OverviewPage.java:1129) ~[na:na]
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35) [org.eclipse.swt.gtk.linux.x86_64_3.105.2.v20161122-0613.jar:na]
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182) [org.eclipse.swt.gtk.linux.x86_64_3.105.2.v20161122-0613.jar:na]
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4536) [org.eclipse.swt.gtk.linux.x86_64_3.105.2.v20161122-0613.jar:na]
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4154) [org.eclipse.swt.gtk.linux.x86_64_3.105.2.v20161122-0613.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1121) [org.eclipse.e4.ui.workbench.swt_0.14.1.v20160829-0832.jar:na]
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336) [org.eclipse.core.databinding.observable_1.6.0.v20160511-1747.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022) [org.eclipse.e4.ui.workbench.swt_0.14.1.v20160829-0832.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:150) [org.eclipse.e4.ui.workbench_1.4.0.v20160517-1624.jar:na]
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:693) [org.eclipse.ui.workbench_3.108.2.v20161025-2029.jar:na]
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336) [org.eclipse.core.databinding.observable_1.6.0.v20160511-1747.jar:na]
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:610) [org.eclipse.ui.workbench_3.108.2.v20161025-2029.jar:na]
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148) [org.eclipse.ui.workbench_3.108.2.v20161025-2029.jar:na]
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:138) [org.eclipse.ui.ide.application_1.1.101.v20160829-0827.jar:na]
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196) [org.eclipse.equinox.app_1.3.400.v20150715-1528.jar:na]
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134) [org.eclipse.osgi_3.11.2.v20161107-1947.jar:na]
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104) [org.eclipse.osgi_3.11.2.v20161107-1947.jar:na]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388) [org.eclipse.osgi_3.11.2.v20161107-1947.jar:na]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243) [org.eclipse.osgi_3.11.2.v20161107-1947.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_131]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_131]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_131]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_131]
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673) [org.eclipse.equinox.launcher_1.3.201.v20161025-1711.jar:na]
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610) [org.eclipse.equinox.launcher_1.3.201.v20161025-1711.jar:na]
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519) [org.eclipse.equinox.launcher_1.3.201.v20161025-1711.jar:na]
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1492) [org.eclipse.equinox.launcher_1.3.201.v20161025-1711.jar:na]
+2017-06-05 13:09:21,386 [main] ERROR o.e.m2e.editor.pom.OverviewPage - Failed to populate overview panel
+java.lang.NullPointerException: null
+	at org.eclipse.m2e.core.ui.internal.editing.PomEdits.performOnDOMDocument(PomEdits.java:510) ~[org.eclipse.m2e.core.ui_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.editor.pom.OverviewPage$17.run(OverviewPage.java:1129) ~[na:na]
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35) [org.eclipse.swt.gtk.linux.x86_64_3.105.2.v20161122-0613.jar:na]
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182) [org.eclipse.swt.gtk.linux.x86_64_3.105.2.v20161122-0613.jar:na]
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4536) [org.eclipse.swt.gtk.linux.x86_64_3.105.2.v20161122-0613.jar:na]
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4154) [org.eclipse.swt.gtk.linux.x86_64_3.105.2.v20161122-0613.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1121) [org.eclipse.e4.ui.workbench.swt_0.14.1.v20160829-0832.jar:na]
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336) [org.eclipse.core.databinding.observable_1.6.0.v20160511-1747.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022) [org.eclipse.e4.ui.workbench.swt_0.14.1.v20160829-0832.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:150) [org.eclipse.e4.ui.workbench_1.4.0.v20160517-1624.jar:na]
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:693) [org.eclipse.ui.workbench_3.108.2.v20161025-2029.jar:na]
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336) [org.eclipse.core.databinding.observable_1.6.0.v20160511-1747.jar:na]
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:610) [org.eclipse.ui.workbench_3.108.2.v20161025-2029.jar:na]
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148) [org.eclipse.ui.workbench_3.108.2.v20161025-2029.jar:na]
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:138) [org.eclipse.ui.ide.application_1.1.101.v20160829-0827.jar:na]
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196) [org.eclipse.equinox.app_1.3.400.v20150715-1528.jar:na]
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134) [org.eclipse.osgi_3.11.2.v20161107-1947.jar:na]
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104) [org.eclipse.osgi_3.11.2.v20161107-1947.jar:na]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388) [org.eclipse.osgi_3.11.2.v20161107-1947.jar:na]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243) [org.eclipse.osgi_3.11.2.v20161107-1947.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_131]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_131]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_131]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_131]
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673) [org.eclipse.equinox.launcher_1.3.201.v20161025-1711.jar:na]
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610) [org.eclipse.equinox.launcher_1.3.201.v20161025-1711.jar:na]
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519) [org.eclipse.equinox.launcher_1.3.201.v20161025-1711.jar:na]
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1492) [org.eclipse.equinox.launcher_1.3.201.v20161025-1711.jar:na]
+2017-06-05 13:09:43,891 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-05 13:09:43,892 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-05 13:09:43,893 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-05 13:09:43,894 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-06-05 13:17:12,781 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-05 13:17:12,809 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-05 13:17:12,811 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-05 13:17:12,811 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-06-05 13:17:30,927 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-05 13:17:30,928 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-05 13:17:30,934 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-05 13:17:30,934 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-06-05 13:29:11,303 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-05 13:29:11,304 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-05 13:29:11,305 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-05 13:29:11,306 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-06-05 13:42:02,125 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-05 13:42:02,125 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-05 13:42:02,127 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-05 13:42:02,127 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/ImageSave/src/test/resources
+2017-06-05 18:43:45,377 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-05 18:43:45,405 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2017-06-05 18:43:45,418 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-05 18:43:45,419 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/inpe/workspace/API/src/test/resources
+2017-06-05 18:43:45,452 [Worker-4] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of API
+2017-06-05 18:43:45,453 [Worker-4] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for API
+2017-06-05 18:43:45,493 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!

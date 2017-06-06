@@ -36,7 +36,8 @@ public class ImageFits {
 		this.document.put(key, value);
 	}
 
-	private void setDocument() throws FitsException, ParseException, IOException, NullPointerException {
+	private void setDocument() throws FitsException, ParseException, 
+									IOException, NullPointerException {
 
 		Header header = this.fits.getHDU(0).getHeader();
 		Cursor<String, HeaderCard> c = header.iterator();
@@ -54,7 +55,6 @@ public class ImageFits {
 							this.document.put(bb.getKey(), bb.getComment());
 						} else if (bb.getValue() != null) {
 							this.document.put(bb.getKey(), bb.getValue());
-
 						} else {
 							this.document.put(bb.getKey(), "");
 						}

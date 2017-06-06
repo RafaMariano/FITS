@@ -1,14 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.lang.StringBuilder"/>
-<fullyQualifiedTypeName name="nom.tam.fits.FitsException"/>
-<fullyQualifiedTypeName name="br.inpe.log.Log"/>
-<fullyQualifiedTypeName name="br.inpe.model.FileSystem"/>
-<fullyQualifiedTypeName name="com.mongodb.gridfs.GridFS"/>
-<fullyQualifiedTypeName name="javax.annotation.Resource"/>
-<fullyQualifiedTypeName name="org.springframework.data.mongodb.gridfs.GridFsOperations"/>
-<fullyQualifiedTypeName name="java.io.FileInputStream"/>
-<fullyQualifiedTypeName name="java.io.FileNotFoundException"/>
 <fullyQualifiedTypeName name="java.io.InputStream"/>
 <fullyQualifiedTypeName name="com.mongodb.gridfs.GridFSDBFile"/>
 <fullyQualifiedTypeName name="br.inpe.service.FileStorageDAO"/>
@@ -26,8 +17,6 @@
 <fullyQualifiedTypeName name="br.inpe.view.View"/>
 <fullyQualifiedTypeName name="org.springframework.data.repository.CrudRepository"/>
 <fullyQualifiedTypeName name="br.inpe.service.ImageService"/>
-<fullyQualifiedTypeName name="org.springframework.data.mongodb.repository.MongoRepository"/>
-<fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
 <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
 <fullyQualifiedTypeName name="br.inpe.repository.ImageRepository"/>
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
@@ -35,7 +24,6 @@
 <fullyQualifiedTypeName name="org.springframework.web.servlet.ModelAndView"/>
 <fullyQualifiedTypeName name="org.springframework.ui.ModelMap"/>
 <fullyQualifiedTypeName name="nom.tam.fits.Fits"/>
-<fullyQualifiedTypeName name="java.io.File"/>
 <fullyQualifiedTypeName name="br.inpe.model.ConvertTime"/>
 <fullyQualifiedTypeName name="org.bson.Document"/>
 <fullyQualifiedTypeName name="br.inpe.model.Image"/>
@@ -43,8 +31,6 @@
 <fullyQualifiedTypeName name="java.lang.Integer"/>
 <fullyQualifiedTypeName name="org.springframework.core.env.SystemEnvironmentPropertySource"/>
 <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
-<fullyQualifiedTypeName name="java.nio.file.Files"/>
-<fullyQualifiedTypeName name="java.nio.file.Paths"/>
 <fullyQualifiedTypeName name="br.gov.sp.fatec.model.Estoque"/>
 <fullyQualifiedTypeName name="br.gov.sp.fatec.model.Venda"/>
 <fullyQualifiedTypeName name="br.gov.sp.fatec.service.ProdutoServiceImpl"/>
@@ -60,4 +46,18 @@
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestParam"/>
 <fullyQualifiedTypeName name="br.inpe.model.ImagesCollection"/>
 <fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.io.EOFException"/>
+<fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+<fullyQualifiedTypeName name="java.nio.file.Path"/>
+<fullyQualifiedTypeName name="java.nio.file.FileSystem"/>
+<fullyQualifiedTypeName name="java.nio.file.FileSystems"/>
+<fullyQualifiedTypeName name="br.inpe.filesystem.ProcessImage"/>
+<fullyQualifiedTypeName name="com.mongodb.AuthenticationMechanism"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
+<fullyQualifiedTypeName name="org.springframework.data.mongodb.repository.MongoRepository"/>
+<fullyQualifiedTypeName name="org.springframework.data.mongodb.core.MongoTemplate"/>
+<fullyQualifiedTypeName name="org.springframework.data.mongodb.MongoDbFactory"/>
+<fullyQualifiedTypeName name="java.nio.file.Paths"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="java.nio.file.Files"/>
 </qualifiedTypeNameHistroy>

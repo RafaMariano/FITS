@@ -26,7 +26,6 @@ public class ImageServiceImpl implements ImageService{
 
 	@Override
 	public void saveImage(Image image) throws IOException {
-		
 		this.imageRepository.insert(image);
 		this.log.deleteLog();
 	}
