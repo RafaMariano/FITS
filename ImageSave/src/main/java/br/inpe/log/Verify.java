@@ -40,15 +40,14 @@ public class Verify {
 		this.log = log;
 	}
 	
-	public void moveToCorrupted(String pathImage, String pathPrincipal){
+	public void moveToCorrupted(String pathImage, String pathPrincipal) throws IOException{
 		
 		try {
 			moveToCorruptedDirectory(pathImage, pathPrincipal);
 		} catch (IOException e) {
-			
-			e.printStackTrace();
+			LogTest log = new LogTest(pathLog.toString());
+			log.setLog(e.toString());
 		}
-		
 	}
 	
 	public Image verify() throws IOException {
@@ -71,8 +70,6 @@ public class Verify {
 				case DELETE_SUCCESSFUL:
 						getVerifyDelete(lines.get(0), lines.get(1));
 				}
-			} else {
-				//this.log.deleteLog();
 			}
 		}
 		return null;
@@ -90,18 +87,11 @@ public class Verify {
 		}
 	}
 	
-	
-	
 	private String fileExistInPathPrincipal(String imagePath, String destinationPath)
 			throws FitsException, IOException {
 
 		if (isCorrupted(imagePath) == false) {
-			
-		//	ArrayList<String> paths = getDestinationPath(new StringBuilder(destinationPath),
-		//			new StringBuilder(imagePath));
-			
 			FileSystem.getInstance().createDir(destinationPath);
-			//imagePath, paths.get(1), paths.get(0));
 			FileSystem.getInstance().moveFile(imagePath, destinationPath);
 			FileSystem.getInstance().deletePath(imagePath.substring(0, imagePath.lastIndexOf("/")),
 					this.pathPrincipal);
@@ -114,7 +104,6 @@ public class Verify {
 		}
 	}
 	
-	
 	private Image getVerifyDelete(String path, String destinationPath) throws DirectoryNotEmptyException, IOException{
 		try {
 			return createImageCollection(destinationPath);
@@ -124,12 +113,14 @@ public class Verify {
 		}
 	}
 	
-	private void moveToCorruptedDirectory(String imagePath, String pathPrincipal) throws DirectoryNotEmptyException, IOException {
+	private void moveToCorruptedDirectory(String imagePath, String pathPrincipal) throws IOException {
+		
 		StringBuilder st = new StringBuilder(this.pathCorrupted.toString());
 		st.append(imagePath.substring(imagePath.lastIndexOf("/")));
 		FileSystem.getInstance().moveFile(imagePath, st.toString());
 		FileSystem.getInstance().deletePath(imagePath.substring(0, imagePath.lastIndexOf("/")), pathPrincipal);
-	}
+		
+		}
 	
 	private Image getVerifyMove(String imagePath, String destinationPath) throws DirectoryNotEmptyException, IOException{
 		
@@ -173,10 +164,6 @@ public class Verify {
 
 			try {
 				if (isCorrupted(destinationPath) == false) {
-//					ArrayList<String> paths = getDestinationPath(new StringBuilder(destinationPath),
-//							new StringBuilder(imagePath));
-////					FileSystem.getInstance().deletePath(imagePath.substring(0, imagePath.lastIndexOf("/")),
-//							paths.get(0));
 					return createImageCollection(destinationPath);
 					
 				} else {
@@ -190,40 +177,6 @@ public class Verify {
 
 		}
 		return null;
-	}
-	
-	//Verificar cada metodo quando exclui o isErro
-		//Tomar cuidado!!! O metodo isError está indicando o pathDB somente, porém tem metodos que estava
-		//passando o pathPrincipal antes da nova versão, ou seja, na hora de deletar as pastas irá ter um bug
-		// irá deletar o arquivo /home/inpe/Imagens/A/B/C/D.fits comparando o /home/inpe/Database
-		//verifica cada çpasso e criar um ambiente de testes manual
-		
-		
-		//private void isError(String path) throws DirectoryNotEmptyException, IOException{		
-			
-			//moveToCorruptedDirectory(path, this.pathDB);
-			//this.log.deleteLog();
-//		}
-		
-//		private ArrayList<String> getDestinationPath(StringBuilder principalPath, StringBuilder destinatioPath) {
-	//
-//			int lastIndexOfPrincipal = principalPath.lastIndexOf("/");
-//			int lastIndexOfDestination = destinatioPath.lastIndexOf("/");
-	//	
-//			if (destinatioPath.substring(lastIndexOfDestination)
-//					.equals(principalPath.substring(lastIndexOfPrincipal)) == false) {
-	//
-//				ArrayList<String> paths = new ArrayList<>();
-//				paths.add(principalPath.toString());
-//				paths.add(destinatioPath.toString());
-//				return paths;
-//			}
-	//
-//			destinatioPath.setLength(lastIndexOfDestination);
-//			principalPath.setLength(lastIndexOfPrincipal);
-	//
-//			return getDestinationPath(destinatioPath, principalPath);
-//		}
-		
+	}	
 	
 }

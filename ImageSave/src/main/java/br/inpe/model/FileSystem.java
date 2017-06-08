@@ -2,7 +2,6 @@ package br.inpe.model;
 
 import java.io.File;
 import java.io.IOException;
-import java.nio.file.DirectoryNotEmptyException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -43,12 +42,8 @@ public class FileSystem {
 	//	}
 	}
 
-	public void moveFile(String pathImage, String pathDestination) throws IOException, DirectoryNotEmptyException{
-		//fazer um teste forcando um erro. O erro que dispara no IOExcpetion é o mesmo do DirectoryNotEmpty?
-		//É a mesma mensagem?
-
+	public void moveFile(String pathImage, String pathDestination) throws IOException{
 			Files.move(Paths.get(pathImage), Paths.get(pathDestination));
-		
 	}
 
 	public String deletePath(String source, final String pathPrincipal) throws IOException {

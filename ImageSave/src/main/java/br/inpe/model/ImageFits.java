@@ -79,18 +79,15 @@ public class ImageFits {
 		
 		ImagesCollection image = new ImagesCollection();
 		Document docImagesCollection = this.document;
-		
+	
 		image.setId(docImagesCollection.getString("_id"));
 		docImagesCollection.remove("_id");
-
 		String timeJuliano = null;
 		timeJuliano = docImagesCollection.get("DATE-OBS").toString();
-
 		image.setDate(this.time.getDate(timeJuliano));
 		image.setTime(this.time.getTime(timeJuliano));
 		
 		image.setData(docImagesCollection);
-		
 		return image;
 	}
 	
