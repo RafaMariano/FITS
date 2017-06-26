@@ -18,6 +18,7 @@ public class ImageFits {
 	private ConvertTime time;
 
 	public ImageFits(String fits) throws FitsException, ParseException, IOException {	
+
 		this.fits = new Fits(fits);
 		this.document = new Document();
 		this.path = fits;

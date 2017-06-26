@@ -39,7 +39,7 @@ public class ImageServiceImpl implements ImageService {
 
 	@Override
 	public Iterable<Image> getAllId(int page) {
-		Pageable pageable = new PageRequest((page - 1), 500);
+		Pageable pageable = new PageRequest((page - 1), 72);
 		return this.imageRepository.getAllPagedImagesId(pageable).getContent();
 	}
 

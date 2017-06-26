@@ -32,8 +32,7 @@ public class Verify {
 		this.pathPrincipal = pathPrincipal;
 		this.pathDB = pathDB;
 		if (Files.notExists(this.pathLog, LinkOption.NOFOLLOW_LINKS))
-			Files.createFile(this.pathLog);
-		
+			Files.createFile(this.pathLog);	
 	}
 
 	public void setLog(Log log){
@@ -89,7 +88,7 @@ public class Verify {
 	
 	private String fileExistInPathPrincipal(String imagePath, String destinationPath)
 			throws FitsException, IOException {
-
+		
 		if (isCorrupted(imagePath) == false) {
 			FileSystem.getInstance().createDir(destinationPath);
 			FileSystem.getInstance().moveFile(imagePath, destinationPath);
@@ -106,7 +105,13 @@ public class Verify {
 	
 	private Image getVerifyDelete(String path, String destinationPath) throws DirectoryNotEmptyException, IOException{
 		try {
+			if (Files.exists(Paths.get(destinationPath), LinkOption.NOFOLLOW_LINKS)){
 			return createImageCollection(destinationPath);
+			}
+			else{
+				//setar log o erro
+				return null;
+			}
 		} catch (FitsException | ParseException | IOException e) {	
 			moveToCorruptedDirectory(destinationPath, this.pathDB);
 			return null;
@@ -125,12 +130,16 @@ public class Verify {
 	private Image getVerifyMove(String imagePath, String destinationPath) throws DirectoryNotEmptyException, IOException{
 		
 		try {
-			
+			if (Files.exists(Paths.get(destinationPath), LinkOption.NOFOLLOW_LINKS)){
 			FileSystem.getInstance().deletePath(imagePath.substring(0, imagePath.lastIndexOf("/")),
 					this.pathPrincipal);
 			
 			return createImageCollection(destinationPath);
-			
+		}
+			else{
+				//setar log o erro
+				return null;
+			}
 		} catch (IOException | FitsException | ParseException e) {
 			moveToCorruptedDirectory(destinationPath, this.pathDB);
 			return null;
@@ -157,6 +166,7 @@ public class Verify {
 
 			} catch (IOException | FitsException | ParseException eo) {
 				moveToCorruptedDirectory(imagePath, this.pathPrincipal);
+				//setar log o erro
 				return null;
 			}
 			
@@ -172,6 +182,7 @@ public class Verify {
 				}
 			} catch (IOException | FitsException | ParseException eo) {
 				moveToCorruptedDirectory(destinationPath, this.pathDB);
+				//setar log o erro
 				return null;
 			}
 

@@ -20,10 +20,11 @@ public class LogTest {
 			Files.createFile(this.path);
 	}
 	
-	public List<String> getLog() throws IOException{
+	
+	
+	private List<String> getLog() throws IOException{
 		return Files.readAllLines(this.path);
 	}
-	
 	
 	public void setLog(String error) {
 		try {

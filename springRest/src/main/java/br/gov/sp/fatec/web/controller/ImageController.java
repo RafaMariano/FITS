@@ -93,7 +93,7 @@ public class ImageController {
 			@PathVariable("id") String id) throws IOException {
 		try {
 			String imagePath = this.imageService.getFilePath(id);
-
+		
 			if (imagePath == null) {
 				response.sendError(404, "Dados não encontrado");
 				OutputStream outStream = response.getOutputStream();
@@ -136,8 +136,8 @@ public class ImageController {
 					+ "retorna 500 ids de imagens. Para mostrar mais 500 ids de imagens, será "
 					+ "necessário acrescentar o valor no parâmetro 'page'. Ex: page = 1 - 1 a 500;"
 					+ " page = 2 - 501 - 1000 ", response = Image.class)
-	@RequestMapping(value = "/images/date/{month:[0-9]{1,2}+}/{day:[0-9]{1,2}+}"
-			+ "/{year:[0-9]{4}+}/param", method = RequestMethod.GET)
+	@RequestMapping(value = "/images/date/{year:[0-9]{4}+}/{month:[0-9]{1,2}+}/{day:[0-9]{1,2}+}"
+			+ "/param", method = RequestMethod.GET)
 	@ResponseBody @JsonView(View.Main.class)
 	public ResponseEntity<Iterable<Image>> getImageByParam(
 			@PathVariable("day") int day, @PathVariable("month") int month, 

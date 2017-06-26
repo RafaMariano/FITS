@@ -1,6 +1,7 @@
 package br.inpe.filesystem;
 
 import java.io.IOException;
+
 import br.inpe.log.LogTest;
 
 public class Main {
@@ -8,7 +9,6 @@ public class Main {
 	public static void main(String[] args) throws IOException {
 		
 		ProcessImage processImage;
-		
 		try {
 			processImage = new ProcessImage();
 			processImage.processImage();
@@ -17,6 +17,8 @@ public class Main {
 			LogTest log = new LogTest("/home/inpe/Log/log.txt");
 			log.setLog(e.toString());
 		}
+		
+		
 		
 		
 		// ApplicationContext ctx = new

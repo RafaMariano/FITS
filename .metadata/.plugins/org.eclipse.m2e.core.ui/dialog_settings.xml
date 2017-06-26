@@ -33,6 +33,7 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="/home/inpe/workspace/springTest"/>
 			<item value="/home/inpe/workspace/springRest"/>
 			<item value="/home/inpe/workspace/springDataJpa"/>
 			<item value="/home/inpe/workspace/SpringMVC"/>
