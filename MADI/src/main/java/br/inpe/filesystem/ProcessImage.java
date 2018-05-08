@@ -61,8 +61,7 @@ public class ProcessImage {
 				String newPathImage = pathImage;
 				newPathImage = 	newPathImage.substring(0,newPathImage.lastIndexOf("/")+1);
 				
-			//	System.out.println(newPathImage);
-				//System.out.println(newPathImage + Integer.toString(cont) + ".fts");
+			
 				Paths.get(pathImage).toFile().renameTo(new File(newPathImage + Integer.toString(cont) + ".fts"));
 			//	Files.delete(Paths.get(pathImage));
 				cont++;

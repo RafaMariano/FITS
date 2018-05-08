@@ -1,0 +1,44 @@
+<!-- 
+	  <bean id="mongoSeedListID" class="java.util.ArrayList">
+        <constructor-arg>
+            <list>
+                <ref bean="mongoSeedlID" />
+            </list>
+        </constructor-arg>
+    </bean>
+
+    <bean id="mongoSeedlID" class="com.mongodb.ServerAddress">
+        <constructor-arg type="java.lang.String" name="host"
+            value="ds151431.mlab.com" />
+        <constructor-arg type="int" name="port" value="51431" />
+    </bean>
+
+
+
+    <bean id="mongoClientUri" class="com.mongodb.MongoClientURI">
+       <constructor-arg value="mongodb://rafael:root@ds151431.mlab.com:51431/govegan" />
+      </bean>
+
+
+
+    <bean id="mongoClientID" class="com.mongodb.MongoClient">
+       <constructor-arg ref="mongoClientUri" />
+    </bean>
+
+    <bean id="simpleMongoDbFactoryID"
+        class="org.springframework.data.mongodb.core.SimpleMongoDbFactory">
+        <constructor-arg ref="mongoClientID" />
+        <constructor-arg name="databaseName" value="govegan" />
+    </bean>
+
+    <bean class="org.springframework.data.mongodb.core.MongoFactoryBean"
+        id="mongo">
+        <property name="host" value="ds151431.mlab.com" />
+        <property name="port" value="51431" />
+    </bean>
+
+    <bean id="mongoTemplate" class="org.springframework.data.mongodb.core.MongoTemplate">
+        <constructor-arg ref="simpleMongoDbFactoryID" />
+    </bean>
+	
+   -->

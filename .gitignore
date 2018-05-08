@@ -14,9 +14,26 @@ local.properties
 .settings/
 .loadpath
 .recommenders
-
+arquitetura.pdf
 # External tool builders
 .externalToolBuilders/
+
+
+#new edit
+/RemoteSystemsTempFiles
+src/main/resources/appContexTrash
+/Servers
+.gitignore
+MVDI/.classpath
+MVDI/.project
+MVDI/.settings
+MADI/.settings
+MADI/dependency-reduced-pom.xml
+MADI/.classpath
+MADI/dependency-reduced-pom.xml
+MADI/src/main/java/br/inpe/trash
+.metadata
+
 
 # Locally stored "Eclipse launch configurations"
 *.launch
@@ -32,6 +49,8 @@ local.properties
 
 # PDT-specific (PHP Development Tools)
 .buildpath
+.metadata
+.recommenders
 
 # sbteclipse plugin
 .target
