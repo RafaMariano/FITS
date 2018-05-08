@@ -20,7 +20,7 @@ arquitetura.pdf
 
 
 #new edit
-RemoteSystemsTempFiles
+RemoteSystemsTempFiles/
 src/main/resources/appContexTrash
 /Servers
 .gitignore
