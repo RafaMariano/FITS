@@ -3,7 +3,7 @@
 
 ### Eclipse ###
 
-.metadata
+/.metadata
 bin/
 tmp/
 *.tmp
@@ -32,7 +32,6 @@ MADI/dependency-reduced-pom.xml
 MADI/.classpath
 MADI/dependency-reduced-pom.xml
 MADI/src/main/java/br/inpe/trash
-.metadata
 
 
 # Locally stored "Eclipse launch configurations"
@@ -50,7 +49,7 @@ MADI/src/main/java/br/inpe/trash
 # PDT-specific (PHP Development Tools)
 .buildpath
 .metadata
-.recommenders
+/.recommenders
 
 # sbteclipse plugin
 .target
