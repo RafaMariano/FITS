@@ -3,7 +3,7 @@
 
 ### Eclipse ###
 
-.metadata/
+.metadata
 bin/
 tmp/
 *.tmp
@@ -20,8 +20,12 @@ arquitetura.pdf
 
 
 #new edit
+/RemoteSystemsTempFiles
+RemoteSystemsTempFiles
 RemoteSystemsTempFiles/
-src/main/resources/appContexTrash
+/RemoteSystemsTempFiles/
+FITS/RemoteSystemsTempFiles/
+MADI/src/main/resources/appContexTrash
 /Servers
 .gitignore
 MVDI/.classpath
