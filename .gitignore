@@ -3,7 +3,7 @@
 
 ### Eclipse ###
 
-/.metadata
+.metadata/
 bin/
 tmp/
 *.tmp
@@ -20,7 +20,7 @@ arquitetura.pdf
 
 
 #new edit
-/RemoteSystemsTempFiles
+RemoteSystemsTempFiles
 src/main/resources/appContexTrash
 /Servers
 .gitignore
@@ -49,7 +49,7 @@ MADI/src/main/java/br/inpe/trash
 # PDT-specific (PHP Development Tools)
 .buildpath
 .metadata
-/.recommenders
+.recommenders
 
 # sbteclipse plugin
 .target
