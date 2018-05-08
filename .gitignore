@@ -20,12 +20,8 @@ arquitetura.pdf
 
 
 #new edit
-/RemoteSystemsTempFiles
 RemoteSystemsTempFiles
-RemoteSystemsTempFiles/
-/RemoteSystemsTempFiles/
-FITS/RemoteSystemsTempFiles/
-MADI/src/main/resources/appContexTrash
+MADI/src/main/resources/appContexTrash.txt
 /Servers
 .gitignore
 MVDI/.classpath
