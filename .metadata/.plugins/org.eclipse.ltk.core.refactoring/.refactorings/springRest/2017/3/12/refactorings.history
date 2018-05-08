@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Copy element &apos;View.java&apos; to &apos;API/src/main/java/br.inpe.view&apos;&#x0A;- Original project: &apos;springRest&apos;&#x0A;- Destination element: &apos;API/src/main/java/br.inpe.view&apos;&#x0A;- Original element: &apos;br.gov.sp.fatec.view.View.java&apos;" description="Copy compilation unit" destination="=API/src\/main\/java&lt;br.inpe.view" element1="/src\/main\/java&lt;br.gov.sp.fatec.view{View.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1490029832270" units="1" version="1.0"/>
-</session>

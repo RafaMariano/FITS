@@ -1,2 +1,0 @@
-if (Files.notExists(this.path, LinkOption.NOFOLLOW_LINKS))
-			Files.createFile(this.path);

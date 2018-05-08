@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename type &apos;br.inpe.filesystem.Main&apos; to &apos;Main2&apos;&#x0A;- Original project: &apos;SaveImage&apos;&#x0A;- Original element: &apos;br.inpe.filesystem.Main&apos;&#x0A;- Renamed element: &apos;br.inpe.filesystem.Main2&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Main&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;br.inpe.filesystem{Main.java[Main" matchStrategy="1" name="Main2" qualified="false" references="true" similarDeclarations="false" stamp="1498149439771" textual="false" version="1.0"/>
-</session>
