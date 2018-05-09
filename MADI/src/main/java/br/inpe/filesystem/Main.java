@@ -18,4 +18,5 @@ public class Main {
 			log.setLog(e.toString());
 		}
 		
+	}
 }
